@@ -8,7 +8,7 @@
 
 [pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
-## 支持以下数据格式（地址、姓名、电话用空格分开!!）
+## 支持以下数据格式（地址、姓名、电话、邮编用空格分开!!）
 1. 陕西省西安市雁塔区丈八沟街道高新四路高新大都荟 马云 13593464918
 2. 陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061马云 13593464918
 3. 北京市朝阳区姚家园3楼 13593464918 马云
