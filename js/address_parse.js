@@ -378,6 +378,8 @@ function smatrAddress(event) {
 }
 ////过滤特殊字符
 function stripscript(s) {
+    s = s.replace(/(\d{3})-(\d{4})-(\d{4})/g, '$1$2$3');
+    s = s.replace(/(\d{3}) (\d{4}) (\d{4})/g, '$1$2$3');
     var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-]")
     var rs = "";
     for (var i = 0; i < s.length; i++) {
