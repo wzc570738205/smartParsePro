@@ -31,6 +31,7 @@ addressList.forEach(item => {
 zipCodeList = zipCodeFormat(zipCode);
 console.log(addressList);
 console.log(zipCodeList);
+
 /**
  * 地址数据处理
  * @param addressList-各级数据对象
@@ -85,7 +86,11 @@ function zipCodeFormat(zipCode) {
 
 
 var smartObj = {}
-
+/**
+ * 解析邮编
+ * @param event识别的地址
+ * @returns <obj>
+ */
 function smart(event) {
     event = stripscript(event); //过滤特殊字符
     let obj = {};
@@ -95,7 +100,7 @@ function smart(event) {
 
     copyaddress.forEach((res, index) => {
         if (res) {
-            let addressObj = smatrAddress(res, index)
+            let addressObj = smatrAddress(res)
             obj = Object.assign(obj, addressObj)
             if (JSON.stringify(addressObj) === '{}') {
                 obj.name = res;
@@ -105,7 +110,7 @@ function smart(event) {
     return obj;
 }
 
-function smatrAddress(event, index) {
+function smatrAddress(event) {
     smartObj = {};
     let address = event;
     //address=  event.replace(/\s/g, ''); //去除空格
