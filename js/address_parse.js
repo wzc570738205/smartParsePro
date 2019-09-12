@@ -3,8 +3,8 @@ var zipCodeList = []; //邮编列表
 
 //获取地址以及邮编json
 const getJson = new Promise((res, rej) => {
-    $.getJSON("./pcas-code.json", data_address => {
-        $.getJSON("./zip-code.json", data_code => {
+    $.getJSON("./json/pcas-code.json", data_address => {
+        $.getJSON("./json/zip-code.json", data_code => {
 
             res({
                 'address': data_address,
