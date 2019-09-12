@@ -116,7 +116,7 @@ function smatrAddress(event) {
     //address=  event.replace(/\s/g, ''); //去除空格
     address = stripscript(address); //过滤特殊字符
     console.log(address);
-    
+
     //身份证号匹配
     if (IdentityCodeValid(address)) {
         smartObj.idCard = address;
