@@ -376,12 +376,12 @@ function smatrAddress(event) {
 
     return smartObj;
 }
-
+////过滤特殊字符
 function stripscript(s) {
     var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-]")
     var rs = "";
     for (var i = 0; i < s.length; i++) {
-        rs = rs + s.substr(i, 1).replace(pattern, '');
+        rs = rs + s.substr(i, 1).replace(pattern, ' ');
     }
     rs = rs.replace(/[\r\n]/g, "");
     return rs;
