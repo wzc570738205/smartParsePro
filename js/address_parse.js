@@ -2,7 +2,7 @@ var addressList = []; //地址列表
 var zipCodeList = []; //邮编列表
 
 //获取地址以及邮编json
-const getJson = new Promise((res, rej) => {
+/* const getJson = new Promise((res, rej) => {
     $.getJSON("./json/pcas-code.json", data_address => {
         $.getJSON("./json/zip-code.json", data_code => {
 
@@ -21,8 +21,16 @@ getJson.then((res) => {
     })
     zipCodeList = zipCodeFormat(res.code);
     console.log(addressList);
+}) */
+console.log(pcassCode)
+console.log(zipCode)
+addressList = pcassCode;
+addressList.forEach(item => {
+    formatAddresList(item, 1, '')
 })
-
+zipCodeList = zipCodeFormat(zipCode);
+console.log(addressList);
+console.log(zipCodeList);
 /**
  * 地址数据处理
  * @param addressList-各级数据对象

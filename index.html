@@ -8,9 +8,12 @@
     <title>地址智能识别</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
+    <script src="js/pcasCode.js"></script>
+    <script src="js/zipCode.js"></script>
     <script src="js/address_parse.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style>
+        
         #value .key {
             color: #ff5722;
             display: inline-block;
@@ -96,8 +99,7 @@
         getStreet($("#county").val(), parse_list)
 
     }
-    getJson.then((res) => {
-        addressList = res.address;
+        addressList = pcassCode;
         addressList.forEach(item => {
             formatAddresList(item, 1, '')
         })
@@ -109,7 +111,6 @@
         getCity($("#province").val())
         getCounty($("#city").val())
         getStreet($("#county").val())
-    })
 
     $("#province").change(res => {
         let provinceCode = $("#province").val();
