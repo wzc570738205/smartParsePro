@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="address_parse.js"></script>
+    <style>
+    
+    #value .key{
+     color: #ff5722;
+     display: inline-block;
+    width: 111px;
+    text-align: right;
+    }
+    #value .value{
+     color: #366500;
+     padding-left: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h2>支持以下数据格式（打印结果请在控制台查看）</h2>
+    <h2 style="color: red">地址、姓名、电话用空格分开!!</h2>
+    <p>
+        广东省珠海市香洲区盘山路28号幸福茶庄 陈景勇 13593464918
+    </p>
+    <p> 陕西省西安市雁塔区丈八沟街道高新四路高新大都荟 马云 13593464918 </p>
+    <p>陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061马云 13593464918 </p>
+    <p> 北京市朝阳区姚家园3楼 13593464918 马云 </p>
+    <p> 北京市朝阳区姚家园3楼 150-3569-6956 马云 </p>
+    <textarea onchange="getAddress()" cols="50" rows="10" id='textarea' placeholder="请粘贴你的地址"></textarea>
+    <div id="value"></div>
+</body>
+
+</html>
+<script>
+    function getAddress() {
+        let parse_list = smart($('#textarea').val())
+        let html = '';
+        for (let key in parse_list) {
+            if (parse_list[key]) {
+                html += `<p><span class="key">`+key +`</span>:<span class="value">`+parse_list[key]+`</span></p>`
+
+            }
+        }
+        $('#value').html(html)
+    }
+</script>
