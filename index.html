@@ -36,36 +36,7 @@
     <a class="github-button" href="https://github.com/wzc570738205/smartParsePro" data-size="large" data-show-count="true" aria-label="Star wzc570738205/smartParsePro on GitHub">Star</a></h1>
         <!-- Place this tag where you want the button to render. -->
     </div>
-    <form class="form-inline">
-        <div class="form-group">
-            <label for="exampleInputName2">省/直辖市</label>
-            <select class="form-control" id="province">
-                <option>请选择</option>
 
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail2">市</label>
-            <select class="form-control" id="city">
-                <option>请选择</option>
-
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail2">区/县</label>
-            <select class="form-control" id="county">
-                <option>请选择</option>
-
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail2">街道</label>
-            <select class="form-control" id="street">
-                <option>请选择</option>
-
-            </select>
-        </div>
-    </form>
     <div class="alert alert-danger" role="alert">地址、姓名、电话用空格分开!!（支持以下数据格式）</div>
     <ol>
         <li>广东省珠海市香洲区盘山路28号幸福茶庄 陈景勇 13593464918</li>
@@ -78,6 +49,36 @@
 
     <textarea class="form-control" onchange="getAddress()" cols="50" rows="7" id='textarea'
         placeholder="请粘贴你的地址"></textarea>
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="exampleInputName2">省/直辖市</label>
+                <select class="form-control" id="province">
+                    <option>请选择</option>
+    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail2">市</label>
+                <select class="form-control" id="city">
+                    <option>请选择</option>
+    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail2">区/县</label>
+                <select class="form-control" id="county">
+                    <option>请选择</option>
+    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail2">街道</label>
+                <select class="form-control" id="street">
+                    <option>请选择</option>
+    
+                </select>
+            </div>
+        </form>
     <div id="value"></div>
 </body>
 
