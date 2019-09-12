@@ -1,4 +1,4 @@
-let zipCode   = [{
+var zipCode   = [{
 	"id": 2,
 	"name": "北京",
 	"child": [{

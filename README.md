@@ -4,7 +4,7 @@
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
 
 ## 地址数据来源(数据不对请更新此json)
-
+### 更新方法：将此json文件内容复制至同名js里的var pcassCode=xxxx;
 [pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
 ## 支持以下数据格式
