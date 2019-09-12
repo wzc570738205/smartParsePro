@@ -1,6 +1,6 @@
 
 # 智能识别收货地址Pro（支持省市区街道识别）
-## 点击此处预览：[预览地址](https://wzc570738205.github.io/smart_parse/)
+## 点击此处预览：[预览地址](https://wzc570738205.github.io/smartParsePro/)
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
 
 ## 地址数据来源(数据不对请更新此json)
