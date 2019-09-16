@@ -175,13 +175,8 @@ function smatrAddress(event) {
     //console.log(Math.max.apply(Math, matchProvince.map(function(o) {return o.index})))
     if (matchProvince.length != 0) {
         let province = matchProvince.reduce((p, v) => p.index < v.index ? v : p)
-        //console.log( matchProvince.reduce((p,v) => p.value < v.value ? v : p))
         smartObj.province = province.province;
         smartObj.provinceCode = province.provinceCode;
-
-        //姓名查找
-        /*  let name = address.slice(0, address.indexOf(province.matchValue));
-         smartObj.name = name; */
         address = address.replace(province.matchValue, '');
 
     }
