@@ -25,35 +25,39 @@
 陕西省西安市雁塔区丈八沟街道高新四路高新大都荟马云13593464918
 
 ## 地址切分规则
-1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`
+1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`+`身份证号码`
 ## 使用
 ```
-smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟 马云 13593464918")
+smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
 ## 生成数据格式
 ```
 {
-zipCode:710061
+ zipCode:710061
 
-province:陕西省
+ province:陕西省
 
-provinceCode:61
+ provinceCode:61
 
-city:西安市
+ city:西安市
 
-cityCode:6101
+ cityCode:6101
 
-county:雁塔区
+ county:雁塔区
 
-countyCode:610113
+ countyCode:610113
 
-street:丈八沟街道
+ street:丈八沟街道
 
-streetCode:610113007
+ streetCode:610113007
 
-address:高新四路高新大都荟马云
+ address:高新四路高新大都荟
 
-phone:13593464918
+ name:刘国良
+
+ phone:13593464918
+
+ idCard:211381198512096810
 }
 ```
 ##### 地址数据来源：[中华人民共和国行政区划](https://github.com/modood/Administrative-divisions-of-China)
