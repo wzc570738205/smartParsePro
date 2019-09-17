@@ -20,17 +20,13 @@ getJson.then((res) => {
         formatAddresList(item, 1, '')
     })
     zipCodeList = zipCodeFormat(res.code);
-    console.log(addressList);
 }) */
-console.log(pcassCode)
-console.log(zipCode)
 addressList = pcassCode;
 addressList.forEach(item => {
     formatAddresList(item, 1, '')
 })
 zipCodeList = zipCodeFormat(zipCode);
 console.log(addressList);
-console.log(zipCodeList);
 
 /**
  * 地址数据处理
@@ -96,7 +92,6 @@ function smart(event) {
     let obj = {};
     let copyaddress = JSON.parse(JSON.stringify(event))
     copyaddress = copyaddress.split(' ');
-    console.log(copyaddress)
 
     copyaddress.forEach((res, index) => {
         if (res) {
@@ -115,7 +110,6 @@ function smatrAddress(event) {
     let address = event;
     //address=  event.replace(/\s/g, ''); //去除空格
     address = stripscript(address); //过滤特殊字符
-    console.log(address);
 
     //身份证号匹配
     if (IdentityCodeValid(address)) {
@@ -172,7 +166,6 @@ function smatrAddress(event) {
             }
         })
     })
-    //console.log(Math.max.apply(Math, matchProvince.map(function(o) {return o.index})))
     if (matchProvince.length != 0) {
         let province = matchProvince.reduce((p, v) => p.index < v.index ? v : p)
         smartObj.province = province.province;
@@ -180,7 +173,6 @@ function smatrAddress(event) {
         address = address.replace(province.matchValue, '');
 
     }
-    console.log(address);
 
 
     //市查找
@@ -248,7 +240,6 @@ function smatrAddress(event) {
         }
         address = address.replace(city.matchValue, '')
     }
-    console.log(address);
 
     //区县查找
     let matchCounty = []; //粗略匹配上的区县
@@ -309,13 +300,12 @@ function smatrAddress(event) {
         }
         address = address.replace(city.matchValue, '')
     }
-    console.log(address);
 
     //街道查找
     let matchStreet = []; //粗略匹配上的街道查 
     matchAddress = '';
     for (let endIndex = 0; endIndex < address.length; endIndex++) {
-        matchAddress = address.slice(0, endIndex + 2)
+        matchAddress = address.slice(0, endIndex + 3)
         addressList.forEach(el => {
             if (el.name == smartObj.province) {
                 if (smartObj.province == '北京市' || smartObj.province == '天津市' || smartObj.province == '上海市' || smartObj.province == '重庆市') {
@@ -367,7 +357,6 @@ function smatrAddress(event) {
     if (smartObj.province) {
         smartObj.address = address;
     }
-    console.log(address);
 
     return smartObj;
 }
