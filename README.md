@@ -42,7 +42,7 @@ npm install  vue-smart-parse -d -s
 
 ```
  // main.js
- import smartParse from 'vue-smart-parse'
+ import smartParse from 'vue-smart-parse';
  Vue.use(smartParse)
  // App.vue
  this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶庄 陈红 13593464918')
