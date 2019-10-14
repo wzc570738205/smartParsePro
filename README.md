@@ -1,6 +1,6 @@
 
 # 智能识别收货地址Pro/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
-# [VUE版本请点击这里](https://github.com/wzc570738205/vue-smart-parse)
+
 ## 点击此处预览：[预览地址](https://wzc570738205.github.io/smartParsePro/)
 
 
@@ -29,10 +29,26 @@
 
 ## 地址切分规则
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`+`身份证号码`
-## 使用
+## ES5使用
 ```
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
+
+## [vue环境下使用](https://github.com/wzc570738205/vue-smart-parse)
+
+```
+npm install  vue-smart-parse -d -s
+```
+
+```
+ // main.js
+ import smartParse from 'vue-smart-parse'
+ Vue.use(smartParse)
+ // App.vue
+ this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶庄 陈红 13593464918')
+```
+
+
 ## 生成数据格式
 ```
 {
