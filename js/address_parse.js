@@ -96,12 +96,12 @@ function smart(event) {
     copyaddress.forEach((res, index) => {
         if (res) {
             if (res.length == 1) {
-                res += '&&';// 过滤掉一位的名字或者地址
+                res += 'XX';// 过滤掉一位的名字或者地址
             }
             let addressObj = smatrAddress(res)
             obj = Object.assign(obj, addressObj)
             if (JSON.stringify(addressObj) === '{}') {
-                obj.name = res.replace('&&','');
+                obj.name = res.replace('XX','');
             }
         }
     })
