@@ -1,6 +1,6 @@
 
 # 智能识别收货地址Pro/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
-# [VUE版本](https://github.com/wzc570738205/vue-smart-parse)
+# [VUE版本请点击这里](https://github.com/wzc570738205/vue-smart-parse)
 ## 点击此处预览：[预览地址](https://wzc570738205.github.io/smartParsePro/)
 
 
