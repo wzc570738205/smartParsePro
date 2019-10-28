@@ -1,7 +1,7 @@
 
-# 智能识别收货地址Pro/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
+# 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
 
-## 点击此处预览：[预览地址](https://wzc570738205.github.io/smartParsePro/)
+## 点击此处预览：[预览地址(请耐心等待加载)](https://wzc570738205.github.io/smartParsePro/)
 
 
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
@@ -45,7 +45,7 @@ npm install  vue-smart-parse -d -s
  import smartParse from 'vue-smart-parse';
  Vue.use(smartParse)
  // App.vue
- this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶庄 陈红 13593464918')
+console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶庄 陈红 13593464918'));
 ```
 
 
