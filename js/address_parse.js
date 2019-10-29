@@ -1,1 +1,452 @@
-;var encode_version = 'sojson.v5', qqpjh = '__0x5b75b',  __0x5b75b=['wpPChnXCosKGOsO8XQ==','wr/CsRYgZw==','PsKwQmtL','w5/Dh8OY','DFc0Uig=','RkDDjMKbUQ==','w5fDiMO4wpHCuA==','wroWd0kL','KsOwwrnDh8Khwq4=','w5DDucOFw5Ul','5LiC6IKa5YiX6ZqYHx52w7p/ccK9T2w=','w7fDgMOvwrvCqTLDhw==','IMO0wpzDpMKQ','A8O6w4c=','wr7DoMKL','NVXCvg==','wokIw7o=','wpIywpg=','w4lEKA==','w7kZw7A=','EcOFwpolDQ==','YRFSwrU2','wrLCn8OS','awxE','DwFbw6EsWxXCiQ==','DsKOZUw=','w4kZIMOzwqvDiA==','w5LDusOEw4I=','d3PDpMKpTw==','wovCuyUsTg==','wrDChBIdZA==','YyV9wroU','w7XCjxJ3','wr3CkcOUw65m','HMKdfcORDQ==','w7bCjwtxJkrDscOkwpsI','w5YIPMOxwrrDlA==','HcO9wp7DtHTDl8OYw49bZQ==','w5cMJsO1wqbDqi/Cs0LDpg==','w788w5B0','L0bDky0=','wrLCscOtw5M=','JMO5wr8=','w7RdMsOVecK+','w5/CkMONKw==','5qKC6air5Lyx6ZSk6K21','HGnDog7ChA==','AsKrX8OEMw==','K8KeWEHCtA==','YTLDiifCiMOX','woXDvGHCjA==','w6VXI8OObsKi','ZglTwpkU','w7jDgcO5wpvCsA==','w7Iyw4h/N8Oz','wojDsnnCh8KuDA==','woYTwq3CusOKwq3Duy04JQ==','cSnDjSzCmcOawpPCtMOXIg==','w4HDp8OPw5E4AHrDnQ==','SXR1wpQkwqgKw7E=','XXZWw4JkwrxDwrjCpVjDt8OS','eDUsUh7CqcKgw6VUwrbCpxo=','wrARZ1U=','wprDvHXCsA==','w4DDjghEw5nCl1cu','V1gUEsORbUtG','VGduwoElwpAIw7jCuAs=','QnF3wo5/wrVDOA==','D8K7RV9ZccKm','MsKXd0DCtg==','JHE1RCLDjsKi','w5PDicOI','w4vDssOO','wp3Dt8KHw70k','w5bCqg8=','SyNCwrgn','wpPDocKrw7c+','wp3Dt3fCrcKc','YgZDwp8EJ33DpWV6','YwJZwpsYGQ==','w5zDtMOUw4Q5OHjDlMO7w6M=','w4BhPcKPasOoVsOjw5Rm','w7rCrsKpZ0w=','wpcEwpTCvcOI','w5LClMKmSGk=','NCFSw5QE','RFrDlMKdc8Op','woY6Bg==','w6M/OMORwqg=','Z3oFPcOq','I8OXwo/DgWQ=','w5LCmcOJIsOTDhxP','wp3CtC/CucObwqYi','bigxYRbCpMKr','w7vDtQVXw74=','w4XCusO5FAXDiMOo','BMOIwr85','IsKFw5U7','w7I0w4lo','worDvcKgw6QvTx07','Tmtdw5E=','HEDCqcKuUw==','CcO6w5LCsFDCkcOp','w6Eow455','FcO8w5DCll7ClsOk','wqfCksO7LDU=','Um1swot1wqBPMCk=','GsKkW3NM','wrrCv8Oyw7N3wqrDlg==','LnspZjfDhQ==','b0l2','wrHCnMO7GjHCjMOG','wqDDisKqcUk=','HBpAw64=','wqs2wrnCvMOYHsK9EAfDjA==','GcKWd8OTAQg=','THhqwoFzwpFHOiVH','wpw5wrXDsH4=','w43Cp8OuGBrDqQ==','DFzCssKrWcOXw4ALHw==','w6nCiw9+L3/DtQ==','5aWG5raw5bqi','6Yee5bmr5biE','wrHCpS8=','woXDuE8=','D2vCmA==','wqQRw74=','KMOSwpg=','F8OSwrk/PMOr','TgJf','YCPDiC7CjMOAwrU=','UXFxwox+','wr09wr7Dj3HDgiU=','S2ZQw7ZK','w5nDjgx+w7XCnFY=','w6PDisOtwpLCqTLDig==','w4/CtcKQU0E=','SizDiikUcA==','w7cyw49UIsOpw5k=','D1rCr8K0XsOew4oI','Djhgw7w/','K0LChQ==','wpHCscOC','R0USDsO3dg==','GsOcwqE0','WyZuwoUo','XC1ywrIu','wpLCtTnCmcOCwoos','Mms0aQ==','w5zCpsOyBxTDqcOtw60=','wowPw6h0','w5wCIMOTwq/DnyY=','F8O6wos=','w7zDkMOSw6gG','aQhFwrkNEnQ=','w6nCtMKvfUFKw7hE','McKYw54oYcKMcMKi','w5jDu8OEw4Ip','Qhd2wowZ','w7TCp8K0aEByw7pNw70Q','woMFw6J2w6XClQ==','wr/DiG/CuMK3','CsK9Q2M=','Tm1Nw40=','w7DCqMKkblA=','wqjDlsKvRm4=','SyjDkC0ITkdCw5RR','fyfDjCHChcO1wrHCt8OGIg==','w7tXKcOcecKv','fsKMcm8pwp59w47DuMKF','EknCtMKhX8Omw4gBEyo=','wqgnwq7DuWTDkw==','YzZPwr8v','wo7ClW7Ct8KHAsO+VMKdw4Y=','w47Dhghew7LCrlIndcOr','HcOww4TCgFLClw==','esKDYmk5','woYOw6h0w6k=','NsOnwrjDlsK8wqjCpsKk','wqfCgcOmKTnCgcONAXF2wqFk','wpHCkWrCuMKON8O6','K8O0wqPDg8K9wpDCpMKtEVE=','JsOvwrrDj3U=','DB9dw7Qg','woMTwqrCkcOfwrfDkA==','5Lqp5reQ5bm+','w4R2AQ==','w7NkBA==','VVDDkcKfZsOzwoI=','HXLCocOXw4hFGsO/','Y8KhV1Y0','PWHDjwbCog==','RF3DiMKfY8OiwoLDrA==','wrDChsOW','w6/ChQ5nIQ==','wqU/wqTCs8OUOsK5Eg==','GMKUZGHCnsKjw5E=','wrwRwr3ClcOp','wozDiMKKU2NhAg==','YjPDiyo=','w4DDiAlTw67CgQ==','bAhTwpk=','wpjCtDnCmQ==','HBxQw7I=','S2tLw7FswrFI','w45pPcKV','fGp/','M8KyWsOcEg==','wrkxHMKpMg==','w6VMJw==','wpnDpsK7w6s=','HEfCpMKn','wozDiMKKU2M=','J8KFw4MbacKBew==','AMOmw6rCpV0=','wobDj8KaTw==','wrI8wqjDr2g=','wrc5wpnCjcO8','EsKeeEPCi8Ko','wpbCuinCn8OSwpMrw415wrw=','GW3DnhbChA==','GGfCtw==','EMKae0E=','wrUzwqHDrw==','BsO7w4TCkEk=','w54lBA==','wojDmlQ=','w5vCo8KBc0A=','wrArwqHClsOX','wp7DrUnCuMKy','w4vCpsO6OsOt','GMKSbcOXHTYxwqrDg8Or','wokZwrbCs8OKwrw=','A8Kdw4QubA==','wrXDqsKe','w5bCo8KR','VCzDlCIBe0M=','D8K2Xlh/','bnvDlcKiSw==','WUczG8O/','DsOXwrY=','w747w7B+Ag==','BsOYwqgkK8O3','wprDunTCp8KrXA==','woDCm2/CusKbLcOcV8KMw4Y=','XXZWw4JkwrxDwrg=','worComPCvMKM','ZnVL','woDCoAIsVg==','VjzDlyY=','w5kCNsOz','wrTCmsO9Jg==','wojDsmjCjA==','w6vCnBBkJ3LDs8Ot','AMOuwoXDoXXDr8Oaw4Y=','w6vCnBBkJ3LDs8Otwq0CEmA=','w53ClMOOKcODFA==','eysqRxI=','YjTDlzTChMONwrPCvg==','MmwodyrDg8KpLQ==','J8O7wpw1KQ==','w51yJsKaa8OQVMOq','w7DCuzp7GA==','PSRRw7wh','OcKbw4k=','ekYBIcOR','HcKSYl0=','wroWd0kLC8O2','wqsnwr/Dog==','cS/DjDs=','BcKBdsOCHA4zwqM=','w45vLcKJ','EsOSwr4UKcOxDA==','XyoQVTI=','wrLDnEnCr8KW','QnB3woN+','w4RuLcKJesOxUQ==','CsK7QnRMaw==','cSnDnCc=','FsKabcON','w6Evw5JnKsOkw5LDsQ==','w7DCt8Kr','wpLDmmjCg8KQ','wpvDknjCncKs','YgnDjDbCmw==','REMPHcO7bExG','fxVYwooFH3/DrA==','w5BSLTlDKcKefUzCs8OjUA==','w4HDp8OPw5E4AHrDncONw6nDpiA=','wpHCmQcLZg==','cMKEcnU=','IXczeA==','wq46w5hIw4U=','wpTDtHXCqsK3cyNlwqY8','w4rDiRhYw6I=','w5LDusOVw4klFw==','Wmlvwow5wr8qw7vCqQs=','woDCnW7CrQ==','wr/CucO0w48=','wrARZ1UwK8O0UQ==','bA5DwoUvHnjDrA==','woU6AcKrM8O8KEzCgMKg','wq8BwrTCt8OT','Ui8mdDk=','wrHDtWnCucKU','JWbCtsOIw60=','wrPCusOsw7hc','w6HDmsOuwpY=','JcO6wqLDjsKhwr8=','E8Ozwo7Dsg==','wrAXd0k=','wpYQwrHCt8Ob','woHCs1fCp8Ka','w4ZPMApLJMKV','wobDicKbWG9X','G1rCrQ==','wq/CsTA=','wrnCjFQ=','5Y635LqM5bmA','5aeM5raD5bus','wpbClg4L','w5BSLTlDKcKefQ==','LMKjYF7Cjw==','FsO/wrvDmcKf','w4bDjxNyw4o=','wpTDl8Kbw4gr','wpUOwrfCosOXwrrDmyc=','5LqT5rax5buC','BMOPwqMnIcO8By0=','fTVbwrgV','U3x6wpd4wqI=','w5jCn8OEK8OP','wr7CncOtOig=','VT3DlisFbA==','ezMxQRLCsw==','NMOwwqfDjMK0wqXCoA==','w4tvO8KpY8OdXw==','w77CicOMC8Ol','KMKafXRt','wovCgxELe3A=','wrLCosO8','MgNNw7k1','RCQUaCA=','w6Mnw4dyOg==','woItw7h5w4M=','w4LCocOWExs=','DXnDqQ==','w4PClMOEO8OUGQ==','wrXCvsOkw5Nu','wojChQwYd2pjVyvCpCXDvQ==','w5zCpsOyBxTDqcOtw61Rw7HCvcO0','wrrCksO9PDjCucOPCEd8','wpfCmsOrw519','ZiYuQQ==','R3Zswqd6wqRO','woPCvMOxKRM=','JWjCj8OWw6c=','P0vCucOow5c=','wpvCmBYAan0=','bgRvwq09','THoXAsOU','wpgpGsK+MsOEKkU=','w6nDuMOxwrnCvw==','E8KaYkfCl8KWw5hTBn0=','ExZaw7AxXQ==','L38zYivDu8KrJMOKDA==','wpXClhcNdlJhXh3Crg==','DMO9w4nCmVXCgMOkw4A=','QCbDlgsBe04=','wpLDrcKvX0I=','eQXDsSbChw==','w6obFcOEwoc=','AsO0w5TCllnCpMOgw4LCgMKU','w53DsMOOw4AlBg==','wrYzwrjDqXjDtywZwpHDqA==','dXnDicKXZg==','PMOVwo0mDg==','w6JhFMOhfw==','OMKJYQ==','w6jCmg13K2g=','wpvDqH/CgQ==','IXEjZA==','DsKJeVLClsKuw5pa','V14EDg==','E8O0woPDu3jDs8Ocw40=','w6PDmcOIw4Mw','w6EEw6ddJQ==','wr7CncOtOijCoMOI','w5BVMSc=','wos0AMKmL8OT','w7rCqcKkbg==','Dm/CqsOE','w4rCu8OvNBzDpMOm','wpDCtsOu','5LqU6IC75Yug6ZmvW0vDsVLDpxt4DsO8','w4FkJMOSeg==','wpc0wqI=','RGpdw5F1','QVrDk8K2ZsOzwo8=','w5rCpsO/','w4DDjghE','wpjCsinChQ==','bl18wqpt','a0tPwqgu','wpDDu2XCrMKn','JUHDgzHCtA==','wowJw7ho','bA5DwoU=','w5MDNsOzwrY=','wojDh8KaVXN4BWbChsKC','wpbDqsKhw7UySQ==','wogdwqzCt8OWwoLDmS4pJQ==','wrc3wqLDrWTDiQ==','w41BNixCEcKcdHrCuQ==','wobDvHjCisKyI8OVNznClQ==','woQQwr3CpsOK','SRNkwpU7','w5NUMCpPM8K+d2vCuQ==','wqsgwqPDvHnDjy4Q','EsOYwoEfGw==','woszHMKkP8OYLE4=','C2/CvMOkw4BIEQ==','cSnDjSzCmcOa','w6srw7N9EQ==','w7YKw7BrOg==','w4HChMOTJg==','IXEybzfDlA==','aygnQQ==','HcO1wqnCgcKVw6XDocKfQh5+fBBfNiVPRcK7wpLCmcKpwo/CqzPChRUVw6PCowvvv4J8wpjvvbHigbnig4PClCbvvIHvvo7igbLig4JZCGPjg5jjgKLigbnvvI7vvqTigILigqjigI7jg6LvvbjjgLXvv7FBRA==','wp0Fw7x9w7DCnh0=','AnjCgHxEKw==','X35qw5dr','w4/DghJaw67CkA==','U0tZwpMe','G8KgUHJr','w6RHJcOIecK1','wpo+BcKkOsOJLA==','wpnDuHzChcK7FsOR','5rme5Y2QYw==','6KaH6JS4Qw==','5ZiY5aWqw7g=','T0tm','5qCu6aur5L266Zel6K6D','wrEVwrrDo1E=','BsKaUmvCrg==','K3wvTBQ=','wpQ0wqnDpFY=','w5A3w5NiNw==','w6NXNMOP','YcKickYW','e8K8YQ==','wp7CmBErf2do','w4/Cu8OoHwnDvg==','wrE7fUYw','ak3Dr8Kecw==','XV8EDsOqTUk=','BcKGasOc','w5LCnsOVIMODBQ==','wos0EcKt','wpvCmAcL'];(function(_0x35a07c,_0x16577f){var _0x343899=function(_0x189c05){while(--_0x189c05){_0x35a07c['push'](_0x35a07c['shift']());}};_0x343899(++_0x16577f);}(__0x5b75b,0x1d7));var _0x5a63=function(_0x5ec18b,_0x1f817d){_0x5ec18b=_0x5ec18b-0x0;var _0x67fd5=__0x5b75b[_0x5ec18b];if(_0x5a63['initialized']===undefined){(function(){var _0x1985fb=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x51003b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x1985fb['atob']||(_0x1985fb['atob']=function(_0x5c4b80){var _0x1f72fb=String(_0x5c4b80)['replace'](/=+$/,'');for(var _0x3ae2f3=0x0,_0x5c67f7,_0x590785,_0x8a08e=0x0,_0x244c81='';_0x590785=_0x1f72fb['charAt'](_0x8a08e++);~_0x590785&&(_0x5c67f7=_0x3ae2f3%0x4?_0x5c67f7*0x40+_0x590785:_0x590785,_0x3ae2f3++%0x4)?_0x244c81+=String['fromCharCode'](0xff&_0x5c67f7>>(-0x2*_0x3ae2f3&0x6)):0x0){_0x590785=_0x51003b['indexOf'](_0x590785);}return _0x244c81;});}());var _0x433901=function(_0x415132,_0x569435){var _0x5bb0f2=[],_0x45805e=0x0,_0x1641ff,_0x4944a6='',_0x10f334='';_0x415132=atob(_0x415132);for(var _0x9b735e=0x0,_0x2add69=_0x415132['length'];_0x9b735e<_0x2add69;_0x9b735e++){_0x10f334+='%'+('00'+_0x415132['charCodeAt'](_0x9b735e)['toString'](0x10))['slice'](-0x2);}_0x415132=decodeURIComponent(_0x10f334);for(var _0x15c0bd=0x0;_0x15c0bd<0x100;_0x15c0bd++){_0x5bb0f2[_0x15c0bd]=_0x15c0bd;}for(_0x15c0bd=0x0;_0x15c0bd<0x100;_0x15c0bd++){_0x45805e=(_0x45805e+_0x5bb0f2[_0x15c0bd]+_0x569435['charCodeAt'](_0x15c0bd%_0x569435['length']))%0x100;_0x1641ff=_0x5bb0f2[_0x15c0bd];_0x5bb0f2[_0x15c0bd]=_0x5bb0f2[_0x45805e];_0x5bb0f2[_0x45805e]=_0x1641ff;}_0x15c0bd=0x0;_0x45805e=0x0;for(var _0x6fd564=0x0;_0x6fd564<_0x415132['length'];_0x6fd564++){_0x15c0bd=(_0x15c0bd+0x1)%0x100;_0x45805e=(_0x45805e+_0x5bb0f2[_0x15c0bd])%0x100;_0x1641ff=_0x5bb0f2[_0x15c0bd];_0x5bb0f2[_0x15c0bd]=_0x5bb0f2[_0x45805e];_0x5bb0f2[_0x45805e]=_0x1641ff;_0x4944a6+=String['fromCharCode'](_0x415132['charCodeAt'](_0x6fd564)^_0x5bb0f2[(_0x5bb0f2[_0x15c0bd]+_0x5bb0f2[_0x45805e])%0x100]);}return _0x4944a6;};_0x5a63['rc4']=_0x433901;_0x5a63['data']={};_0x5a63['initialized']=!![];}var _0x186791=_0x5a63['data'][_0x5ec18b];if(_0x186791===undefined){if(_0x5a63['once']===undefined){_0x5a63['once']=!![];}_0x67fd5=_0x5a63['rc4'](_0x67fd5,_0x1f817d);_0x5a63['data'][_0x5ec18b]=_0x67fd5;}else{_0x67fd5=_0x186791;}return _0x67fd5;};var addressList=[];var zipCodeList=[];addressList=pcassCode;addressList[_0x5a63('0x0','^$RO')](_0x1fe6c4=>{var _0x33773a={'faKDE':function _0x4f8b05(_0xed05eb,_0x1b3648,_0x569f8a,_0x5ae7d4){return _0xed05eb(_0x1b3648,_0x569f8a,_0x5ae7d4);}};_0x33773a[_0x5a63('0x1','63#C')](formatAddresList,_0x1fe6c4,0x1,'');});zipCodeList=zipCodeFormat(zipCode);console[_0x5a63('0x2','dW@@')](addressList);function formatAddresList(_0x53de76,_0xc45edd,_0x131387){var _0x4ae46a={'LladI':function _0x50465b(_0x1103aa,_0x55e3a1,_0x2b2969,_0x2786c4){return _0x1103aa(_0x55e3a1,_0x2b2969,_0x2786c4);},'exVtE':function _0xafd79d(_0x136a5a,_0x5d72c4){return _0x136a5a===_0x5d72c4;},'nveIZ':function _0x416342(_0x53e23e,_0x33df14){return _0x53e23e!==_0x33df14;},'PFEZH':function _0x2d9381(_0x74c480,_0x47fefe){return _0x74c480!==_0x47fefe;},'sLFBP':_0x5a63('0x3','jWJ&'),'Hsqsz':'Oez','lBJFx':function _0x4bfad1(_0x3edb1a,_0x15f4aa){return _0x3edb1a==_0x15f4aa;},'aATXp':function _0x7207f0(_0x3ebbb9,_0x139a58){return _0x3ebbb9===_0x139a58;},'TJtuL':_0x5a63('0x4',')b1&'),'hXikK':_0x5a63('0x5','ezHR'),'piGFk':function _0x4803a6(_0x51f359,_0x4dbf80){return _0x51f359>_0x4dbf80;},'lhswo':function _0x3560c9(_0x4392a3,_0x512c32){return _0x4392a3===_0x512c32;},'DfXdW':_0x5a63('0x6','L8[9'),'wXFpF':_0x5a63('0x7','ANj#'),'UeNeK':_0x5a63('0x8','vb6W')};if(_0x4ae46a[_0x5a63('0x9','6Yw9')](_0xc45edd,0x1)){if(_0x4ae46a[_0x5a63('0xa','gGYP')](_0x5a63('0xb','Mw5a'),_0x5a63('0xc','gGYP'))){_0x53de76[_0x5a63('0xd',']4^m')]=_0x53de76['name'];}else{matchStreet[_0x5a63('0xe','T71[')]({'street':res[_0x5a63('0xf','Jdd%')],'streetCode':res[_0x5a63('0x10','&osL')],'matchValue':matchAddress});}}if(_0xc45edd===0x2){if(_0x4ae46a[_0x5a63('0x11','&5Af')](_0x4ae46a[_0x5a63('0x12','Pdjw')],_0x4ae46a[_0x5a63('0x13','Pdjw')])){if(_0x4ae46a[_0x5a63('0x14','gGYP')](_0x53de76[_0x5a63('0x15','PnDT')],'市辖区')){if(_0x4ae46a[_0x5a63('0x16','Mw5a')](_0x4ae46a['TJtuL'],_0x4ae46a['hXikK'])){el[_0x5a63('0x17','jLsi')]++;if(_0x4ae46a['piGFk'](res[_0x5a63('0x18','PnDT')][_0x5a63('0x19','Jdd%')],el[_0x5a63('0x1a','wrKn')]['length'])){el['matchValue']=res[_0x5a63('0x1b','Jdd%')];}}else{_0x53de76[_0x5a63('0x1c','vb6W')]=_0x131387['name'];}}_0x53de76[_0x5a63('0x1d','OBA%')]=_0x53de76[_0x5a63('0x15','PnDT')];}else{_0x53de76['province']=_0x53de76[_0x5a63('0x1e','Mw5a')];}}if(_0xc45edd===0x3){if(_0x4ae46a['lhswo'](_0x5a63('0x1f','wrKn'),_0x4ae46a['DfXdW'])){_0x53de76[_0x5a63('0x20','Hocm')]=_0x53de76[_0x5a63('0x21',')48&')];}else{tip=_0x5a63('0x22','0wgP');pass=![];}}if(_0x4ae46a['lhswo'](_0xc45edd,0x4)){if(_0x4ae46a[_0x5a63('0x23','OBA%')](_0x4ae46a[_0x5a63('0x24','jLsi')],_0x4ae46a[_0x5a63('0x25','T71[')])){_0x53de76[_0x5a63('0x26','%]IY')]=_0x53de76[_0x5a63('0x27','T9X[')];}else{let _0x6ed1f8=matchCounty[_0x5a63('0x28','Hocm')]((_0x574c4f,_0x281730)=>_0x574c4f[_0x5a63('0x29','gGYP')]<_0x281730[_0x5a63('0x2a','^$RO')]?_0x281730:_0x574c4f);smartObj[_0x5a63('0x2b','vb6W')]=_0x6ed1f8[_0x5a63('0x2c','T9X[')];smartObj[_0x5a63('0x2d','(wtl')]=_0x6ed1f8[_0x5a63('0x2e','%]IY')];if(!smartObj['province']){smartObj[_0x5a63('0x2f','&osL')]=_0x6ed1f8[_0x5a63('0x30','tJeb')];smartObj[_0x5a63('0x31','i27#')]=_0x6ed1f8[_0x5a63('0x32','3TwD')];}if(!smartObj[_0x5a63('0x33','vXjI')]){smartObj[_0x5a63('0x34','#bgT')]=_0x6ed1f8[_0x5a63('0x33','vXjI')];smartObj[_0x5a63('0x35','0wgP')]=_0x6ed1f8[_0x5a63('0x36','jDwj')];}address=address['replace'](_0x6ed1f8[_0x5a63('0x37','tJeb')],'');}}if(_0x53de76['children']){_0xc45edd++;_0x53de76[_0x5a63('0x38','[GuE')][_0x5a63('0x39','f%4b')](_0x846e52=>{_0x4ae46a[_0x5a63('0x3a','T71[')](formatAddresList,_0x846e52,_0xc45edd,_0x53de76);});}}function zipCodeFormat(_0x2e1526){let _0x410f7b=[];_0x2e1526[_0x5a63('0x3b','^B)r')](_0x1e40e7=>{var _0x4c6e29={'gxHob':function _0xadf89e(_0x1f1c39,_0x147374){return _0x1f1c39===_0x147374;},'DDuDK':_0x5a63('0x3c','^$RO'),'dbvdC':function _0x2729ef(_0x17580c,_0x3acec0){return _0x17580c>_0x3acec0;},'QSYbx':function _0x6ad07e(_0x2903e8,_0x4971a0){return _0x2903e8===_0x4971a0;},'KRfCA':_0x5a63('0x3d','&osL')};if(_0x4c6e29[_0x5a63('0x3e','jWJ&')](_0x5a63('0x3f','PnDT'),_0x4c6e29[_0x5a63('0x40','gGYP')])){_0x1e40e7[_0x5a63('0x41','jWJ&')]++;if(_0x4c6e29[_0x5a63('0x42','#bgT')](res[_0x5a63('0x43','gGYP')]['length'],_0x1e40e7['matchValue'][_0x5a63('0x44','gGYP')])){_0x1e40e7[_0x5a63('0x45','&osL')]=res[_0x5a63('0x46','Uk6u')];}}else{if(_0x1e40e7[_0x5a63('0x47','A(9D')]){if(_0x4c6e29[_0x5a63('0x48','L8[9')](_0x4c6e29[_0x5a63('0x49','A(9D')],_0x4c6e29[_0x5a63('0x4a',']4^m')])){_0x1e40e7['child']['forEach'](_0x188d41=>{var _0x1badd1={'XRyjd':function _0x498f23(_0x2dd389,_0xd6ffe6){return _0x2dd389!=_0xd6ffe6;},'MAikK':_0x5a63('0x4b','&5Af'),'YRjGf':function _0x43850e(_0x3e5aac,_0x4e098d){return _0x3e5aac!==_0x4e098d;},'SKeVx':_0x5a63('0x4c','89IN')};if(_0x188d41['child']){if(_0x1badd1[_0x5a63('0x4d','Jdd%')](_0x1badd1[_0x5a63('0x4e','jDwj')],_0x1badd1[_0x5a63('0x4f','wrKn')])){_0x1e40e7[_0x5a63('0x50',')48&')][_0x5a63('0x51','gCx*')](_0x23db95=>{_0x23db95['children'][_0x5a63('0x52','3TwD')](_0x3e8927=>{if(_0x1badd1[_0x5a63('0x53','0wgP')](_0x3e8927[_0x1badd1['MAikK']][_0x5a63('0x54','gFnT')](matchAddress),-0x1)){matchCity[_0x5a63('0x55','6Yw9')]({'county':_0x3e8927['county'],'countyCode':_0x3e8927[_0x5a63('0x56','yp#O')],'city':_0x23db95[_0x5a63('0x57','vb6W')],'cityCode':_0x23db95['code'],'matchValue':matchAddress,'province':_0x1e40e7[_0x5a63('0x58','jWJ&')],'provinceCode':_0x1e40e7[_0x5a63('0x59','i27#')]});}});});}else{_0x188d41[_0x5a63('0x5a','QE2S')][_0x5a63('0x5b','dW@@')](_0x164e05=>{_0x410f7b[_0x5a63('0x5c','vb6W')](_0x164e05['zipcode']);});}}});}else{event['child']['forEach'](_0x511b38=>{_0x410f7b['push'](_0x511b38[_0x5a63('0x5d','dW@@')]);});}}}});return _0x410f7b;}var smartObj={};function smart(_0x5f0b3d){var _0x141055={'QOaFS':function _0x5d08ef(_0x28075e,_0x2add49){return _0x28075e==_0x2add49;},'xKKry':'ixn','Gkyzn':function _0x11f8a7(_0x53f940,_0x42b1f0){return _0x53f940(_0x42b1f0);},'jrWdp':function _0x18b49a(_0x31bfdf,_0x5e3abc){return _0x31bfdf===_0x5e3abc;}};_0x5f0b3d=_0x141055['Gkyzn'](stripscript,_0x5f0b3d);let _0xca96d4={};let _0x31262b=JSON[_0x5a63('0x5e','EeTR')](JSON[_0x5a63('0x5f','[GuE')](_0x5f0b3d));_0x31262b=_0x31262b[_0x5a63('0x60','f%4b')]('\x20');_0x31262b[_0x5a63('0x61','Mw5a')]((_0x5b46d9,_0x2271ae)=>{if(_0x5b46d9){if(_0x141055['QOaFS'](_0x5b46d9[_0x5a63('0x62','^B)r')],0x1)){if(_0x141055['xKKry']!==_0x5a63('0x63','i27#')){_0x5b46d9+='XX';}else{_0x5b46d9[_0x5a63('0x2a','^$RO')]=0x0;matchStreet[_0x5a63('0x64','EeTR')](_0x5341a7=>{var _0x1483cb={'ElDGR':function _0x31925a(_0x20a3f7,_0xeb7a4b){return _0x20a3f7==_0xeb7a4b;}};if(_0x1483cb[_0x5a63('0x65','t$Fz')](_0x5b46d9[_0x5a63('0x66',']4^m')],_0x5341a7['city'])){_0x5341a7['index']++;if(_0x5b46d9[_0x5a63('0x67','L8[9')][_0x5a63('0x68','jLsi')]>_0x5341a7['matchValue']['length']){_0x5341a7[_0x5a63('0x69','[GuE')]=_0x5b46d9[_0x5a63('0x67','L8[9')];}}});}}let _0x102346=_0x141055[_0x5a63('0x6a','gy0i')](smatrAddress,_0x5b46d9);_0xca96d4=Object[_0x5a63('0x6b','gFnT')](_0xca96d4,_0x102346);if(_0x141055['jrWdp'](JSON[_0x5a63('0x6c','QE2S')](_0x102346),'{}')){_0xca96d4['name']=_0x5b46d9[_0x5a63('0x6d','PnDT')]('XX','');}}});return _0xca96d4;}function smatrAddress(_0x26c7be){var _0x32f439={'fbiBG':function _0x1ef012(_0x292dcb,_0x119ebd){return _0x292dcb!=_0x119ebd;},'ZqfGL':function _0x45619d(_0x16d5c0,_0x3809d3){return _0x16d5c0==_0x3809d3;},'SFPda':_0x5a63('0x6e','dW@@'),'thMTN':'上海市','kUEiV':_0x5a63('0x6f','26*y'),'BWekd':function _0x1c848a(_0x3b732d,_0x112e6b){return _0x3b732d===_0x112e6b;},'NwaJC':_0x5a63('0x70','Pdjw'),'SOOoY':function _0x312b86(_0x12f723,_0xe06a94){return _0x12f723(_0xe06a94);},'VsPXi':function _0x28f20c(_0x420cc9,_0x456696){return _0x420cc9<_0x456696;},'lQxCC':_0x5a63('0x71','T9X['),'MyLUk':_0x5a63('0x72','QE2S'),'INtQL':function _0x3ccf3a(_0x19534e,_0x239b39){return _0x19534e!==_0x239b39;},'mvSpm':'HBa','ofMoA':function _0x15c2d9(_0xfa28df,_0x258549,_0x50b8f1,_0x17babc){return _0xfa28df(_0x258549,_0x50b8f1,_0x17babc);},'iVyhc':function _0x50924c(_0x35e8c3,_0x45b96f){return _0x35e8c3!==_0x45b96f;},'xWaBH':_0x5a63('0x73','ezHR'),'ZhePN':_0x5a63('0x74','63#C'),'HfxiL':function _0x150531(_0x5c1d78,_0x3e0634){return _0x5c1d78!=_0x3e0634;},'ojlNJ':_0x5a63('0x75','6Yw9'),'bGMsu':function _0xfbebb1(_0x5dabed,_0x3757d2){return _0x5dabed+_0x3757d2;},'feMNS':_0x5a63('0x76','gGYP')};smartObj={};let _0x259f0e=_0x26c7be;_0x259f0e=stripscript(_0x259f0e);if(_0x32f439['SOOoY'](IdentityCodeValid,_0x259f0e)){smartObj['idCard']=_0x259f0e;_0x259f0e=_0x259f0e[_0x5a63('0x77','%]IY')](_0x259f0e,'');}let _0xf35aad=_0x259f0e['match'](/(86-[1][0-9]{10}) | (86[1][0-9]{10})|([1][0-9]{10})/g);if(_0xf35aad){smartObj[_0x5a63('0x78','[GuE')]=_0xf35aad[0x0];_0x259f0e=_0x259f0e[_0x5a63('0x6d','PnDT')](_0xf35aad[0x0],'');}zipCodeList[_0x5a63('0x79','gy0i')](_0x13bb7c=>{if(_0x32f439[_0x5a63('0x7a','i27#')](_0x259f0e['indexOf'](_0x13bb7c),-0x1)){let _0x1efa91=_0x259f0e['indexOf'](_0x13bb7c);let _0x347ad9=_0x259f0e['slice'](_0x1efa91,_0x1efa91+0x6);smartObj[_0x5a63('0x7b','0wgP')]=_0x347ad9;_0x259f0e=_0x259f0e[_0x5a63('0x7c','^$RO')](_0x347ad9,'');}});let _0x3526f6='';let _0xc01099=[];_0x3526f6='';for(let _0x302265=0x0;_0x32f439[_0x5a63('0x7d','A(9D')](_0x302265,_0x259f0e[_0x5a63('0x7e','W!9X')]);_0x302265++){_0x3526f6=_0x259f0e['slice'](0x0,_0x302265+0x2);addressList[_0x5a63('0x7f','vb6W')](_0x60b8=>{var _0x57bbe2={'qKTkz':function _0x1083ef(_0x422024,_0x2acb41){return _0x422024!==_0x2acb41;},'TAYyD':function _0xc4c4f9(_0x3df6b9,_0x10fe8f){return _0x3df6b9!=_0x10fe8f;},'SJENB':_0x5a63('0x80','QE2S')};if(_0x57bbe2[_0x5a63('0x81',']4^m')](_0x5a63('0x82',')b1&'),_0x5a63('0x83','EeTR'))){addressList[_0x5a63('0x84','jDwj')]=addressList[_0x5a63('0x85','6Yw9')];}else{if(_0x57bbe2[_0x5a63('0x86','gGYP')](_0x60b8[_0x57bbe2[_0x5a63('0x87','gGYP')]][_0x5a63('0x88','gCx*')](_0x3526f6),-0x1)){_0xc01099[_0x5a63('0x89','^B)r')]({'province':_0x60b8[_0x5a63('0x8a','gFnT')],'provinceCode':_0x60b8[_0x5a63('0x8b','ezHR')],'matchValue':_0x3526f6});}}});}_0xc01099[_0x5a63('0x8c','Jdd%')](_0x575da2=>{var _0x263594={'MErOW':function _0x299dfc(_0x4128be,_0x543232){return _0x4128be!==_0x543232;},'SMZCd':_0x5a63('0x8d','wrKn'),'OWPip':function _0xb53095(_0x18184f,_0x154fd4){return _0x18184f+_0x154fd4;}};if(_0x263594[_0x5a63('0x8e','&osL')](_0x263594['SMZCd'],'GLl')){_0x575da2[_0x5a63('0x29','gGYP')]=0x0;_0xc01099[_0x5a63('0x8f','gGYP')](_0x3328d7=>{var _0x2bdb3d={'taJGX':function _0x3aabe4(_0xf63c1b,_0x45aade){return _0xf63c1b==_0x45aade;},'MpApu':function _0xe1ca3c(_0xdacede,_0x3b5880){return _0xdacede>_0x3b5880;},'UQGIO':function _0x46d47e(_0x27aaf5,_0x491203){return _0x27aaf5!==_0x491203;},'TUcQm':'LHi','ICGbm':function _0x1e601a(_0x2ae4d9,_0x541712){return _0x2ae4d9==_0x541712;}};if(_0x2bdb3d['taJGX'](_0x575da2[_0x5a63('0x90','A(9D')],_0x3328d7[_0x5a63('0x91','yp#O')])){_0x3328d7[_0x5a63('0x92','&osL')]++;if(_0x2bdb3d[_0x5a63('0x93','gGYP')](_0x575da2['matchValue'][_0x5a63('0x68','jLsi')],_0x3328d7[_0x5a63('0x94','A(9D')][_0x5a63('0x95','ezHR')])){if(_0x2bdb3d['UQGIO'](_0x2bdb3d[_0x5a63('0x96','T9X[')],_0x2bdb3d['TUcQm'])){if(_0x2bdb3d['ICGbm'](_0x575da2[_0x5a63('0x97','f%4b')],_0x3328d7[_0x5a63('0x98','i27#')])){_0x3328d7[_0x5a63('0x99','A(9D')]++;if(_0x2bdb3d[_0x5a63('0x9a','t$Fz')](_0x575da2[_0x5a63('0x9b','W!9X')][_0x5a63('0x95','ezHR')],_0x3328d7[_0x5a63('0x9c','%]IY')][_0x5a63('0x9d','Hocm')])){_0x3328d7[_0x5a63('0x9e','26*y')]=_0x575da2[_0x5a63('0x37','tJeb')];}}}else{_0x3328d7[_0x5a63('0x9f','QE2S')]=_0x575da2[_0x5a63('0x67','L8[9')];}}}});}else{rs=_0x263594['OWPip'](rs,s[_0x5a63('0xa0','gy0i')](i,0x1)['replace'](pattern,'\x20'));}});if(_0xc01099[_0x5a63('0x44','gGYP')]!=0x0){if(_0x32f439['BWekd'](_0x32f439[_0x5a63('0xa1','gGYP')],_0x32f439['MyLUk'])){el[_0x5a63('0xa2','0Etu')]=res[_0x5a63('0xa3','0wgP')];}else{let _0x528e94=_0xc01099[_0x5a63('0xa4','dW@@')]((_0xc456,_0x4a2d98)=>_0xc456[_0x5a63('0xa5','26*y')]<_0x4a2d98[_0x5a63('0xa6','ezHR')]?_0x4a2d98:_0xc456);smartObj[_0x5a63('0xa7','63#C')]=_0x528e94['province'];smartObj[_0x5a63('0xa8','EeTR')]=_0x528e94[_0x5a63('0x32','3TwD')];_0x259f0e=_0x259f0e[_0x5a63('0xa9','0Etu')](_0x528e94[_0x5a63('0xaa','63#C')],'');}}let _0x49752f=[];_0x3526f6='';for(let _0x28b62b=0x0;_0x32f439[_0x5a63('0xab','wrKn')](_0x28b62b,_0x259f0e[_0x5a63('0x9d','Hocm')]);_0x28b62b++){_0x3526f6=_0x259f0e[_0x5a63('0xac',']4^m')](0x0,_0x28b62b+0x2);addressList[_0x5a63('0xad','(wtl')](_0x36de0f=>{var _0x5b11cb={'rIVwU':function _0x2eec0d(_0x47ba5e,_0x47f935){return _0x47ba5e!==_0x47f935;},'ooHaY':'天津市','pLQZu':_0x5a63('0xae','0wgP'),'hDtPD':function _0x2a3032(_0x511df5,_0x138a83){return _0x511df5==_0x138a83;},'qNhRn':'重庆市'};if(_0x5b11cb['rIVwU'](_0x5a63('0xaf','ANj#'),_0x5a63('0xb0','Hocm'))){obj['name']=res[_0x5a63('0xb1','&5Af')]('XX','');}else{if(smartObj[_0x5a63('0x30','tJeb')]=='北京市'||smartObj['province']==_0x5b11cb['ooHaY']||smartObj[_0x5a63('0xb2',')b1&')]==_0x5b11cb[_0x5a63('0xb3','26*y')]||_0x5b11cb['hDtPD'](smartObj['province'],_0x5b11cb[_0x5a63('0xb4','OBA%')])){_0x36de0f[_0x5a63('0xb5','&5Af')]['forEach'](_0x15c8d2=>{var _0x243197={'zFpJY':function _0x3a507a(_0x50f03c,_0x34cbbf){return _0x50f03c!=_0x34cbbf;},'tkquo':function _0x3638b8(_0x57cf60,_0x88004a){return _0x57cf60===_0x88004a;},'uSHPw':_0x5a63('0xb6','Mw5a')};if(_0x243197[_0x5a63('0xb7','PnDT')]('FIA',_0x243197['uSHPw'])){_0x36de0f[_0x5a63('0x9f','QE2S')]=res['matchValue'];}else{_0x15c8d2[_0x5a63('0xb8','L8[9')][_0x5a63('0xb9','T71[')](_0x1bb3d7=>{if(_0x243197[_0x5a63('0xba','L8[9')](_0x1bb3d7['county'][_0x5a63('0xbb','t$Fz')](_0x3526f6),-0x1)){_0x49752f[_0x5a63('0xbc','%]IY')]({'county':_0x1bb3d7[_0x5a63('0xbd','0wgP')],'countyCode':_0x1bb3d7[_0x5a63('0xbe','gGYP')],'city':_0x15c8d2[_0x5a63('0x66',']4^m')],'cityCode':_0x15c8d2[_0x5a63('0xbf','gCx*')],'matchValue':_0x3526f6,'province':_0x36de0f['province'],'provinceCode':_0x36de0f[_0x5a63('0xc0',']4^m')]});}});}});}else{_0x36de0f['children'][_0x5a63('0xc1','i27#')](_0x4baa88=>{var _0x1288a8={'osJPl':function _0x13c033(_0x47db8d,_0x29c5d3){return _0x47db8d==_0x29c5d3;},'REAYB':function _0x378828(_0x1df8d4,_0xa7dbeb){return _0x1df8d4>_0xa7dbeb;},'ZhKVw':_0x5a63('0xc2','Uk6u'),'FAChg':function _0x54106f(_0x3cd262,_0x5d9514){return _0x3cd262===_0x5d9514;},'Qjiai':_0x5a63('0xc3','tJeb')};if(_0x4baa88[_0x1288a8['ZhKVw']]['indexOf'](_0x3526f6)!=-0x1){if(_0x1288a8[_0x5a63('0xc4','jLsi')](_0x1288a8[_0x5a63('0xc5','89IN')],_0x5a63('0xc6','ANj#'))){_0x49752f['push']({'city':_0x4baa88[_0x5a63('0xc7','jWJ&')],'cityCode':_0x4baa88['code'],'matchValue':_0x3526f6,'province':_0x36de0f['province'],'provinceCode':_0x36de0f[_0x5a63('0xc8','QE2S')]});}else{_0x4baa88[_0x5a63('0xc9','t$Fz')]=0x0;_0x49752f[_0x5a63('0xca','yp#O')](_0x2217a3=>{if(_0x1288a8[_0x5a63('0xcb','dW@@')](_0x4baa88['city'],_0x2217a3[_0x5a63('0xcc','t$Fz')])){_0x2217a3[_0x5a63('0xcd','gy0i')]++;if(_0x1288a8[_0x5a63('0xce','(wtl')](_0x4baa88[_0x5a63('0x37','tJeb')]['length'],_0x2217a3['matchValue'][_0x5a63('0xcf','T71[')])){_0x2217a3[_0x5a63('0xd0','gCx*')]=_0x4baa88['matchValue'];}}});}}});}}});}_0x49752f['forEach'](_0x74654c=>{var _0x395972={'UByBH':function _0x3327d7(_0x4f98ff,_0x1e0653){return _0x4f98ff===_0x1e0653;},'EFOHc':'puk'};if(_0x395972[_0x5a63('0xd1','OBA%')](_0x395972['EFOHc'],_0x5a63('0xd2',')b1&'))){addressList[_0x5a63('0xd3','T71[')]=province[_0x5a63('0xd4','gy0i')];}else{_0x74654c[_0x5a63('0xd5','dW@@')]=0x0;_0x49752f['forEach'](_0x43b34e=>{var _0x5e8d18={'DsswN':function _0x2e12a1(_0x3071bb,_0x1212f9){return _0x3071bb!==_0x1212f9;},'BeAxh':_0x5a63('0xd6','Jdd%'),'UWyBi':_0x5a63('0xd7','#bgT'),'upEQh':function _0x326950(_0x4e0cd7,_0x13ba1f){return _0x4e0cd7==_0x13ba1f;},'zWZtZ':function _0x175588(_0x109642,_0x28c402){return _0x109642>_0x28c402;},'Bwupd':function _0x5b7402(_0x107e8b,_0x44a838){return _0x107e8b!==_0x44a838;}};if(_0x5e8d18['DsswN'](_0x5e8d18[_0x5a63('0xd8','A(9D')],_0x5e8d18[_0x5a63('0xd9','(wtl')])){if(_0x5e8d18[_0x5a63('0xda','T9X[')](_0x74654c['city'],_0x43b34e['city'])){_0x43b34e['index']++;if(_0x5e8d18[_0x5a63('0xdb',')48&')](_0x74654c[_0x5a63('0xdc','jLsi')]['length'],_0x43b34e['matchValue'][_0x5a63('0xdd','(wtl')])){if(_0x5e8d18[_0x5a63('0xde','yp#O')](_0x5a63('0xdf','jWJ&'),_0x5a63('0xe0','A(9D'))){smartObj['phone']=_0xf35aad[0x0];_0x259f0e=_0x259f0e[_0x5a63('0xe1','W!9X')](_0xf35aad[0x0],'');}else{_0x43b34e['matchValue']=_0x74654c['matchValue'];}}}}else{_0x43b34e['matchValue']=_0x74654c[_0x5a63('0xaa','63#C')];}});}});if(_0x32f439[_0x5a63('0xe2','f%4b')](_0x49752f['length'],0x0)){if(_0x32f439[_0x5a63('0xe3','&5Af')](_0x32f439[_0x5a63('0xe4','jDwj')],_0x5a63('0xe5','63#C'))){_0x32f439[_0x5a63('0xe6','vb6W')](formatAddresList,item,0x1,'');}else{let _0x3dd23b=_0x49752f[_0x5a63('0xe7','6Yw9')]((_0x444390,_0x35b594)=>_0x444390[_0x5a63('0xcd','gy0i')]<_0x35b594[_0x5a63('0x41','jWJ&')]?_0x35b594:_0x444390);smartObj['city']=_0x3dd23b['city'];smartObj['cityCode']=_0x3dd23b['cityCode'];smartObj['county']=_0x3dd23b[_0x5a63('0xe8','#bgT')];smartObj[_0x5a63('0xe9','0Etu')]=_0x3dd23b['countyCode'];if(!smartObj[_0x5a63('0xea','i27#')]){if(_0x32f439[_0x5a63('0xeb','0Etu')](_0x5a63('0xec','i27#'),_0x32f439[_0x5a63('0xed','Pdjw')])){_0x216edd[_0x5a63('0xee','W!9X')]({'county':res['county'],'countyCode':res[_0x5a63('0xef','Jdd%')],'city':item[_0x5a63('0xf0','EeTR')],'cityCode':item[_0x5a63('0xf1','T9X[')],'matchValue':_0x3526f6,'province':el['province'],'provinceCode':el['code']});}else{smartObj[_0x5a63('0xf2','PnDT')]=_0x3dd23b[_0x5a63('0xf3','wrKn')];smartObj['provinceCode']=_0x3dd23b[_0x5a63('0xf4','PnDT')];}}_0x259f0e=_0x259f0e['replace'](_0x3dd23b['matchValue'],'');}}let _0x216edd=[];_0x3526f6='';for(let _0x2d3a2d=0x0;_0x2d3a2d<_0x259f0e[_0x5a63('0xf5',')48&')];_0x2d3a2d++){_0x3526f6=_0x259f0e[_0x5a63('0xf6','3TwD')](0x0,_0x2d3a2d+0x2);addressList['forEach'](_0x3315ef=>{if(smartObj[_0x5a63('0xf7','%]IY')]=='北京市'||_0x32f439['ZqfGL'](smartObj[_0x5a63('0xf8','^B)r')],_0x32f439[_0x5a63('0xf9','6Yw9')])||smartObj[_0x5a63('0xfa','Uk6u')]==_0x32f439['thMTN']||smartObj[_0x5a63('0xd',']4^m')]==_0x32f439[_0x5a63('0xfb','PnDT')]){}else{if(_0x32f439[_0x5a63('0xfc',']4^m')](_0x5a63('0xfd','yp#O'),_0x32f439[_0x5a63('0xfe','jDwj')])){if(res[_0x5a63('0xff','T71[')][_0x5a63('0x100','vXjI')](_0x3526f6)!=-0x1){_0x49752f[_0x5a63('0x101','gy0i')]({'city':res[_0x5a63('0x102','%]IY')],'cityCode':res['code'],'matchValue':_0x3526f6,'province':_0x3315ef[_0x5a63('0x103','jLsi')],'provinceCode':_0x3315ef[_0x5a63('0x104','Uk6u')]});}}else{_0x3315ef['children'][_0x5a63('0x105','6Yw9')](_0x4bb9db=>{var _0x1954d8={'WmSqE':function _0xc668a2(_0x33b3c4,_0x3c7cff){return _0x33b3c4!==_0x3c7cff;},'KIHfI':'eQj','ZQPpl':'tkT','stzEg':function _0x49bb0b(_0x1d19cc,_0x118265){return _0x1d19cc!=_0x118265;},'ciiae':'county','Qywca':function _0x53d866(_0x1e6697,_0x50e91d){return _0x1e6697*_0x50e91d;}};_0x4bb9db['children']['forEach'](_0x4cff9f=>{if(_0x1954d8[_0x5a63('0x106','3TwD')](_0x1954d8[_0x5a63('0x107','#bgT')],_0x1954d8['ZQPpl'])){if(_0x1954d8['stzEg'](_0x4cff9f[_0x1954d8[_0x5a63('0x108','[GuE')]][_0x5a63('0x109','Uk6u')](_0x3526f6),-0x1)){_0x216edd['push']({'county':_0x4cff9f[_0x5a63('0x10a','f%4b')],'countyCode':_0x4cff9f[_0x5a63('0x10b','%]IY')],'city':_0x4bb9db[_0x5a63('0x10c','jLsi')],'cityCode':_0x4bb9db['code'],'matchValue':_0x3526f6,'province':_0x3315ef[_0x5a63('0x10d','vb6W')],'provinceCode':_0x3315ef['code']});}}else{ai=code[i];wi=factor[i];sum+=_0x1954d8['Qywca'](ai,wi);}});});}}});}_0x216edd['forEach'](_0x289513=>{var _0x571573={'kOiJO':function _0x58eec3(_0x1d5725,_0x2d6450){return _0x1d5725!==_0x2d6450;},'pOttv':_0x5a63('0x10e','A(9D')};if(_0x571573[_0x5a63('0x10f','#bgT')](_0x571573[_0x5a63('0x110','T9X[')],_0x571573[_0x5a63('0x111','%]IY')])){smartObj[_0x5a63('0x112','jDwj')]=city[_0x5a63('0x113','gGYP')];smartObj[_0x5a63('0x114','ANj#')]=city[_0x5a63('0x115','&osL')];}else{_0x289513[_0x5a63('0x116','Pdjw')]=0x0;_0x216edd['forEach'](_0x25778a=>{var _0x2d1ce1={'AZTYT':function _0x360b12(_0x5531b3,_0x190487){return _0x5531b3>_0x190487;}};if(_0x289513[_0x5a63('0x117','26*y')]==_0x25778a[_0x5a63('0x118','^B)r')]){_0x25778a['index']++;if(_0x2d1ce1[_0x5a63('0x119','ezHR')](_0x289513[_0x5a63('0x11a','#bgT')][_0x5a63('0xdd','(wtl')],_0x25778a[_0x5a63('0xa3','0wgP')][_0x5a63('0x68','jLsi')])){_0x25778a['matchValue']=_0x289513[_0x5a63('0x18','PnDT')];}}});}});if(_0x32f439['fbiBG'](_0x216edd[_0x5a63('0x68','jLsi')],0x0)){let _0x1abcbe=_0x216edd['reduce']((_0x421399,_0x2dcc0f)=>_0x421399['index']<_0x2dcc0f[_0x5a63('0x11b','0wgP')]?_0x2dcc0f:_0x421399);smartObj[_0x5a63('0x11c','&osL')]=_0x1abcbe['county'];smartObj['countyCode']=_0x1abcbe[_0x5a63('0x11d','tJeb')];if(!smartObj['province']){smartObj[_0x5a63('0x80','QE2S')]=_0x1abcbe['province'];smartObj['provinceCode']=_0x1abcbe[_0x5a63('0x114','ANj#')];}if(!smartObj[_0x5a63('0x11e','0Etu')]){smartObj[_0x5a63('0x117','26*y')]=_0x1abcbe[_0x5a63('0x11f','Mw5a')];smartObj[_0x5a63('0x120','vXjI')]=_0x1abcbe[_0x5a63('0x121','gGYP')];}_0x259f0e=_0x259f0e['replace'](_0x1abcbe[_0x5a63('0x122','89IN')],'');}let _0x1e8330=[];_0x3526f6='';for(let _0x1c1609=0x0;_0x1c1609<_0x259f0e[_0x5a63('0x68','jLsi')];_0x1c1609++){if(_0x32f439[_0x5a63('0x123','L8[9')](_0x32f439[_0x5a63('0x124','3TwD')],_0x32f439[_0x5a63('0x125','T9X[')])){if(_0x32f439[_0x5a63('0x126',')b1&')](res[_0x32f439[_0x5a63('0x127','Mw5a')]]['indexOf'](_0x3526f6),-0x1)){_0x216edd[_0x5a63('0x128','^$RO')]({'county':res[_0x5a63('0x129','63#C')],'countyCode':res[_0x5a63('0x10b','%]IY')],'city':item['city'],'cityCode':item[_0x5a63('0x12a','wrKn')],'matchValue':_0x3526f6,'province':el[_0x5a63('0xd',']4^m')],'provinceCode':el[_0x5a63('0x12b','vXjI')]});}}else{_0x3526f6=_0x259f0e[_0x5a63('0x12c','(wtl')](0x0,_0x32f439[_0x5a63('0x12d','0Etu')](_0x1c1609,0x3));addressList[_0x5a63('0x12e','ANj#')](_0x317ad7=>{var _0x33d865={'OxlER':'UCL','Mpynp':function _0x4c57c4(_0x4b94de,_0x29173e){return _0x4b94de==_0x29173e;},'ANJnU':function _0x311575(_0x323d90,_0x506b84){return _0x323d90>_0x506b84;},'ACnme':function _0x61e344(_0x304743,_0x583451){return _0x304743!==_0x583451;},'acSJm':_0x5a63('0x12f','t$Fz'),'LcWLW':'xjH','rzzcy':_0x5a63('0x130','QE2S'),'mMthR':function _0x44c272(_0x5d9b1d,_0x1a2ab3){return _0x5d9b1d==_0x1a2ab3;},'nuKbf':function _0x1c6121(_0x3da427,_0x3eb649){return _0x3da427===_0x3eb649;},'yMVCP':_0x5a63('0x131','gCx*'),'OIonp':_0x5a63('0x132','0Etu'),'KJkkk':function _0x23d81a(_0x14eca3,_0x1c1e7b){return _0x14eca3==_0x1c1e7b;},'RXvzp':function _0x559d80(_0x808f95,_0x2b3754){return _0x808f95==_0x2b3754;},'PjlyJ':_0x5a63('0x133','ANj#'),'ehoOP':function _0x318490(_0x382300,_0x8c0533){return _0x382300==_0x8c0533;},'ZHgRJ':_0x5a63('0x134','t$Fz'),'nXTZm':function _0xd99415(_0x2e2f17,_0x12562d){return _0x2e2f17==_0x12562d;},'hiGaY':function _0x14640a(_0x5b2b61,_0x166eb1){return _0x5b2b61==_0x166eb1;},'sJvsB':'重庆市','wmKXJ':function _0x156e0e(_0x4fb105,_0x2639f6){return _0x4fb105===_0x2639f6;},'rRlDy':'yBi'};if(_0x33d865['RXvzp'](_0x317ad7[_0x5a63('0x135','Pdjw')],smartObj[_0x5a63('0x136','ANj#')])){if(_0x33d865[_0x5a63('0x137','T71[')](smartObj['province'],_0x33d865[_0x5a63('0x138','63#C')])||_0x33d865[_0x5a63('0x139','0wgP')](smartObj['province'],_0x33d865['ZHgRJ'])||_0x33d865[_0x5a63('0x13a','jWJ&')](smartObj[_0x5a63('0x13b','(wtl')],_0x5a63('0x13c','A(9D'))||_0x33d865['hiGaY'](smartObj[_0x5a63('0x13d','6Yw9')],_0x33d865['sJvsB'])){}else{if(_0x33d865['wmKXJ']('VRP',_0x33d865[_0x5a63('0x13e','gGYP')])){let _0x5531d0=_0x1e8330[_0x5a63('0x13f','[GuE')]((_0x3e3e32,_0x41a359)=>_0x3e3e32[_0x5a63('0x140',')48&')]<_0x41a359[_0x5a63('0x141','EeTR')]?_0x41a359:_0x3e3e32);smartObj[_0x5a63('0x142','W!9X')]=_0x5531d0[_0x5a63('0x143','3TwD')];smartObj['streetCode']=_0x5531d0['streetCode'];_0x259f0e=_0x259f0e[_0x5a63('0x144','63#C')](_0x5531d0[_0x5a63('0x18','PnDT')],'');}else{_0x317ad7['children'][_0x5a63('0x145','Uk6u')](_0x2a03d1=>{var _0x1a0102={'wKAiY':_0x33d865[_0x5a63('0x146',')48&')],'kCIdj':function _0x440e47(_0x282304,_0x490a4d){return _0x33d865['Mpynp'](_0x282304,_0x490a4d);},'PvGRI':function _0x4ec330(_0x2f65c3,_0x6bd34d){return _0x33d865[_0x5a63('0x147','f%4b')](_0x2f65c3,_0x6bd34d);},'RLhda':function _0x11ae2e(_0x2b601a,_0x5a3e37){return _0x2b601a!=_0x5a3e37;},'unzAg':_0x5a63('0x148','Pdjw'),'HhAwF':function _0x46d2e3(_0x30d1a9,_0x4662f8){return _0x33d865['ACnme'](_0x30d1a9,_0x4662f8);},'uSSZr':_0x5a63('0x149','EeTR'),'pYZLf':_0x33d865['acSJm'],'TOxvC':function _0x10039e(_0x2e4098,_0x54fc33){return _0x33d865[_0x5a63('0x14a',']4^m')](_0x2e4098,_0x54fc33);},'qiPtt':_0x33d865[_0x5a63('0x14b','3TwD')],'qdVoK':_0x33d865[_0x5a63('0x14c','vb6W')],'RKwIv':function _0x3763b3(_0x58f532,_0x182915){return _0x33d865[_0x5a63('0x14d','ezHR')](_0x58f532,_0x182915);},'VZvbF':function _0x2c1861(_0x49ea48,_0x3f5375){return _0x33d865[_0x5a63('0x14e','gFnT')](_0x49ea48,_0x3f5375);},'acXQQ':'bgv','xKwiF':_0x33d865['yMVCP']};if(_0x33d865['OIonp']===_0x5a63('0x14f','OBA%')){let _0x200ee0=_0xc01099[_0x5a63('0x150',')48&')]((_0x383107,_0x5413ff)=>_0x383107['index']<_0x5413ff[_0x5a63('0x151','Mw5a')]?_0x5413ff:_0x383107);smartObj['province']=_0x200ee0[_0x5a63('0x58','jWJ&')];smartObj[_0x5a63('0x152','Pdjw')]=_0x200ee0[_0x5a63('0x153','gFnT')];_0x259f0e=_0x259f0e[_0x5a63('0x7c','^$RO')](_0x200ee0[_0x5a63('0x154','EeTR')],'');}else{if(_0x33d865[_0x5a63('0x155','Mw5a')](_0x2a03d1[_0x5a63('0x156','3TwD')],smartObj['city'])){_0x2a03d1['children'][_0x5a63('0x157','[GuE')](_0x1c3f0c=>{var _0x4c7c2b={'mPbit':function _0x5d09c9(_0xacc104,_0x3926d8){return _0x1a0102[_0x5a63('0x158','EeTR')](_0xacc104,_0x3926d8);},'xWlGw':function _0x1f238f(_0x36c86f,_0x5b68fc){return _0x1a0102['PvGRI'](_0x36c86f,_0x5b68fc);}};if(_0x1a0102[_0x5a63('0x159',')b1&')](_0x1a0102['qiPtt'],_0x1a0102['qdVoK'])){if(_0x1a0102[_0x5a63('0x15a',')b1&')](_0x1c3f0c['name'],smartObj[_0x5a63('0x15b','Pdjw')])){if(_0x1a0102['VZvbF'](_0x1a0102[_0x5a63('0x15c','gGYP')],_0x1a0102[_0x5a63('0x15d','jDwj')])){res[_0x5a63('0xa6','ezHR')]=0x0;_0xc01099[_0x5a63('0x61','Mw5a')](_0x7835a8=>{if(_0x4c7c2b['mPbit'](res['province'],_0x7835a8[_0x5a63('0x15e','89IN')])){_0x7835a8['index']++;if(_0x4c7c2b[_0x5a63('0x15f','^$RO')](res[_0x5a63('0x160','T71[')][_0x5a63('0x161',']4^m')],_0x7835a8[_0x5a63('0x67','L8[9')]['length'])){_0x7835a8[_0x5a63('0x162','^B)r')]=res[_0x5a63('0x163','Pdjw')];}}});}else{_0x1c3f0c[_0x5a63('0x164','dW@@')][_0x5a63('0x165','W!9X')](_0x47d9c2=>{if('csL'===_0x1a0102[_0x5a63('0x166','t$Fz')]){if(_0x1a0102[_0x5a63('0x167','%]IY')](_0x47d9c2['city'],_0x317ad7['city'])){_0x317ad7['index']++;if(_0x1a0102[_0x5a63('0x168','Jdd%')](_0x47d9c2[_0x5a63('0x169','dW@@')]['length'],_0x317ad7[_0x5a63('0x45','&osL')][_0x5a63('0x16a','&osL')])){_0x317ad7['matchValue']=_0x47d9c2[_0x5a63('0x16b','gy0i')];}}}else{if(_0x1a0102[_0x5a63('0x16c','&5Af')](_0x47d9c2[_0x1a0102['unzAg']]['indexOf'](_0x3526f6),-0x1)){if(_0x1a0102[_0x5a63('0x16d','6Yw9')](_0x1a0102[_0x5a63('0x16e','Hocm')],_0x5a63('0x16f','T71['))){_0x1e8330['push']({'street':_0x47d9c2[_0x5a63('0x170','PnDT')],'streetCode':_0x47d9c2['code'],'matchValue':_0x3526f6});}else{_0x49752f[_0x5a63('0x171','T9X[')]({'city':_0x47d9c2[_0x5a63('0x118','^B)r')],'cityCode':_0x47d9c2[_0x5a63('0x172','^B)r')],'matchValue':_0x3526f6,'province':_0x317ad7[_0x5a63('0x173','T71[')],'provinceCode':_0x317ad7[_0x5a63('0x174','jDwj')]});}}}});}}}else{_0x1c3f0c[_0x5a63('0x175','wrKn')]['forEach'](_0x1a6af5=>{if(_0x1a0102[_0x5a63('0x176','&osL')](_0x1a6af5[_0x1a0102[_0x5a63('0x177','vb6W')]][_0x5a63('0x178','EeTR')](_0x3526f6),-0x1)){_0x216edd[_0x5a63('0x179','ANj#')]({'county':_0x1a6af5[_0x5a63('0x17a','89IN')],'countyCode':_0x1a6af5[_0x5a63('0x17b','A(9D')],'city':_0x1c3f0c['city'],'cityCode':_0x1c3f0c[_0x5a63('0xf1','T9X[')],'matchValue':_0x3526f6,'province':_0x317ad7[_0x5a63('0xea','i27#')],'provinceCode':_0x317ad7[_0x5a63('0x17c',')b1&')]});}});}});}}});}}}});}}_0x1e8330[_0x5a63('0x17d','gFnT')](_0x38785d=>{var _0xc85473={'VVciw':_0x5a63('0x17e','Mw5a'),'FtSiW':_0x5a63('0x17f','A(9D')};if(_0xc85473[_0x5a63('0x180','Hocm')]===_0x5a63('0x181','gy0i')){_0x38785d[_0x5a63('0x182','i27#')]=0x0;_0x1e8330[_0x5a63('0x183','&5Af')](_0xb69b7c=>{var _0x33105a={'EUjgs':function _0x471fcb(_0x325c60,_0x36fcc6){return _0x325c60>_0x36fcc6;},'SJTGK':function _0x3514d5(_0x170767,_0xe9ab34){return _0x170767==_0xe9ab34;},'ODbHv':'ftq','RMUJc':_0x5a63('0x184','gFnT'),'PHgCk':function _0x1dce08(_0x3edf5e,_0x30b435){return _0x3edf5e>_0x30b435;}};if(_0x33105a['SJTGK'](_0x38785d[_0x5a63('0x185','0wgP')],_0xb69b7c[_0x5a63('0x186','gCx*')])){if(_0x33105a[_0x5a63('0x187','[GuE')]!==_0x33105a[_0x5a63('0x188','tJeb')]){_0xb69b7c[_0x5a63('0x189','#bgT')]++;if(_0x33105a['PHgCk'](_0x38785d[_0x5a63('0x9c','%]IY')]['length'],_0xb69b7c['matchValue']['length'])){_0xb69b7c['matchValue']=_0x38785d[_0x5a63('0x154','EeTR')];}}else{_0x38785d[_0x5a63('0x18a','OBA%')]=0x0;_0x216edd['forEach'](_0x1c6d75=>{if(_0x38785d[_0x5a63('0x18b','ezHR')]==_0x1c6d75[_0x5a63('0x18c','gGYP')]){_0x1c6d75[_0x5a63('0x18d','Jdd%')]++;if(_0x33105a['EUjgs'](_0x38785d[_0x5a63('0x18e','t$Fz')][_0x5a63('0x18f','jWJ&')],_0x1c6d75[_0x5a63('0x190','(wtl')][_0x5a63('0x191','gy0i')])){_0x1c6d75[_0x5a63('0x192','ANj#')]=_0x38785d[_0x5a63('0x193','T9X[')];}}});}}});}else{window[_0x5a63('0x194','(wtl')](_0xc85473[_0x5a63('0x195','gGYP')]);}});if(_0x32f439['HfxiL'](_0x1e8330[_0x5a63('0x7e','W!9X')],0x0)){let _0x47eb75=_0x1e8330['reduce']((_0x18e8d8,_0x42a04e)=>_0x18e8d8['index']<_0x42a04e[_0x5a63('0x2a','^$RO')]?_0x42a04e:_0x18e8d8);smartObj['street']=_0x47eb75['street'];smartObj[_0x5a63('0x196','ANj#')]=_0x47eb75['streetCode'];_0x259f0e=_0x259f0e[_0x5a63('0xe1','W!9X')](_0x47eb75[_0x5a63('0x37','tJeb')],'');}if(smartObj[_0x5a63('0x197','gy0i')]){if(_0x32f439[_0x5a63('0x198','6Yw9')]!==_0x32f439['feMNS']){item[_0x5a63('0x199','89IN')][_0x5a63('0x19a',')b1&')](_0x296f2e=>{var _0x26bd9c={'zvNlR':function _0x293586(_0x342698,_0x21c65d){return _0x342698!=_0x21c65d;},'gWMzy':_0x5a63('0x19b','%]IY')};if(_0x26bd9c[_0x5a63('0x19c','vb6W')](_0x296f2e[_0x26bd9c[_0x5a63('0x19d','vb6W')]]['indexOf'](_0x3526f6),-0x1)){_0x49752f[_0x5a63('0x19e',')48&')]({'county':_0x296f2e[_0x5a63('0x19f','^B)r')],'countyCode':_0x296f2e[_0x5a63('0xef','Jdd%')],'city':item[_0x5a63('0xc2','Uk6u')],'cityCode':item[_0x5a63('0x1a0','3TwD')],'matchValue':_0x3526f6,'province':el[_0x5a63('0x13d','6Yw9')],'provinceCode':el['code']});}});}else{smartObj['address']=_0x259f0e;}}return smartObj;}function stripscript(_0xe56669){var _0x739981={'rzScf':_0x5a63('0x1a1','63#C'),'jMCqS':function _0x5a5602(_0x3851b,_0x49f4e9){return _0x3851b===_0x49f4e9;},'rtghS':'rPg','gBCdi':function _0x23a6d8(_0x345856,_0x321f7c){return _0x345856+_0x321f7c;}};_0xe56669=_0xe56669[_0x5a63('0x1a2','ezHR')](/(\d{3})-(\d{4})-(\d{4})/g,_0x5a63('0x1a3','W!9X'));_0xe56669=_0xe56669['replace'](/(\d{3}) (\d{4}) (\d{4})/g,'$1$2$3');var _0x3d8489=new RegExp(_0x739981[_0x5a63('0x1a4','i27#')]);var _0x5b588c='';for(var _0x58a5f7=0x0;_0x58a5f7<_0xe56669[_0x5a63('0x1a5','0wgP')];_0x58a5f7++){if(_0x739981[_0x5a63('0x1a6','tJeb')](_0x739981[_0x5a63('0x1a7','f%4b')],_0x739981['rtghS'])){_0x5b588c=_0x739981['gBCdi'](_0x5b588c,_0xe56669[_0x5a63('0x1a8','Hocm')](_0x58a5f7,0x1)[_0x5a63('0x1a9','89IN')](_0x3d8489,'\x20'));}else{let _0x50e3c1=address['indexOf'](res);let _0x4e6164=address['slice'](_0x50e3c1,_0x739981['gBCdi'](_0x50e3c1,0x6));smartObj['zipCode']=_0x4e6164;address=address[_0x5a63('0x1aa','T9X[')](_0x4e6164,'');}}_0x5b588c=_0x5b588c['replace'](/[\r\n]/g,'');return _0x5b588c;}function IdentityCodeValid(_0x2d8010){var _0x510023={'jGviA':'内蒙古','xaDOQ':'黑龙江\x20','ibhMW':_0x5a63('0x1ab','3TwD'),'OfenF':_0x5a63('0x1ac','Pdjw'),'Ajnst':_0x5a63('0x1ad','(wtl'),'rOtJW':'身份证号格式错误','gsAaA':function _0x5288af(_0x4dbc99,_0x154750){return _0x4dbc99===_0x154750;},'fcAKF':'hQg','GFuNy':function _0x2c59aa(_0x494565,_0x162150){return _0x494565==_0x162150;},'VqmND':function _0x154a79(_0x3112a4,_0x2ff499){return _0x3112a4===_0x2ff499;},'Wduqs':_0x5a63('0x1ae','[GuE'),'NIsSk':function _0x283dd4(_0x3bfeb8,_0x532a49){return _0x3bfeb8<_0x532a49;},'aumhV':function _0x2d92b6(_0x164e68,_0x32cbd4){return _0x164e68*_0x32cbd4;},'zLtdG':function _0x445580(_0x838aa0,_0x29f65e){return _0x838aa0%_0x29f65e;},'CxMjR':function _0x307fe4(_0x3e196c,_0x4c1190){return _0x3e196c!=_0x4c1190;},'Fgeop':_0x5a63('0x1af','gGYP')};let _0xec3785;var _0x778088={11:'北京',12:'天津',13:'河北',14:'山西',15:_0x510023[_0x5a63('0x1b0','gy0i')],21:'辽宁',22:'吉林',23:_0x510023[_0x5a63('0x1b1','T71[')],31:'上海',32:'江苏',33:'浙江',34:'安徽',35:'福建',36:'江西',37:'山东',41:'河南',42:_0x510023[_0x5a63('0x1b2','^B)r')],43:'湖南',44:'广东',45:'广西',46:'海南',50:'重庆',51:'四川',52:'贵州',53:'云南',54:_0x510023[_0x5a63('0x1b3','gy0i')],61:'陕西',62:'甘肃',63:'青海',64:'宁夏',65:'新疆',71:'台湾',81:'香港',82:'澳门',91:_0x510023[_0x5a63('0x1b4','vb6W')]};var _0x546546='';_0xec3785=!![];if(!_0x2d8010||!/^\d{17}(\d|X)$/i[_0x5a63('0x1b5','Hocm')](_0x2d8010)){_0x546546=_0x510023[_0x5a63('0x1b6','26*y')];_0xec3785=![];}else if(!_0x778088[_0x2d8010['substr'](0x0,0x2)]){if(_0x510023['gsAaA'](_0x510023['fcAKF'],_0x5a63('0x1b7','26*y'))){_0x546546='地址编码错误';_0xec3785=![];}else{el[_0x5a63('0x50',')48&')][_0x5a63('0x1b8','Pdjw')](_0x2a3b82=>{var _0x5cc65a={'bCnjC':function _0x5e0cb0(_0x5eb323,_0x5966a6){return _0x5eb323!=_0x5966a6;},'MxNmt':_0x5a63('0x1b9','gFnT')};_0x2a3b82[_0x5a63('0xb5','&5Af')]['forEach'](_0x362065=>{if(_0x5cc65a[_0x5a63('0x1ba','vXjI')](_0x362065[_0x5cc65a[_0x5a63('0x1bb','&5Af')]][_0x5a63('0x1bc','jDwj')](matchAddress),-0x1)){matchCounty[_0x5a63('0x1bd','jLsi')]({'county':_0x362065[_0x5a63('0x1be',')48&')],'countyCode':_0x362065[_0x5a63('0x1bf','89IN')],'city':_0x2a3b82['city'],'cityCode':_0x2a3b82[_0x5a63('0x1c0','Pdjw')],'matchValue':matchAddress,'province':el[_0x5a63('0x1c1','0Etu')],'provinceCode':el[_0x5a63('0x1bf','89IN')]});}});});}}else{if(_0x510023[_0x5a63('0x1c2','Pdjw')](_0x2d8010['length'],0x12)){if(_0x510023['VqmND'](_0x510023[_0x5a63('0x1c3','f%4b')],_0x5a63('0x1c4','&osL'))){_0x2d8010=_0x2d8010['split']('');var _0x2a7603=[0x7,0x9,0xa,0x5,0x8,0x4,0x2,0x1,0x6,0x3,0x7,0x9,0xa,0x5,0x8,0x4,0x2];var _0x402f37=[0x1,0x0,'X',0x9,0x8,0x7,0x6,0x5,0x4,0x3,0x2];var _0x590523=0x0;var _0x12b42a=0x0;var _0x394c87=0x0;for(var _0x42108c=0x0;_0x510023[_0x5a63('0x1c5','^B)r')](_0x42108c,0x11);_0x42108c++){_0x12b42a=_0x2d8010[_0x42108c];_0x394c87=_0x2a7603[_0x42108c];_0x590523+=_0x510023[_0x5a63('0x1c6','&5Af')](_0x12b42a,_0x394c87);}var _0x50d1f1=_0x402f37[_0x510023['zLtdG'](_0x590523,0xb)];if(_0x510023['CxMjR'](_0x402f37[_0x590523%0xb],_0x2d8010[0x11])){_0x546546=_0x510023[_0x5a63('0x1c7','^$RO')];_0xec3785=![];}}else{if(res[_0x5a63('0x80','QE2S')]==el['province']){el[_0x5a63('0x1c8','vXjI')]++;if(res['matchValue'][_0x5a63('0x1c9','63#C')]>el[_0x5a63('0x162','^B)r')]['length']){el[_0x5a63('0x122','89IN')]=res[_0x5a63('0x162','^B)r')];}}}}}return _0xec3785;};if(!(typeof encode_version!=='undefined'&&encode_version==='sojson.v5')){window[_0x5a63('0x1ca','&osL')](_0x5a63('0x1cb','gGYP'));};encode_version = 'sojson.v5';
+var addressList = []; //地址列表
+var zipCodeList = []; //邮编列表
+
+//获取地址以及邮编json
+/* const getJson = new Promise((res, rej) => {
+    $.getJSON("./json/pcas-code.json", data_address => {
+        $.getJSON("./json/zip-code.json", data_code => {
+
+            res({
+                'address': data_address,
+                'code': data_code
+            })
+        })
+    })
+})
+
+getJson.then((res) => {
+    addressList = res.address;
+    addressList.forEach(item => {
+        formatAddresList(item, 1, '')
+    })
+    zipCodeList = zipCodeFormat(res.code);
+}) */
+addressList = pcassCode;
+addressList.forEach(item => {
+    formatAddresList(item, 1, '')
+})
+zipCodeList = zipCodeFormat(zipCode);
+console.log(addressList);
+
+/**
+ * 地址数据处理
+ * @param addressList-各级数据对象
+ * @param index-对应的省/市/县区/街道
+ * @param province-只有直辖市会处理为  北京市北京市
+ * @returns <array>
+ */
+function formatAddresList(addressList, index, province) {
+    if (index === 1) { //省
+        addressList.province = addressList.name;
+    }
+    if (index === 2) { //市
+        if (addressList.name == '市辖区') {
+            addressList.name = province.name;
+        }
+        addressList.city = addressList.name;
+    }
+    if (index === 3) { //区或者县
+        addressList.county = addressList.name;
+    }
+    if (index === 4) { //街道
+        addressList.street = addressList.name;
+    }
+    if (addressList.children) {
+        index++;
+        addressList.children.forEach(res => {
+            formatAddresList(res, index, addressList)
+        })
+    }
+}
+/**
+ * 解析邮编
+ * @param
+ * @returns <array>
+ */
+function zipCodeFormat(zipCode) {
+    let list = []
+    zipCode.forEach((el) => {
+        if (el.child) {
+            el.child.forEach((event) => {
+                if (event.child) {
+                    event.child.forEach(element => {
+                        list.push(element.zipcode)
+                    })
+                }
+
+            })
+        }
+    })
+    return list;
+}
+
+
+var smartObj = {}
+/**
+ * 解析邮编
+ * @param event识别的地址
+ * @returns <obj>
+ */
+function smart(event) {
+    event = stripscript(event); //过滤特殊字符
+    let obj = {};
+    let copyaddress = JSON.parse(JSON.stringify(event))
+    copyaddress = copyaddress.split(' ');
+
+    copyaddress.forEach((res, index) => {
+        if (res) {
+            if (res.length == 1) {
+                res += 'XX';// 过滤掉一位的名字或者地址
+            }
+            let addressObj = smatrAddress(res)
+            obj = Object.assign(obj, addressObj)
+            if (JSON.stringify(addressObj) === '{}') {
+                obj.name = res.replace('XX','');
+            }
+        }
+    })
+    return obj;
+}
+
+function smatrAddress(event) {
+    smartObj = {};
+    let address = event;
+    //address=  event.replace(/\s/g, ''); //去除空格
+    address = stripscript(address); //过滤特殊字符
+
+    //身份证号匹配
+    if (IdentityCodeValid(address)) {
+        smartObj.idCard = address;
+        address = address.replace(address, '')
+    }
+
+    //电话匹配
+    let phone = address.match(/(86-[1][0-9]{10}) | (86[1][0-9]{10})|([1][0-9]{10})/g);
+    if (phone) {
+        smartObj.phone = phone[0];
+        address = address.replace(phone[0], '')
+    }
+
+    //邮编匹配
+    zipCodeList.forEach(res => {
+        if (address.indexOf(res) != -1) {
+            let num = address.indexOf(res);
+            let code = address.slice(num, num + 6);
+            smartObj.zipCode = code;
+            address = address.replace(code, '')
+        }
+    })
+    let matchAddress = ''
+    //省匹配 比如输入北京市朝阳区，会用北  北京  北京市 北京市朝 以此类推在addressList里的province中做匹配，会得到北京市  河北省 天津市等等；
+    let matchProvince = []; //粗略匹配上的省份   
+    // for (let begIndex = 0; begIndex < address.length; begIndex++) {
+    matchAddress = '';
+    for (let endIndex = 0; endIndex < address.length; endIndex++) {
+        //  if (endIndex > begIndex) {
+        matchAddress = address.slice(0, endIndex + 2)
+        addressList.forEach(res => {
+            if (res['province'].indexOf(matchAddress) != -1) {
+                matchProvince.push({
+                    province: res.province,
+                    provinceCode: res.code,
+                    matchValue: matchAddress
+                })
+            }
+        })
+        // }
+    }
+    //  }
+
+    //统计筛选初略统计出的省份
+    matchProvince.forEach(res => {
+        res.index = 0;
+        matchProvince.forEach(el => {
+            if (res.province == el.province) {
+                el.index++;
+                if (res.matchValue.length > el.matchValue.length) {
+                    el.matchValue = res.matchValue;
+                }
+            }
+        })
+    })
+    if (matchProvince.length != 0) {
+        let province = matchProvince.reduce((p, v) => p.index < v.index ? v : p)
+        smartObj.province = province.province;
+        smartObj.provinceCode = province.provinceCode;
+        address = address.replace(province.matchValue, '');
+
+    }
+
+
+    //市查找
+    let matchCity = []; //粗略匹配上的市 
+    matchAddress = '';
+    for (let endIndex = 0; endIndex < address.length; endIndex++) {
+        matchAddress = address.slice(0, endIndex + 2)
+        addressList.forEach(el => {
+            //  if (el.name == smartObj.province) {
+            if (smartObj.province == '北京市' || smartObj.province == '天津市' || smartObj.province == '上海市' || smartObj.province == '重庆市') {
+                el.children.forEach(item => {
+                    item.children.forEach(res => {
+                        if (res['county'].indexOf(matchAddress) != -1) {
+                            matchCity.push({
+                                county: res.county,
+                                countyCode: res.code,
+                                city: item.city,
+                                cityCode: item.code,
+                                matchValue: matchAddress,
+                                province: el.province,
+                                provinceCode: el.code,
+                            })
+                        }
+                    })
+                })
+            } else {
+                el.children.forEach(res => {
+                    if (res['city'].indexOf(matchAddress) != -1) {
+                        matchCity.push({
+                            city: res.city,
+                            cityCode: res.code,
+                            matchValue: matchAddress,
+                            province: el.province,
+                            provinceCode: el.code,
+                        })
+                    }
+                })
+            }
+            // }
+        })
+
+    }
+
+    //统计筛选初略统计出的市
+    matchCity.forEach(res => {
+        res.index = 0;
+        matchCity.forEach(el => {
+            if (res.city == el.city) {
+                el.index++;
+                if (res.matchValue.length > el.matchValue.length) {
+                    el.matchValue = res.matchValue;
+                }
+            }
+        })
+    })
+    if (matchCity.length != 0) {
+        let city = matchCity.reduce((p, v) => p.index < v.index ? v : p)
+        smartObj.city = city.city
+        smartObj.cityCode = city.cityCode
+        smartObj.county = city.county
+        smartObj.countyCode = city.countyCode
+        if (!smartObj.province) {
+            smartObj.province = city.province
+            smartObj.provinceCode = city.provinceCode
+        }
+        address = address.replace(city.matchValue, '')
+    }
+
+    //区县查找
+    let matchCounty = []; //粗略匹配上的区县
+    matchAddress = '';
+    for (let endIndex = 0; endIndex < address.length; endIndex++) {
+        matchAddress = address.slice(0, endIndex + 2)
+        addressList.forEach(el => {
+            //  if (el.name == smartObj.province) {
+            if (smartObj.province == '北京市' || smartObj.province == '天津市' || smartObj.province == '上海市' || smartObj.province == '重庆市') {
+                //nothing
+            } else {
+                el.children.forEach(item => {
+                    //  if (item.name == smartObj.city) {
+                    item.children.forEach(res => {
+                        if (res['county'].indexOf(matchAddress) != -1) {
+                            matchCounty.push({
+                                county: res.county,
+                                countyCode: res.code,
+                                city: item.city,
+                                cityCode: item.code,
+                                matchValue: matchAddress,
+                                province: el.province,
+                                provinceCode: el.code,
+                            })
+                        }
+                    })
+                    //  }
+                })
+            }
+            //  }
+        })
+
+    }
+
+    //统计筛选初略统计出的区县
+    matchCounty.forEach(res => {
+        res.index = 0;
+        matchCounty.forEach(el => {
+            if (res.city == el.city) {
+                el.index++;
+                if (res.matchValue.length > el.matchValue.length) {
+                    el.matchValue = res.matchValue;
+                }
+            }
+        })
+    })
+    if (matchCounty.length != 0) {
+        let city = matchCounty.reduce((p, v) => p.index < v.index ? v : p)
+        smartObj.county = city.county
+        smartObj.countyCode = city.countyCode
+        if (!smartObj.province) {
+            smartObj.province = city.province
+            smartObj.provinceCode = city.provinceCode
+        }
+        if (!smartObj.city) {
+            smartObj.city = city.city
+            smartObj.cityCode = city.cityCode
+        }
+        address = address.replace(city.matchValue, '')
+    }
+
+    //街道查找
+    let matchStreet = []; //粗略匹配上的街道查 
+    matchAddress = '';
+    for (let endIndex = 0; endIndex < address.length; endIndex++) {
+        matchAddress = address.slice(0, endIndex + 3)
+        addressList.forEach(el => {
+            if (el.name == smartObj.province) {
+                if (smartObj.province == '北京市' || smartObj.province == '天津市' || smartObj.province == '上海市' || smartObj.province == '重庆市') {
+                    //nothing
+                } else {
+                    el.children.forEach(element => {
+                        if (element.name == smartObj.city) {
+                            element.children.forEach(item => {
+                                if (item.name == smartObj.county) {
+                                    item.children.forEach(res => {
+                                        if (res['street'].indexOf(matchAddress) != -1) {
+                                            matchStreet.push({
+                                                street: res.street,
+                                                streetCode: res.code,
+                                                matchValue: matchAddress
+                                            })
+                                        }
+                                    })
+                                }
+                            })
+                        }
+                    })
+                }
+            }
+        })
+
+    }
+
+    //统计筛选初略统计出的区县
+    matchStreet.forEach(res => {
+        res.index = 0;
+        matchStreet.forEach(el => {
+            if (res.city == el.city) {
+                el.index++;
+                if (res.matchValue.length > el.matchValue.length) {
+                    el.matchValue = res.matchValue;
+                }
+            }
+        })
+    })
+
+    if (matchStreet.length != 0) {
+        let city = matchStreet.reduce((p, v) => p.index < v.index ? v : p)
+        smartObj.street = city.street
+        smartObj.streetCode = city.streetCode
+        address = address.replace(city.matchValue, '')
+    }
+    //姓名查找
+    if (smartObj.province) {
+        smartObj.address = address;
+    }
+
+    return smartObj;
+}
+////过滤特殊字符
+function stripscript(s) {
+    s = s.replace(/(\d{3})-(\d{4})-(\d{4})/g, '$1$2$3');
+    s = s.replace(/(\d{3}) (\d{4}) (\d{4})/g, '$1$2$3');
+    var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-]")
+    var rs = "";
+    for (var i = 0; i < s.length; i++) {
+        rs = rs + s.substr(i, 1).replace(pattern, ' ');
+    }
+    rs = rs.replace(/[\r\n]/g, "");
+    return rs;
+}
+
+function IdentityCodeValid(code) {
+    let pass;
+    var city = {
+        11: '北京',
+        12: '天津',
+        13: '河北',
+        14: '山西',
+        15: '内蒙古',
+        21: '辽宁',
+        22: '吉林',
+        23: '黑龙江 ',
+        31: '上海',
+        32: '江苏',
+        33: '浙江',
+        34: '安徽',
+        35: '福建',
+        36: '江西',
+        37: '山东',
+        41: '河南',
+        42: '湖北 ',
+        43: '湖南',
+        44: '广东',
+        45: '广西',
+        46: '海南',
+        50: '重庆',
+        51: '四川',
+        52: '贵州',
+        53: '云南',
+        54: '西藏 ',
+        61: '陕西',
+        62: '甘肃',
+        63: '青海',
+        64: '宁夏',
+        65: '新疆',
+        71: '台湾',
+        81: '香港',
+        82: '澳门',
+        91: '国外 '
+    };
+    var tip = '';
+    pass = true;
+
+    if (!code || !/^\d{17}(\d|X)$/i.test(code)) {
+        tip = '身份证号格式错误';
+        pass = false;
+    } else if (!city[code.substr(0, 2)]) {
+        tip = '地址编码错误';
+        pass = false;
+    } else {
+        //18位身份证需要验证最后一位校验位
+        if (code.length == 18) {
+            code = code.split('');
+            //∑(ai×Wi)(mod 11)
+            //加权因子
+            var factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
+            //校验位
+            var parity = [1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2];
+            var sum = 0;
+            var ai = 0;
+            var wi = 0;
+            for (var i = 0; i < 17; i++) {
+                ai = code[i];
+                wi = factor[i];
+                sum += ai * wi;
+            }
+            var last = parity[sum % 11];
+            if (parity[sum % 11] != code[17]) {
+                tip = '校验位错误';
+                pass = false;
+            }
+        }
+    }
+    return pass;
+}
