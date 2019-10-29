@@ -29,7 +29,6 @@ tmp/*
 /bin/
 /build/
 *.out
- 
 /.gradle/
 /logs/
 
@@ -50,3 +49,5 @@ package-lock.json
 **/build/*
 
 **/gvmap/*
+
+js/address_parse copy.js
