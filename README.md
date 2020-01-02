@@ -6,7 +6,7 @@
 
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
 ###### 具体使用如有不懂（js新手）请加群（@智能识别助手客服）
-![image.png](https://s2.ax1x.com/2020/01/02/lYkYqI.png)
+![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
 更新方法：将此json文件内容复制至同名js里的var pcassCode=xxxx;
 
