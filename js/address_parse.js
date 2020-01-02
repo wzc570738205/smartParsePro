@@ -179,7 +179,6 @@ function smatrAddress(event) {
     smartObj.provinceCode = province.provinceCode;
     address = address.replace(province.matchValue, '');
   }
-
   //市查找
   let matchCity = []; //粗略匹配上的市
   matchAddress = '';
@@ -187,7 +186,7 @@ function smatrAddress(event) {
     matchAddress = address.slice(0, endIndex + 2);
     addressList.forEach(el => {
       //  if (el.name == smartObj.province) {
-      if (el.code == smartObj.provinceCode) {
+      if (el.code == smartObj.provinceCode || !smartObj.provinceCode ) {
         if (
           smartObj.province == '北京市' ||
           smartObj.province == '天津市' ||
@@ -314,7 +313,7 @@ function smatrAddress(event) {
     }
     address = address.replace(city.matchValue, '');
   }
-
+  
   //街道查找
   let matchStreet = []; //粗略匹配上的街道查
   matchAddress = '';
