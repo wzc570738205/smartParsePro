@@ -270,15 +270,30 @@ function smatrAddress(event) {
           //  if (item.name == smartObj.city) {
           item.children.forEach(res => {
             if (res['county'].indexOf(matchAddress) != -1) {
-              matchCounty.push({
-                county: res.county,
-                countyCode: res.code,
-                city: item.city,
-                cityCode: item.code,
-                matchValue: matchAddress,
-                province: el.province,
-                provinceCode: el.code
-              });
+              //省/市  || 省 
+              if (smartObj.province) {
+                if (res.code.slice(0, 2) == smartObj.provinceCode) {
+                  matchCounty.push({
+                    county: res.county,
+                    countyCode: res.code,
+                    city: item.city,
+                    cityCode: item.code,
+                    matchValue: matchAddress,
+                    province: el.province,
+                    provinceCode: el.code
+                  });
+                }
+              } else if(!smartObj.province && !smartObj.city){
+                matchCounty.push({
+                  county: res.county,
+                  countyCode: res.code,
+                  city: item.city,
+                  cityCode: item.code,
+                  matchValue: matchAddress,
+                  province: el.province,
+                  provinceCode: el.code
+                });
+              }
             }
           });
           //  }
