@@ -26,7 +26,6 @@ addressList.forEach(item => {
   formatAddresList(item, 1, '');
 });
 zipCodeList = zipCodeFormat(zipCode);
-console.log(addressList);
 
 /**
  * 地址数据处理
