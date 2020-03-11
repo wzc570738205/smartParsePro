@@ -39,6 +39,7 @@ function formatAddresList(addressList, index, province) {
   if (index === 1) {
     //省
     addressList.province = addressList.name;
+    addressList.type ='province';
   }
   if (index === 2) {
     //市
@@ -46,14 +47,17 @@ function formatAddresList(addressList, index, province) {
       addressList.name = province.name;
     }
     addressList.city = addressList.name;
+    addressList.type ='city';
   }
   if (index === 3) {
     //区或者县
     addressList.county = addressList.name;
+    addressList.type ='county';
   }
   if (index === 4) {
     //街道
     addressList.street = addressList.name;
+    addressList.type ='street';
   }
   if (addressList.children) {
     index++;
@@ -272,7 +276,7 @@ function smatrAddress(event) {
             if (res['county'].indexOf(matchAddress) != -1) {
               //省/市  || 省 
               if (smartObj.province) {
-                if (res.code.slice(0, 2) == smartObj.provinceCode) {
+                if (res.code.slice(0, 4) == smartObj.cityCode) {
                   matchCounty.push({
                     county: res.county,
                     countyCode: res.code,
