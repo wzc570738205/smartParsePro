@@ -9,7 +9,7 @@
 ## 地址数据来源(数据不对请更新此json)
 更新方法：将此json文件内容复制至同名js里的var pcassCode=xxxx;
 
-[pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
+[pcas-code.json(点击前往)](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
 ## 支持以下数据格式（地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!）
 特殊字符(可自行添加)：
