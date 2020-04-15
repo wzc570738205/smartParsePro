@@ -31,6 +31,10 @@
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`+`身份证号码`
 ## ES5使用（建议下载demo查看引入js顺序以及调用方法）
 ```
+<script src="js/pcasCode.js"></script>
+<script src="js/zipCode.js"></script>
+<script src="js/address_parse.js"></script>
+
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
 ## 小程序使用
