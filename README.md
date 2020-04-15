@@ -33,6 +33,9 @@
 ```
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
+## 小程序使用
+
+> 详见smartWeChat=>README.md
 
 ## [vue环境下使用](https://github.com/wzc570738205/vue-smart-parse)
 
