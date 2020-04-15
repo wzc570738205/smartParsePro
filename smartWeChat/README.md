@@ -2,7 +2,7 @@
 ## 小程序引入
 
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/P2DFuD45%20.png)
+![](https://i.loli.net/2020/04/15/g5Ch7mHfkIyN6DG.jpg)
 
 app.js
 ```
