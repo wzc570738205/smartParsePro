@@ -1,8 +1,40 @@
 var addressList = []; //地址列表
 var zipCodeList = []; //邮编列表
 
-var pcassCode = require("./pcasCode.js"); 
-var zipCode = require("./zipCode.js"); 
+console.log('正在加载省市区数据...')
+const wx_getaddress = () => {
+  return new Promise((resolve, reject) => {
+    wx.request({
+      url: 'https://api.weixin.qq.com/tcb/databasequery?access_token=32_tfGuNB4ZZ42kgDKxXEkQqkFFS15LLvGxHl3-nIpwbNoxRfz26vmwgXSNQy9EpbtJ1DH1nE0pxV6_qb2tSyghmc8oah6LJoMcycfVgismyu1OMFdzZS-_FXyzBl1ZLFiFRmWkwgC8g2PROTb6KMFgAFAZBU',
+      data: {
+        "env": "wangzhichao",
+        "query": "db.collection('address').where({})\n.get()"
+      },
+      method: 'POST',
+      success: function (res) {
+        let data = JSON.parse(res.data.data[0]).data
+        let arr = [];
+        data.forEach(e => {
+          arr.push(JSON.parse(e))
+        })
+        resolve(arr)
+      }
+    })
+  });
+};
+var smart ;
+wx_getaddress().then((res) => {
+  addressList = res;
+  addressList.forEach(item => {
+    formatAddresList(item, 1, '');
+  });
+  zipCodeList = zipCodeFormat(zipCode.variable);
+  console.log('省市区数据挂载完毕！！')
+
+})
+
+//var pcassCode = require("./pcasCode.js");
+var zipCode = require("./zipCode.js");
 //获取地址以及邮编json
 /* const getJson = new Promise((res, rej) => {
     $.getJSON("./json/pcas-code.json", data_address => {
@@ -23,12 +55,8 @@ getJson.then((res) => {
     })
     zipCodeList = zipCodeFormat(res.code);
 }) */
-addressList = pcassCode.variable;
-addressList.forEach(item => {
-  formatAddresList(item, 1, '');
-});
-zipCodeList = zipCodeFormat(zipCode.variable);
-console.log(addressList);
+//addressList = pcassCode.variable;
+
 
 /**
  * 地址数据处理
@@ -111,7 +139,6 @@ function smart(event) {
   });
   return obj;
 }
-
 function smatrAddress(event) {
   smartObj = {};
   let address = event;
@@ -188,7 +215,7 @@ function smatrAddress(event) {
     matchAddress = address.slice(0, endIndex + 2);
     addressList.forEach(el => {
       //  if (el.name == smartObj.province) {
-      if (el.code == smartObj.provinceCode || !smartObj.provinceCode ) {
+      if (el.code == smartObj.provinceCode || !smartObj.provinceCode) {
         if (
           smartObj.province == '北京市' ||
           smartObj.province == '天津市' ||
@@ -285,7 +312,7 @@ function smatrAddress(event) {
                     provinceCode: el.code
                   });
                 }
-              } else if(!smartObj.province && !smartObj.city){
+              } else if (!smartObj.province && !smartObj.city) {
                 matchCounty.push({
                   county: res.county,
                   countyCode: res.code,
@@ -330,7 +357,7 @@ function smatrAddress(event) {
     }
     address = address.replace(city.matchValue, '');
   }
-  
+
   //街道查找
   let matchStreet = []; //粗略匹配上的街道查
   matchAddress = '';
@@ -483,8 +510,6 @@ function IdentityCodeValid(code) {
   }
   return pass;
 }
-
-
 
 module.exports = {
   method: smart

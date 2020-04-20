@@ -25,14 +25,17 @@ App({
 调用.js
 ```
 const app = getApp()
-
-//需要识别直接调用
+//注意！！省市区文件加载时间可能略长
+//需要识别调用  
 app.smart('新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号 150-3569-6956 马云')
 
 //ex
+//这里改为事件触发即可
  onLoad: function() {
-   var address = app.smart('新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号 150-3569-6956 马云')
+   setTimeout(function(){
+  var address = app.smart('广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918')
   console.log(address)
+},10000) 
   }
 
 ```
