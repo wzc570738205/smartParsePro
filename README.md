@@ -37,7 +37,7 @@
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
-## 小程序使用
+## 小程序使用（地址如果老旧请联系我进行更改）
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
 > 详见smartWeChat=>README.md
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
