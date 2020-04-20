@@ -1,5 +1,7 @@
 
 ## 小程序引入
+务必勾选不检验域名等等
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/q50LEr14%20.png)
 
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
 
