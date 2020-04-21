@@ -45,3 +45,6 @@ app.smart('新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一
 [数据来源pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
 将```pcasCode.js```内的数组内容进行替换即可
+
+### 注意事项，由于小程序云数据库使用的免费版的，每月配额如下
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/mpfjJp10%20.png)
