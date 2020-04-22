@@ -19,6 +19,9 @@ App({
   ....
   smart: function (val){
     return address_parse.method(val || '')
+  },
+  getAddressData:function(){//手动重新挂载数据
+    address_parse.getData()
   }
 })
 
@@ -33,12 +36,13 @@ app.smart('新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一
 
 //ex
 //这里改为事件触发即可
- onLoad: function() {
+onLoad: function() {
    setTimeout(function(){
-  var address = app.smart('广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918')
-  console.log(address)
-},10000) 
-  }
+      app.getAddressData()//保险起见，手动挂载数据
+      var address = app.smart('广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918')
+      console.log(address)
+  },10000) 
+}
 
 ```
 ### 数据源跟换
@@ -46,5 +50,6 @@ app.smart('新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一
 
 将```pcasCode.js```内的数组内容进行替换即可
 
-### 注意事项，由于小程序云数据库使用的免费版的，每月配额如下
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/mpfjJp10%20.png)
+### 注，初次加载会调用接口请求数据，后续会从缓存中读取
+### 接口地址 http://wangzc.wang:1337
+
