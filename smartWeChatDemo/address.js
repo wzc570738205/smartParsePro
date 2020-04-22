@@ -1,3 +1,9 @@
+/*
+ * @Author: wangzhichiao<https://github.com/wzc570738205>
+ * @Date: 2020-04-22 12:50:27
+ * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
+ * @LastEditTime: 2020-04-22 13:32:45
+ */
 // pages/address/address.js
 const app = getApp()
 
@@ -9,10 +15,7 @@ Page({
     address: '陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810',
     addressObj:{}
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  onShow: function (options) {
     app.getAddressData()//保险起见，手动挂载数据
   },
   subimt: function () {
