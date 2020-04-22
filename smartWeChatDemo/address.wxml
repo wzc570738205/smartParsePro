@@ -1,0 +1,32 @@
+<!--miniprogram/pages/add/add.wxml-->
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="backText">返回</view>
+  <view slot="content">地址识别</view>
+</cu-custom>
+
+<form>
+  <textarea  bindinput="bindName" value='{{address}}' placeholder="请输入地址"></textarea>
+</form>
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-blue margin-tb-sm lg" bindtap="subimt">识别</button>
+</view>
+
+<view class=" flex flex-direction" >
+姓名：{{addressObj.name}}
+</view>
+<view class=" flex flex-direction" >
+电话：{{addressObj.phone}}
+</view>
+<view class=" flex flex-direction" >
+身份证：{{addressObj.idCard}}
+</view>
+<view class=" flex flex-direction" >
+邮编：{{addressObj.zipCode}}
+</view>
+<view class=" flex flex-direction" >
+省市区：{{addressObj.province}}/{{addressObj.city}}/{{addressObj.county}}/{{addressObj.street}}
+</view>
+<view class=" flex flex-direction" >
+详细地址：{{addressObj.address}}
+</view>

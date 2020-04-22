@@ -1,4 +1,9 @@
 
+## demo
+
+详见```smartWeChatDemo```文件夹
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/gh_f3a92bf8c8a5_34447%20.jpg)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/HiovfR25%20.png)
 ## 小程序引入
 务必勾选不检验域名等等
 ![](https://gitee.com/Wzhichao/img/raw/master/uPic/q50LEr14%20.png)
