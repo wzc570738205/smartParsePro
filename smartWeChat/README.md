@@ -1,9 +1,16 @@
+<!--
+ * @Author: wangzhichiao<https://github.com/wzc570738205>
+ * @Date: 2020-04-21 14:24:59
+ * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
+ * @LastEditTime: 2020-04-26 17:34:30
+ -->
 
 ## demo
 
-详见```smartWeChatDemo```文件夹
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/gh_f3a92bf8c8a5_34447%20.jpg)
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/HiovfR25%20.png)
+详见```demo```文件夹
+
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/HiovfR25%20.png) 
+
 ## 小程序引入
 务必勾选不检验域名等等
 ![](https://gitee.com/Wzhichao/img/raw/master/uPic/q50LEr14%20.png)
