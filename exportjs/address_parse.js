@@ -1,9 +1,5 @@
-var http = require("http");
-var querystring = require("querystring");
-var util = require("util");
-var address_parse = require("./address_parse");
-import zipCode from './zipCode'
-import pcassCode from './pcasCode'
+import zipCode from 'https://wzc570738205.github.io/smartParsePro/exportjs/address_parse.js'
+import pcassCode from 'https://wzc570738205.github.io/smartParsePro/exportjs/address_parse.js'
 
 var addressList = []; //地址列表
 var zipCodeList = []; //邮编列表
