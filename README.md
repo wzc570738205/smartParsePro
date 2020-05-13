@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 14:45:32
+ * @LastEditTime: 2020-05-13 14:47:59
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -102,7 +102,7 @@ index.html引入js(文件可自行下载部署在自己服务器上)
 xxx.vue（address_parse2.js会暴露全局window方法 smart）
 ```
 mounted() {
-  console.log(window.smart('wzc 山西省'))
+  console.log(window.smart('河北省石家庄市新华区中华北大街68号鹿城商务中心6号楼1413室 150-3569-6956 马云'))
 }
 ```
 ### 4.2[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse) 这种方法会导致打包体积大
