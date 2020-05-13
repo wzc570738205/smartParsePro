@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 09:26:50
+ * @LastEditTime: 2020-05-13 09:43:43
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -143,7 +143,6 @@ console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶�
 ##### 邮编数据来源：[中华人民共和国邮编](https://github.com/xieranmaya/china-city-area-zip-data/blob/master/china-city-area-zip.json)
 
 #### 请作者喝杯咖啡☕️
-<img width="200" src="https://gitee.com/Wzhichao/img/raw/master/uPic/531589332863_.pic_hd02%20.jpg"/>
-<img width="200" src="https://gitee.com/Wzhichao/img/raw/master/uPic/521589332862_.pic_hd00%20.jpg"/>
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/zSFZOl23%20.png)
 
 
