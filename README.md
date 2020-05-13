@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 14:47:59
+ * @LastEditTime: 2020-05-13 16:06:53
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -39,7 +39,7 @@
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`+`身份证号码`
 ## 使用方法
 
-### 1.api调用
+### 1.api调用(5/13上线，可先在dev环境测试)
 
 
 接口地址：```http://wangzc.wang:1338```
