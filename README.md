@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 00:09:18
+ * @LastEditTime: 2020-05-13 09:09:47
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -17,7 +17,9 @@
 
 [pcas-code.json(点击前往)](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
-## 支持以下数据格式（地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!）
+## 支持以下数据格式
+### 注意：地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!
+
 特殊字符(可自行添加)：
 ```
 ~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-
@@ -35,12 +37,13 @@
 
 ## 地址切分规则
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`+`身份证号码`
-## 接口调用
+## 使用方法
 
-接口地址: 
- ```
-http://wangzc.wang:1338
-```
+### 1.api调用(推荐)
+
+
+接口地址：```http://wangzc.wang:1338```
+
 请求方式： ```POST```
 
 请求参数： 
@@ -63,8 +66,20 @@ http://wangzc.wang:1338
     "phone":"13593464918"
 }
 ```
+api使用推荐axios
+```
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    axios({
+      method: "post",
+      url: "http://wangzc.wang:1338",
+      data: {
+        address: '广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918',
+      },
+    }).then(function (res) {});
+```
 ![img](https://gitee.com/Wzhichao/img/raw/master/uPic/Fxfp4P10%20.png)
-## ES5使用（建议下载demo查看引入js顺序以及调用方法）
+### 2.ES5使用（建议下载demo查看引入js顺序以及调用方法）
 ```
 <script src="js/pcasCode.js"></script>
 <script src="js/zipCode.js"></script>
@@ -72,12 +87,12 @@ http://wangzc.wang:1338
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
-## 小程序使用（地址如果老旧请联系我进行更改）
+### 3.小程序使用（地址如果老旧请联系我进行更改）
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
 > 详见smartWeChat=>README.md
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
 
-## [vue环境下使用](https://github.com/wzc570738205/vue-smart-parse)
+### 4.[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse)
 
 ```
 npm install  vue-smart-parse -d -s
