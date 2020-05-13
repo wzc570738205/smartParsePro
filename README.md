@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 16:09:27
+ * @LastEditTime: 2020-05-13 16:14:24
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -78,7 +78,7 @@ api使用推荐axios
       },
     }).then(function (res) {});
 ```
-![img](https://gitee.com/Wzhichao/img/raw/master/uPic/Fxfp4P10%20.png)
+
 ### 2.ES5使用（建议下载demo查看引入js顺序以及调用方法）
 ```
 <script src="js/pcasCode.js"></script>
