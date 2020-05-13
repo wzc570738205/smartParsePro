@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 14:43:14
+ * @LastEditTime: 2020-05-13 14:45:32
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -94,16 +94,16 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 ### 4.1 vue环境下使用（推荐）
 index.html引入js(文件可自行下载部署在自己服务器上)
 ```
-	   <script src="https://wzc570738205.github.io/smartParsePro/js/pcasCode.js"></script>
-    <script src="https://wzc570738205.github.io/smartParsePro/js/zipCode.js"></script>
-    <script src="https://wzc570738205.github.io/smartParsePro/js/address_parse2.js"></script>
+<script src="https://wzc570738205.github.io/smartParsePro/js/pcasCode.js"></script>
+<script src="https://wzc570738205.github.io/smartParsePro/js/zipCode.js"></script>
+<script src="https://wzc570738205.github.io/smartParsePro/js/address_parse2.js"></script>
 ```
 
 xxx.vue（address_parse2.js会暴露全局window方法 smart）
 ```
-	mounted() {
-		console.log(window.smart('wzc 山西省'))
-	},
+mounted() {
+  console.log(window.smart('wzc 山西省'))
+}
 ```
 ### 4.2[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse) 这种方法会导致打包体积大
 
