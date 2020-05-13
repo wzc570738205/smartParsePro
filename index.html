@@ -143,7 +143,9 @@
       data: {
         address: $("#textarea").val(),
       },
-    }).then(function (res) {});
+    }).then(function (res) {
+        console.log(res)
+    });
 
     $("#province").val(parse_list.provinceCode);
     $("#city").val(parse_list.cityCode);
