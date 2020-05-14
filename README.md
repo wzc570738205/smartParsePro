@@ -11,6 +11,9 @@
 
 
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
+
+> 地址识别问题请@群主
+
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
 更新方法：将此json文件内容复制至同名js里的var pcassCode=xxxx;
