@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-13 16:14:24
+ * @LastEditTime: 2020-05-15 10:20:45
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -44,19 +44,19 @@
 
 ### 1.api调用(5/13上线，可先在dev环境测试)
 
+```
+接口地址：http://wangzc.wang:1338
 
-接口地址：```http://wangzc.wang:1338```
-
-请求方式： ```POST```
+请求方式：POST
 
 请求参数： 
-```
+
 {
   "address":"广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918"
 }
-```
+
 返回内容： 
-```
+
 {
     "province":"广东省",
     "provinceCode":"44",
@@ -68,18 +68,19 @@
     "name":"陈景勇",
     "phone":"13593464918"
 }
+
 ```
 api使用推荐axios
 ```
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    axios({
-      method: "post",
-      url: "http://wangzc.wang:1338",
-      data: {
-        address: '广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918',
-      },
-    }).then(function (res) {});
+axios({
+  method: "post",
+  url: "http://wangzc.wang:1338",
+  data: {
+    address: '广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918',
+  },
+}).then(function (res) {});
 ```
 
 ### 2.ES5使用（建议下载demo查看引入js顺序以及调用方法）
