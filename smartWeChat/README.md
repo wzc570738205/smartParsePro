@@ -58,12 +58,8 @@ onLoad: function() {
 
 ```
 ### 数据源跟换
-[数据来源pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
-将```pcasCode.js```内的数组内容进行替换即可
+由于小程序限制文件大小不能超过2MB，所以数据以接口返回，若需要更新请加群联系作者
 
 ### 注，初次加载会调用接口请求数据，后续会从缓存中读取
 ### 接口地址 http://wangzc.wang:1337
-
-https://wzc@59.110.237.110/svn/%E9%A1%B9%E7%9B%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB%E5%B9%B3%E5%8F%B0
-59.110.237.110/svn/项目/大数据共享平台/2_版本代码/V2.0/0_Server/1_door
