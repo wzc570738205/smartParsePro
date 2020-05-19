@@ -108,6 +108,7 @@
         </select>
       </div>
     </form>
+    <div id="response"></div>
     <div id="value"></div>
   </body>
 </html>
@@ -138,7 +139,9 @@
         address: $("#textarea").val(),
       },
     }).then(function (res) {
-      console.log(res);
+     $('#response').html(`<span style="color:green">接口调用状态码：200</span>`)
+    }).catch(function(err){
+     $('#response').html(`<span style="color:red">接口调用状态码：500</span>`)
     });
 
     $("#province").val(parse_list.provinceCode);
