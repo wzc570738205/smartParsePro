@@ -6,8 +6,9 @@
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
+### 文档地址：[语雀](https://www.yuque.com/docs/share/ba926af8-4c53-4b58-a0a9-f9907df00343?#)
 
-## 点击此处预览：[预览地址(请耐心等待加载)](http://wangzc.wang/smartParsePro/)
+### 在线demo：[预览地址(请耐心等待加载)](http://wangzc.wang/smartParsePro/)
 
 
 ## 欢迎加群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
