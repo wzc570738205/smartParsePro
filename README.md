@@ -89,6 +89,10 @@ axios({
 <script src="js/pcasCode.js"></script>
 <script src="js/zipCode.js"></script>
 <script src="js/address_parse.js"></script>
+//cdn
+<script src="http://cdn.wangzc.wang/js/pcasCode.js"></script>
+<script src="http://cdn.wangzc.wang/js/zipCode.js"></script>
+<script src="http://cdn.wangzc.wang/js/address_parse.js"></script>
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
