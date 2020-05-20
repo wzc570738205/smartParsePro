@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-20 17:08:33
+ * @LastEditTime: 2020-05-20 17:14:17
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -93,10 +93,7 @@ axios({
 <script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse.js"></script>
-//七牛云
-<script src="http://cdn.wangzc.wang/js/pcasCode.js"></script>
-<script src="http://cdn.wangzc.wang/js/zipCode.js"></script>
-<script src="http://cdn.wangzc.wang/js/address_parse.js"></script>
+
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
@@ -111,10 +108,6 @@ index.html引入js(文件可自行下载部署在自己服务器上)
 <script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse.js"></script>
-//七牛云
-<script src="http://cdn.wangzc.wang/js/pcasCode.js"></script>
-<script src="http://cdn.wangzc.wang/js/zipCode.js"></script>
-<script src="http://cdn.wangzc.wang/js/address_parse.js"></script>
 ```
 
 xxx.vue（address_parse2.js会暴露全局window方法 smart）
