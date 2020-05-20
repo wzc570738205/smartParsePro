@@ -99,9 +99,14 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 ### 4.1 vue环境下使用（推荐）
 index.html引入js(文件可自行下载部署在自己服务器上)
 ```
+//gitee
 <script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse2.js"></script>
+//七牛云
+<script src="http://cdn.wangzc.wang/pcasCode.js"></script>
+<script src="http://cdn.wangzc.wang/zipCode.js"></script>
+<script src="http://cdn.wangzc.wang/address_parse2.js"></script>
 ```
 
 xxx.vue（address_parse2.js会暴露全局window方法 smart）
