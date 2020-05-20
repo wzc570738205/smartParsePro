@@ -484,3 +484,4 @@ function IdentityCodeValid(code) {
   }
   return pass;
 }
+window.smart = smart;
