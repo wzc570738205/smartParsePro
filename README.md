@@ -104,9 +104,9 @@ index.html引入js(文件可自行下载部署在自己服务器上)
 <script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse2.js"></script>
 //七牛云
-<script src="http://cdn.wangzc.wang/pcasCode.js"></script>
-<script src="http://cdn.wangzc.wang/zipCode.js"></script>
-<script src="http://cdn.wangzc.wang/address_parse2.js"></script>
+<script src="http://cdn.wangzc.wang/js/pcasCode.js"></script>
+<script src="http://cdn.wangzc.wang/js/zipCode.js"></script>
+<script src="http://cdn.wangzc.wang/js/address_parse2.js"></script>
 ```
 
 xxx.vue（address_parse2.js会暴露全局window方法 smart）
