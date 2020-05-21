@@ -167,6 +167,6 @@ console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶�
 ##### 邮编数据来源：[中华人民共和国邮编](https://github.com/xieranmaya/china-city-area-zip-data/blob/master/china-city-area-zip.json)
 
 #### 请作者喝杯咖啡☕️
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/uaFwEM23%20.png)
+![](https://cdn.nlark.com/yuque/0/2020/png/259126/1589853154890-77d18453-a53e-4d0f-a8af-c297b36d4c79.png)
 
 
