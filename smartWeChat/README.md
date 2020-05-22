@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-21 14:24:59
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-22 10:15:09
+ * @LastEditTime: 2020-05-22 10:24:03
  -->
 
 
@@ -71,4 +71,4 @@ onLoad: function() {
 由于小程序限制文件大小不能超过2MB，所以数据以接口返回，若需要更新请加群联系作者
 
 ### 注，初次加载会调用接口请求数据，后续会从缓存中读取
-### 接口地址 http://wangzc.wang:1337
+### 接口地址 https://wangzc.wang/addressJson/x
