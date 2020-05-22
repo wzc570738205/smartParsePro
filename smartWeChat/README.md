@@ -2,9 +2,11 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-21 14:24:59
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-04-26 17:48:05
+ * @LastEditTime: 2020-05-22 09:16:14
  -->
+目前需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json
 
+https正在申请
 ## demo
 
 详见```demo```文件夹
@@ -19,7 +21,13 @@
 
 ![image.png](https://gitee.com/Wzhichao/img/raw/master/uPic/P2DFuD45%20.png)
 
-app.js
+> smartWeChat/js/address_parse.js
+
+这里需要将demo里的接口替换为后台提供的接口，接口格式返回可以参考http://wangzc.wang:1337/1
+
+后台json文件···demo/后台json/database_export-sw0HKSJkxA1j.json```
+
+> app.js
 ```
 var address_parse = require("./smartWeChat/js/address_parse");
 
@@ -39,7 +47,7 @@ App({
 
 ```
 
-调用.js
+> 调用.js
 ```
 const app = getApp()
 //注意！！省市区文件加载时间可能略长

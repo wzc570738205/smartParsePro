@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-20 17:14:17
+ * @LastEditTime: 2020-05-22 09:16:53
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -97,7 +97,7 @@ axios({
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
-### 3.小程序使用（地址如果老旧请联系我进行更改）
+### 3.小程序使用（目前需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json）
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
 > 详见smartWeChat=>README.md
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)

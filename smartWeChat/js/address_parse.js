@@ -44,7 +44,7 @@ const wx_getaddress = () => {
 
 function getData() {
   wx_getaddress().then(res => {
-    addressList = res;
+    addressList = res;//地址赋值；这里可以加入自己写的接口进行赋值
     addressList.forEach(item => {
       formatAddresList(item, 1, "");
     });
