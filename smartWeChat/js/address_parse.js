@@ -21,7 +21,7 @@ const wx_getaddress = () => {
       } else {
         setTimeout(() => {
           wx.request({
-            url: "http://wangzc.wang:1337/" + i,
+            url: "https://wangzc.wang/addressJson/" + i,
             method: "GET",
             success: function(res) {
               index++;
