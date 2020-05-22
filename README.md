@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-22 10:14:41
+ * @LastEditTime: 2020-05-22 10:16:42
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -76,7 +76,7 @@ api使用推荐axios
 
 axios({
   method: "post",
-  url: "http://wangzc.wang:1338",
+  url: "https://wangzc.wang/smAddress",
   data: {
     address: '广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918',
   },
