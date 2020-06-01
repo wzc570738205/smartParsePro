@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-04-15 11:34:04
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-05-22 10:16:42
+ * @LastEditTime: 2020-06-01 14:10:21
  -->
 
 # 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
@@ -53,20 +53,61 @@ request methods: POST
 request payload: 
 
 {
-  "address":"广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918"
+    "address": "新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号 150-3569-6956 马云",
+    "addressList": [
+        "新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号 150-3569-6956 马云",
+        "雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810"
+    ]
 }
+
+//address 字段为单条识别
+//addressList 字段为集合识别  返回在response的list字段中
+
 response： 
 
 {
-    "province":"广东省",
-    "provinceCode":"44",
-    "city":"珠海市",
-    "cityCode":"4404",
-    "county":"香洲区",
-    "countyCode":"440402",
-    "address":"盘山路28号幸福茶庄",
-    "name":"陈景勇",
-    "phone":"13593464918"
+    "province": "新疆维吾尔自治区",
+    "provinceCode": "65",
+    "city": "阿克苏地区",
+    "cityCode": "6529",
+    "county": "温宿县",
+    "countyCode": "652922",
+    "street": "博孜墩柯尔克孜族乡",
+    "streetCode": "652922207",
+    "address": "吾斯塘博村一组306号",
+    "phone": "15035696956",
+    "name": "马云",
+    "requestNumber": 7,
+    "list": [
+        {
+            "province": "新疆维吾尔自治区",
+            "provinceCode": "65",
+            "city": "阿克苏地区",
+            "cityCode": "6529",
+            "county": "温宿县",
+            "countyCode": "652922",
+            "street": "博孜墩柯尔克孜族乡",
+            "streetCode": "652922207",
+            "address": "吾斯塘博村一组306号",
+            "phone": "15035696956",
+            "name": "马云"
+        },
+        {
+            "zipCode": "710061",
+            "county": "雁塔区",
+            "countyCode": "610113",
+            "province": "陕西省",
+            "provinceCode": "61",
+            "city": "西安市",
+            "cityCode": "6101",
+            "street": "丈八沟街道",
+            "streetCode": "610113007",
+            "address": "高新四路高新大都荟",
+            "name": "刘国良",
+            "phone": "13593464918",
+            "idCard": "211381198512096810"
+        }
+    ]
 }
 
 ```
