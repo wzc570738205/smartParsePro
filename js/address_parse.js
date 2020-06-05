@@ -94,6 +94,12 @@ var smartObj = {};
  */
 function smart(event) {
   let copy = event;
+  let _phone = copy.match(
+    /((\d{2,4}[-_－—])\d{3,8}([-_－—]?\d{3,8})?([-_－—]?\d{1,7})?)|(0?1\d{10})/g
+  );
+  if(_phone && _phone.length>0){
+    event = event.replace(_phone[0],'')
+  }
   event = stripscript(event); //过滤特殊字符
   let obj = {};
   let copyaddress = JSON.parse(JSON.stringify(event));
@@ -113,10 +119,7 @@ function smart(event) {
   });
 
   // let _phone = copy.match(/((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)/g)
-  let _phone = copy.match(
-    /((\d{2,4}[-_－—]?)?\d{3,8}([-_－—]?\d{3,8})?([-_－—]?\d{1,7})?)|(0?1\d{10})/g
-  );
-  if (!obj.phone) {
+  if (!obj.phone && _phone) {
     _phone.forEach((e) => {
       if (e.length >= 8) {
         obj.phone = e;
