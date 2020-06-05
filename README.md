@@ -39,6 +39,7 @@
 ## 使用方法
 
 ### 1.api调用(5/13上线，可先在dev环境测试)
+> api服务免费使用，需要部署在自己服务器上可联系群主购买部署包
 
 ```
 request url：https://wangzc.wang/smAddress
