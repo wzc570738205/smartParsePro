@@ -12,9 +12,14 @@
 
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
+
 更新方法：将此json文件内容复制至同名js里的var pcassCode=xxxx;
 
 [pcas-code.json(点击前往)](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
+
+## 港澳台地址
+
+参考[港澳台]（https://github.com/modood/Administrative-divisions-of-China/issues/27） 可进行自整理
 
 ## 支持以下数据格式
 ### 注意：地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!
