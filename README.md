@@ -19,7 +19,7 @@
 
 ## 港澳台地址
 
-参考[港澳台]（https://github.com/modood/Administrative-divisions-of-China/issues/27） 可进行自整理
+参考[港澳台](https://github.com/modood/Administrative-divisions-of-China/issues/27) 可进行自整理
 
 ## 支持以下数据格式
 ### 注意：地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!
