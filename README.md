@@ -207,7 +207,7 @@ console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶�
 ##### 邮编数据来源：[中华人民共和国邮编](https://github.com/xieranmaya/china-city-area-zip-data/blob/master/china-city-area-zip.json)
 #### LICENSE：[Apache License](https://github.com/wzc570738205/smartParsePro/blob/master/LICENSE)
 #### IDE:致谢[JetBrains](https://www.jetbrains.com/?from=smartParsePro)为本项目提供免费的license支持
-![](http://cdn.wangzc.wang/logo.png)
+![](http://cdn.wangzc.wang/LOGO-1.png)
 
 #### 请作者喝杯咖啡☕️
 ![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
