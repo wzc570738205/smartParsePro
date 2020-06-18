@@ -206,9 +206,9 @@ console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶�
 ##### 地址数据来源：[中华人民共和国行政区划](https://github.com/modood/Administrative-divisions-of-China)
 ##### 邮编数据来源：[中华人民共和国邮编](https://github.com/xieranmaya/china-city-area-zip-data/blob/master/china-city-area-zip.json)
 #### LICENSE：[Apache License](https://github.com/wzc570738205/smartParsePro/blob/master/LICENSE)
-#### 致谢JetBrains为本项目提供免费的license支持
+#### IDE:致谢[JetBrains](https://www.jetbrains.com/?from=smartParsePro)为本项目提供免费的license支持
+![](http://cdn.wangzc.wang/logo.png)
 
-![JetBrains](https://www.jetbrains.com/?from=smartParsePro)
 #### 请作者喝杯咖啡☕️
 ![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
 
