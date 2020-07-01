@@ -143,6 +143,7 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 > 详见smartWeChat=>README.md
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
 ### 4.1 vue环境下使用（推荐）
+[引入示例在线预览](https://codesandbox.io/s/brave-curie-dy6vt?file=/src/App.vue)
 index.html引入js(文件可自行下载部署在自己服务器上)
 ```
 //gitee
