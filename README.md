@@ -144,6 +144,7 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
 ### 4.1 vue环境下使用（推荐）
 [引入示例在线预览](https://codesandbox.io/s/brave-curie-dy6vt?file=/src/App.vue)
+
 index.html引入js(文件可自行下载部署在自己服务器上)
 ```
 //gitee
@@ -159,6 +160,7 @@ mounted() {
 }
 ```
 ### 4.2[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse) 这种方法会导致打包体积大
+[在线预览地址](https://codesandbox.io/s/amazing-cerf-4uycs?file=/src/App.vue)
 
 ```
 npm install  vue-smart-parse -d -s
