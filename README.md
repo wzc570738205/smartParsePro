@@ -124,7 +124,8 @@ axios({
 }).then(function (res) {});
 ```
 
-### 2.ES5使用（建议下载demo查看引入js顺序以及调用方法）
+### 2.ES5使用（建议下载demo查看引入js顺序以及调用方法或者在线预览）
+[在codepen中在线预览](https://codepen.io/wzc570738205/pen/RwrjLbq)
 ```
 <script src="js/pcasCode.js"></script>
 <script src="js/zipCode.js"></script>
