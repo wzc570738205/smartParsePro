@@ -153,7 +153,7 @@ index.html引入js(文件可自行下载部署在自己服务器上)
 <script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse.js"></script>
 ```
 
-xxx.vue（address_parse2.js会暴露全局window方法 smart）
+xxx.vue（address_parse.js会暴露全局window方法 smart）
 ```
 mounted() {
   console.log(window.smart('河北省石家庄市新华区中华北大街68号鹿城商务中心6号楼1413室 150-3569-6956 马云'))
