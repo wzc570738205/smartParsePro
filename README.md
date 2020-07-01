@@ -160,7 +160,7 @@ mounted() {
 }
 ```
 ### 4.2[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse) 这种方法会导致打包体积大
-[在线预览地址](https://codesandbox.io/s/amazing-cerf-4uycs?file=/src/App.vue)
+[插件引入在线预览](https://codesandbox.io/s/amazing-cerf-4uycs?file=/src/App.vue)
 
 ```
 npm install  vue-smart-parse -d -s
