@@ -24,7 +24,7 @@
 
 如需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json
 
-这里需要将demo里的接口替换为后台提供的接口，接口格式返回可以参考http://wangzc.wang:1337/1
+这里需要将demo里的接口替换为后台提供的接口，接口格式返回可以参考https://wangzc.wang/addressJson/1
 
 后台json文件···demo/后台json/database_export-sw0HKSJkxA1j.json```
 
