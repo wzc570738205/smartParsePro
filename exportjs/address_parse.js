@@ -1,5 +1,5 @@
-import zipCode from 'https://wzc570738205.github.io/smartParsePro/exportjs/zipCode.js'
-import pcassCode from 'https://wzc570738205.github.io/smartParsePro/exportjs/pcasCode.js'
+import zipCode from './zipCode.js'
+import pcassCode from './pcasCode.js'
 
 var addressList = []; //地址列表
 var zipCodeList = []; //邮编列表
