@@ -124,7 +124,7 @@ axios({
   },
 }).then(function (res) {});
 ```
-### 2.1.NPM
+### 2.NPM
 ```
 npm install address-smart-parse
 ```
@@ -133,7 +133,7 @@ import smart from 'address-smart-parse'
 
 // console.log(smart('xxxxxxx))
 ```
-### 2.2ES5使用（建议下载demo查看引入js顺序以及调用方法或者在线预览）
+### 3.js引入（建议下载demo查看引入js顺序以及调用方法或者在线预览）
 [在codepen中在线预览](https://codepen.io/wzc570738205/pen/RwrjLbq)
 ```
 <script src="js/pcasCode.js"></script>
@@ -147,41 +147,11 @@ import smart from 'address-smart-parse'
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
-### 3.小程序使用（如需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json）
+### 4.小程序使用（如需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json）
 将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
 > 详见smartWeChat=>README.md
 [文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
-### 4.1 vue环境下使用
-[引入示例在线预览](https://codesandbox.io/s/brave-curie-dy6vt?file=/src/App.vue)
 
-index.html引入js(文件可自行下载部署在自己服务器上)
-```
-//gitee
-<script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
-<script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
-<script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse.js"></script>
-```
-
-xxx.vue（address_parse.js会暴露全局window方法 smart）
-```
-mounted() {
-  console.log(window.smart('河北省石家庄市新华区中华北大街68号鹿城商务中心6号楼1413室 150-3569-6956 马云'))
-}
-```
-### 4.2[vue环境下使用](https://github.com/wzc570738205/vue-smart-parse) 这种方法会导致打包体积大
-[插件引入在线预览](https://codesandbox.io/s/amazing-cerf-4uycs?file=/src/App.vue)
-
-```
-npm install  vue-smart-parse -d -s
-```
-
-```
- // main.js
- import smartParse from 'vue-smart-parse';
- Vue.use(smartParse)
- // App.vue
-console.log(this.smartParse('浙江省杭州市西湖区盘山路28号幸福茶庄 陈红 13593464918'));
-```
 
 
 ## 生成数据格式
