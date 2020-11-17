@@ -1,6 +1,6 @@
 ![](https://gitee.com/Wzhichao/img/raw/master/uPic/logo14%20.png)
 
-# 智能识别收货地址Pro（支持vue）/省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
+# 智能识别收货地址Pro /省市区街道四级联动（支持省市区县街道/姓名/电话/邮编/身份证号码识别）
 ### 文档地址：[gitee](http://wzhichao.gitee.io/smartParse) |  [语雀](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
 
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
