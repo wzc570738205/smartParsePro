@@ -1,4 +1,10 @@
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/logo14%20.png)
+<p align="center"><a href="http://wzhichao.gitee.io/smartparse/#/smartParse/fq" target="_blank" rel="noopener noreferrer"><img  src="https://gitee.com/Wzhichao/img/raw/master/uPic/logo14%20.png" alt="smartparse logo"></a></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/address-smart-parse"><img src="https://img.shields.io/npm/v/address-smart-parse.svg?sanitize=true" alt="Version"></a>
+  <a href="https://github.com/wzc570738205/smartParsePro"><img src="https://img.shields.io/github/stars/wzc570738205/smartParsePro?style=social.svg" alt="stars"></a>
+  	
+</p>
 
 # 智能识别收货地址Pro /省市区街道四级联动（支持省市区县街道/姓名/电话/邮编识别）
 ### 文档地址：[gitee](http://wzhichao.gitee.io/smartParse) |  [语雀](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
