@@ -2,25 +2,6 @@ var addressList = []; //地址列表
 var zipCodeList = []; //邮编列表
 
 //获取地址以及邮编json
-/* const getJson = new Promise((res, rej) => {
-    $.getJSON("./json/pcas-code.json", data_address => {
-        $.getJSON("./json/zip-code.json", data_code => {
-
-            res({
-                'address': data_address,
-                'code': data_code
-            })
-        })
-    })
-})
-
-getJson.then((res) => {
-    addressList = res.address;
-    addressList.forEach(item => {
-        formatAddresList(item, 1, '')
-    })
-    zipCodeList = zipCodeFormat(res.code);
-}) */
 addressList = pcassCode;
 addressList.forEach((item) => {
   formatAddresList(item, 1, "");
@@ -118,7 +99,6 @@ function smart(event) {
     }
   });
 
-  // let _phone = copy.match(/((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)/g)
   if (!obj.phone && _phone) {
     _phone.forEach((e) => {
       if (e.length >= 8) {
