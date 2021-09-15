@@ -10,7 +10,9 @@
 ### 文档地址：[gitee](http://wzhichao.gitee.io/smartParse) |  [语雀](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
 
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
-
+### 请勿恶意测试接口，否则封禁ip
+> 封禁ip
+- 112.74.41.170
 
 ### 交流Q群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
 
