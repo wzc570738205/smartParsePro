@@ -11,8 +11,10 @@
 
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
 ### 请勿恶意测试接口，否则封禁ip
-> 封禁ip
-- 112.74.41.170
+|封禁ip|封禁原因|封禁时间|
+|----|----|----|
+|112.74.41.170|恶意攻击|永久|
+|101.247.232.193|垃圾数据持续攻击|永久|
 
 ### 交流Q群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
 
