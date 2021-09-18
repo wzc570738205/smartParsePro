@@ -17,9 +17,7 @@
 |101.247.232.193|垃圾数据持续攻击|永久|
 |39.97.169.108|恶意测试|永久|
 
-### 交流Q群978775008（老群被封）：[978775008](https://qm.qq.com/cgi-bin/qm/qr?k=HDHCvXel3tZdz15bTg_H1DKwjwGMSRkH&authKey=u9Q6xg9YJ4zh+DzO/eBdD2aCxOdGByUOdqYK71l1IHAGV3WBRXQG2emjPyTyACY3&noverify=0)
-
-> 地址识别问题请@群主
+> 地址识别问题请加qq:2572787202
 
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
