@@ -17,7 +17,7 @@
 |101.247.232.193|垃圾数据持续攻击|永久|
 |39.97.169.108|恶意测试|永久|
 
-### 交流Q群：[749539640](https://jq.qq.com/?_wv=1027&k=55bQp1O)
+### 交流Q群978775008（老群被封）：[978775008](https://qm.qq.com/cgi-bin/qm/qr?k=HDHCvXel3tZdz15bTg_H1DKwjwGMSRkH&authKey=u9Q6xg9YJ4zh+DzO/eBdD2aCxOdGByUOdqYK71l1IHAGV3WBRXQG2emjPyTyACY3&noverify=0)
 
 > 地址识别问题请@群主
 
