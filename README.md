@@ -62,7 +62,7 @@
 ## 使用方法
 
 ### 1.api调用(部署腾讯云，没有调用限制，需要自行部署请加群联系群主)
-
+服务器最近被恶意攻击，停止使用，恢复时间待定
 ```
 request url：https://wangzc.wang/smAddress
 request methods: POST
