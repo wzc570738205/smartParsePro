@@ -12,7 +12,6 @@
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
 
 
-> 地址识别问题请加qq:2572787202或者issue
 
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
@@ -204,4 +203,5 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 #### 请作者喝杯咖啡☕️
 ![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
 
+![WX20210922-091703.png](https://gitee.com/Wzhichao/img/raw/master/uPic/WX20210922-09170315%20.png)
 
