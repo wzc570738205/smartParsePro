@@ -10,12 +10,7 @@
 ### 文档地址：[gitee](http://wzhichao.gitee.io/smartParse) |  [语雀](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
 
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
-### 请勿恶意测试接口，否则封禁ip
-|封禁ip|封禁原因|封禁时间|
-|----|----|----|
-|112.74.41.170|恶意攻击|永久|
-|101.247.232.193|垃圾数据持续攻击|永久|
-|39.97.169.108|恶意测试|永久|
+
 
 > 地址识别问题请加qq:2572787202或者issue
 
