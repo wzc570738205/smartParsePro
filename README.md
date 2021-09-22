@@ -17,7 +17,7 @@
 |101.247.232.193|垃圾数据持续攻击|永久|
 |39.97.169.108|恶意测试|永久|
 
-> 地址识别问题请加qq:2572787202
+> 地址识别问题请加qq:2572787202或者issue
 
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
@@ -61,8 +61,7 @@
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`
 ## 使用方法
 
-### 1.api调用(部署腾讯云，没有调用限制，需要自行部署请加群联系群主)
-服务器最近被恶意攻击，接口停止使用，恢复时间待定
+### 1.api调用(部署腾讯云，没有调用限制，需要自行部署[请点击前往](http://wzhichao.gitee.io/smartparse/#/smartParse/fq))
 ```
 request url：https://wangzc.wang/smAddress
 request methods: POST
