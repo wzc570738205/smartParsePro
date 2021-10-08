@@ -55,8 +55,8 @@
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`
 ## 使用方法
 
-### 1.api调用(部署腾讯云，没有调用限制，需要自行部署请关注公众号或者搜索`地址智能识别`
->![](https://gitee.com/Wzhichao/img/raw/master/uPic/qrcode15%20.png)
+### 1.api调用
+>部署腾讯云，没有调用限制，需要自行部署请关注公众号或者搜索`地址智能识别`
 ```
 request url：https://wangzc.wang/smAddress
 request methods: POST
@@ -203,8 +203,8 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 [![JetBrains](http://cdn.wangzc.wang/LOGO-1.png)](https://www.jetbrains.com/?from=smartParsePro)
 #### 请作者喝杯咖啡☕️
 ![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
-
-
-
+#### 公众号
+![qrcode](https://user-images.githubusercontent.com/21350874/136490435-cb0eefc8-31cc-4451-ba25-ede2dacbc55e.png)
+#### 交流群
 ![WX20210922-091703.png](https://gitee.com/Wzhichao/img/raw/master/uPic/WX20210922-09170315%20.png)
 
