@@ -55,7 +55,7 @@
 1. `省市区(县)街道详细地址`+`电话`+`邮编`+`姓名`
 ## 使用方法
 
-### 1.api调用(部署腾讯云，没有调用限制，需要自行部署[请点击前往](http://wzhichao.gitee.io/smartparse/#/smartParse/fq))
+### 1.api调用(部署腾讯云，没有调用限制，需要自行部署请关注底部公众号或者搜索`地址智能识别`
 ```
 request url：https://wangzc.wang/smAddress
 request methods: POST
