@@ -203,7 +203,7 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 #### 请作者喝杯咖啡☕️
 ![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
 
-![](https://gitee.com/Wzhichao/img/raw/master/uPic/扫码_搜索联合传播样式-标准色版07%20.png)
+![](https://gitee.com/Wzhichao/img/raw/master/uPic/qrcode15%20.png)
 
 ![WX20210922-091703.png](https://gitee.com/Wzhichao/img/raw/master/uPic/WX20210922-09170315%20.png)
 
