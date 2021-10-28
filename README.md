@@ -11,8 +11,6 @@
 
 ### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
 
-
-
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
 
@@ -56,7 +54,8 @@
 ## 使用方法
 
 ### 1.api调用
->部署腾讯云，没有调用限制，需要自行部署请关注公众号或者搜索`地址智能识别`
+>部署腾讯云，没有调用限制，需要自行部署请[点击](http://wzhichao.gitee.io/smartparse/#/smartParse/fq)
+
 ```
 request url：https://wangzc.wang/smAddress
 request methods: POST
