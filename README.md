@@ -158,11 +158,6 @@ import smart from 'address-smart-parse'
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
-### 4.小程序使用（如需要自行构建后台，json文件在demo/后台json/database_export-sw0HKSJkxA1j.json）
-将仓库中的```smartWeChat```文件夹拷贝到项目中```app.js```的同级目录
-> 详见smartWeChat=>README.md
-[文档地址](https://github.com/wzc570738205/smartParsePro/tree/master/smartWeChat)
-
 
 
 ## 生成数据格式
