@@ -147,6 +147,11 @@ import smart from 'address-smart-parse'
 <script src="js/pcasCode.js"></script>
 <script src="js/zipCode.js"></script>
 <script src="js/address_parse.js"></script>
+//jsdelivr
+<script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/pcasCode.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/zipCode.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/address_parse.js"></script>
+
 //gitee
 <script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
 <script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
@@ -158,7 +163,7 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 
 
 ## 生成数据格式
-```
+```json
 {
  zipCode:710061
 
