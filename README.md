@@ -165,31 +165,31 @@ smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟7100
 ## 生成数据格式
 ```json
 {
- zipCode:710061
+ "zipCode":"710061",
 
- province:陕西省
+ "province":"陕西省",
 
- provinceCode:61
+ "provinceCode":"61",
 
- city:西安市
+ "city":"西安市",
 
- cityCode:6101
+ "cityCode":"6101",
 
- county:雁塔区
+ "county":"雁塔区",
 
- countyCode:610113
+ "countyCode":"610113",
 
- street:丈八沟街道
+ "street":"丈八沟街道",
 
- streetCode:610113007
+ "streetCode":"610113007",
 
- address:高新四路高新大都荟
+ "address":"高新四路高新大都荟",
 
- name:刘国良
+ "name":"刘国良",
 
- phone:13593464918
+ "phone":"13593464918",
 
- idCard:211381198512096810
+ "idCard":"211381198512096810"
 }
 ```
 
