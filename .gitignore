@@ -41,6 +41,8 @@ package-lock.json
 
 # Third-part Files #
 **/node_modules/*
+dist/node_modules/*
+webpack/*
 **/bower_components/*
 **/src/vendors/*
 

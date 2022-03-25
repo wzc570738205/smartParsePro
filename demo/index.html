@@ -1,122 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>地址智能识别</title>
-    <link rel="icon" type="image/x-icon" href="img/smart.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <script data-ad-client="ca-pub-9729613796142547" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <style>
-      #value .key {
-        color: #ff5722;
-        display: inline-block;
-        width: 111px;
-        text-align: right;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>地址智能识别</title>
+  <link rel="icon" type="image/x-icon" href="img/smart.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script data-ad-client="ca-pub-9729613796142547" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-      #value .value {
-        color: #366500;
-        padding-left: 10px;
-      }
+  <style>
+    #value .key {
+      color: #ff5722;
+      display: inline-block;
+      width: 111px;
+      text-align: right;
+    }
 
-      li {
-        padding: 5px;
-      }
+    #value .value {
+      color: #366500;
+      padding-left: 10px;
+    }
 
-      li:hover {
-        cursor: pointer;
-        background: #8bc34aa1;
-        padding: 5px;
-      }
-    </style>
-  </head>
+    li {
+      padding: 5px;
+    }
 
-  <body>
-    <div class="page-header">
-      <h1>
-        地址智能识别
-        <small>支持省市区街道/姓名/电话/邮编</small>
-        <a
-          class="github-button"
-          href="https://github.com/wzc570738205/smartParsePro"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Star wzc570738205/smartParsePro on GitHub"
-          >Star</a
-        >
-      </h1>
-    </div>
+    li:hover {
+      cursor: pointer;
+      background: #8bc34aa1;
+      padding: 5px;
+    }
+  </style>
+</head>
 
-    <div class="alert alert-danger" role="alert">地址、姓名、电话、邮编用空格分开!!</div>
-    <!-- <div>
+<body>
+  <div class="page-header">
+    <h1>
+      地址智能识别
+      <small>支持省市区街道/姓名/电话/邮编</small>
+      <a class="github-button" href="https://github.com/wzc570738205/smartParsePro" data-size="large"
+        data-show-count="true" aria-label="Star wzc570738205/smartParsePro on GitHub">Star</a>
+    </h1>
+  </div>
+
+  <div class="alert alert-danger" role="alert">地址、姓名、电话、邮编用空格分开!!</div>
+  <!-- <div>
       特殊字符<code>~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-</code>
     </div> -->
-     <ol>
-      <li>广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918</li>
-      <li>马云，陕西省西安市雁塔区丈八沟街道高新四路南江国际 13593464918</li>
-      <li>陕西省西安市雁塔区丈八沟街道高新四路南江国际710061 刘国良  13593464918  </li>
-      <li>疆维吾尔自治区乌鲁木齐市沙依巴克区西虹东路463号 400-1808855 小红</li>
-      <li>
+  <ol>
+    <li>广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918</li>
+    <li>马云，陕西省西安市雁塔区丈八沟街道高新四路南江国际 13593464918</li>
+    <li>陕西省西安市雁塔区丈八沟街道高新四路南江国际710061 刘国良 13593464918 </li>
+    <li>疆维吾尔自治区乌鲁木齐市沙依巴克区西虹东路463号 400-1808855 小红</li>
+    <li>
 姓名：刘德华老表<br>
 电话：18149428888<br>
 地址：广东省珠海市香洲区盘山路28号幸福茶庄
-      </li>
-      <li>
-姓名：阿克苏<br>
+    </li>
+    <li>
+姓名：阿红<br>
 电话：800-8585222<br>
 收货地址：新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号
-      </li>
-      <li>
+    </li>
+    <li>
 姓名：马云<br>
 联系电话：800-8585222<br>
 所在地区：河北省石家庄市新华区<br>
 详细地址:中华北大街68号鹿城商务中心6号楼1413室
-              </li>
-    </ol>
+    </li>
+  </ol>
 
-    <textarea
-      class="form-control"
-      onchange="getAddress()"
-      onkeydown="getAddress()"
-      cols="50"
-      rows="5"
-      id="textarea"
-      placeholder="请粘贴或者输入你的地址"
-    ></textarea>
-    <h4>省市区街道四级联动</h4>
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="exampleInputName2">省/直辖市</label>
-        <select class="form-control" id="province">
-          <option>请选择</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">市</label>
-        <select class="form-control" id="city">
-          <option>请选择</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">区/县</label>
-        <select class="form-control" id="county">
-          <option>请选择</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">镇/乡/街道</label>
-        <select class="form-control" id="street">
-          <option>请选择</option>
-        </select>
-      </div>
-    </form>
-    <div id="response"></div>
-    <div id="value"></div>
-      
-  </body>
+  <textarea class="form-control" onchange="getAddress()" onkeydown="getAddress()" cols="50" rows="5" id="textarea"
+    placeholder="请粘贴或者输入你的地址"></textarea>
+  <h4>省市区街道四级联动</h4>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="exampleInputName2">省/直辖市</label>
+      <select class="form-control" id="province">
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">市</label>
+      <select class="form-control" id="city">
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">区/县</label>
+      <select class="form-control" id="county">
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">镇/乡/街道</label>
+      <select class="form-control" id="street">
+        <option>请选择</option>
+      </select>
+    </div>
+  </form>
+  <div id="response"></div>
+  <div id="value"></div>
+
+</body>
+
 </html>
 <script src="js/jquery.min.js"></script>
 <script src="js/pcasCode.js"></script>
@@ -132,33 +122,23 @@
     $('#textarea').val($(this).text().trim())
     getAddress()
   })
+
   function getAddress() {
     let parse_list = smart($('#textarea').val())
     let html = ''
-    /*     for (let key in parse_list) {
-      if (parse_list[key]) {
-        html +=
-          `<p><span class="key">` +
-          key +
-          `</span>:<span class="value">` +
-          parse_list[key] +
-          `</span></p>`;
-      }
-    }
-    $("#value").html(html); */
 
     axios({
-      method: 'post',
-      url: "https://wangzc.wang/smAddress",
-      data: {
-        address: $('#textarea').val(),
-      },
-    })
+        method: 'post',
+        url: "https://wangzc.wang/smAddress",
+        data: {
+          address: $('#textarea').val(),
+        },
+      })
       .then(function (res) {
         $('#response').html(
           `<span style="color:green">接口调用状态码：200；当前调用次数：` +
-            res.data.requestNumber +
-            `</span>`
+          res.data.requestNumber +
+          `</span>`
         )
         html += `<p><span class="key">姓名</span>:<span class="value">${res.data.name}</span></p>`
         html += `<p><span class="key">电话</span>:<span class="value">${res.data.phone}</span></p>`
@@ -281,12 +261,10 @@
   }
 </script>
 
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-119026906-1"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119026906-1"></script>
 <script>
   window.dataLayer = window.dataLayer || []
+
   function gtag() {
     dataLayer.push(arguments)
   }
@@ -294,4 +272,3 @@
 
   gtag('config', 'UA-119026906-1')
 </script>
-

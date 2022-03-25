@@ -9,9 +9,9 @@
 </p>
 
 # 智能识别收货地址Pro（支持省市区县街道/姓名/电话/邮编识别）
-### 文档地址：[doc](http://wzhichao.gitee.io/smart-doc/) | [gitee](http://wzhichao.gitee.io/smartParse) |  [语雀](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
+### 文档地址：[doc](http://wzhichao.gitee.io/smart-doc/) | [备用(gitee)](http://wzhichao.gitee.io/smartParse) |  [备用(语雀)](https://www.yuque.com/books/share/72418abc-287d-4a67-ae3c-dad10928c631?#) 
 
-### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) | [示例二](http://wzhichao.gitee.io/smartparse/#/smartParse/smartParse/example1) | [备用地址1](http://wzhichao.gitee.io/smartparsepro/)
+### 在线预览： [示例一](https://wangzc.wang/smartParsePro/) [备用地址](http://wzhichao.gitee.io/smartparsepro/)
 
 ![image.png](https://s2.ax1x.com/2020/01/02/lYkqdx.png)
 ## 地址数据来源(数据不对请更新此json)
@@ -55,7 +55,7 @@
 ### 1.api调用
 >部署腾讯云，没有调用限制，需要自行部署请[点击](http://wzhichao.gitee.io/smartparse/#/smartParse/fq)
 
-```
+```js
 request url：https://wangzc.wang/smAddress
 request methods: POST
 
@@ -121,7 +121,7 @@ response：
 
 ```
 api使用推荐axios
-```
+```js
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 axios({
@@ -133,35 +133,33 @@ axios({
 }).then(function (res) {});
 ```
 ### 2.NPM
-```
+
+```sh
 npm install address-smart-parse
 ```
-```
+
+```js
 import smart from 'address-smart-parse'
 
 // console.log(smart('xxxxxxx))
 ```
-### 3.js引入（建议下载demo查看引入js顺序以及调用方法或者在线预览）
+### 3.script引入
 [在codepen中在线预览](https://codepen.io/wzc570738205/pen/RwrjLbq)
 ```
 <script src="js/pcasCode.js"></script>
 <script src="js/zipCode.js"></script>
 <script src="js/address_parse.js"></script>
+
 //jsdelivr
 <script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/pcasCode.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/zipCode.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/address-smart-parse@1.0.0/address_parse.js"></script>
 
-//gitee
-<script src="http://wzhichao.gitee.io/smartParsePro/js/pcasCode.js"></script>
-<script src="http://wzhichao.gitee.io/smartParsePro/js/zipCode.js"></script>
-<script src="http://wzhichao.gitee.io/smartParsePro/js/address_parse.js"></script>
-
 
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810")
 ```
 
-### Python调用
+### 4.Python调用
 ```
 import requests
 URL='https://wangzc.wang/smAddress'
