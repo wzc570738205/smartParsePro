@@ -212,5 +212,5 @@ print(res.json()) # output
 #### 公众号
 ![qrcode](https://user-images.githubusercontent.com/21350874/136490435-cb0eefc8-31cc-4451-ba25-ede2dacbc55e.png)
 #### 交流群
-![WX20210922-091703.png](https://cdn./uPic/WX20210922-09170315%20.png)
+![WX20210922-091703.png](https://cdn.wangzc.wang/uPic/WX20210922-09170315%20.png)
 
