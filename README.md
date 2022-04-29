@@ -1,4 +1,4 @@
-<p align="center"><a href="http://wzhichao.gitee.io/smartparse/#/smartParse/fq" target="_blank" rel="noopener noreferrer"><img  src="https://cdn.wangzc.wang/uPic/logo14%20.png" alt="smartparse logo"></a></p>
+<p align="center"><a href="http://wzhichao.gitee.io/smartparse/#/smartParse/fq" target="_blank" rel="noopener noreferrer"><img  src="http://wzhichao.gitee.io/smart-doc/images/logo.png" alt="smartparse logo"></a></p>
 
 ### `star` -`1k`后开源后端代码（支持地址更加丰富），快推荐给你身边的小伙伴使用吧
 
