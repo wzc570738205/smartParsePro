@@ -53,7 +53,7 @@
 ## 使用方法
 
 ### 1.api调用
->部署腾讯云，没有调用限制，需要自行部署请[点击](http://wzhichao.gitee.io/smartparse/#/smartParse/fq)
+>部署腾讯云，单IP调用3条/s限制，需要自行部署请[点击](http://wzhichao.gitee.io/smartparse/#/smartParse/fq)
 
 ```js
 request url：https://wangzc.wang/smAddress
