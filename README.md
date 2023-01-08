@@ -207,10 +207,9 @@ print(res.json()) # output
 #### LICENSE：[Apache License](https://github.com/wzc570738205/smartParsePro/blob/master/LICENSE)
 #### IDE:致谢[JetBrains](https://www.jetbrains.com/?from=smartParsePro)为本项目提供免费license支持
 [![JetBrains](http://cdn.wangzc.wang/LOGO-1.png)](https://www.jetbrains.com/?from=smartParsePro)
-#### 请作者喝杯咖啡☕️
-![](http://cdn.wangzc.wang/uPic/cDQzFD.jpg)
-#### 公众号
-![qrcode](https://user-images.githubusercontent.com/21350874/136490435-cb0eefc8-31cc-4451-ba25-ede2dacbc55e.png)
-#### 交流群
+#### 联系我，欢迎交流
+![image](https://user-images.githubusercontent.com/33707245/211184007-971089c8-bdea-4d99-80d9-78de2fd59e01.png)
+
+#### qq交流群
 ![WX20210922-091703.png](https://cdn.wangzc.wang/uPic/WX20210922-09170315%20.png)
 
