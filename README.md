@@ -54,6 +54,7 @@
 
 ### 1.api调用
 >部署腾讯云，单IP调用3条/s限制，需要自行部署请[点击](http://wzhichao.gitee.io/smartparse/#/smartParse/fq)
+>公共接口服务到期时间为2024-10-19 00:00,届时不再提供API服务,底部联系作者可具体咨询
 
 ```js
 request url：https://wangzc.wang/smAddress
