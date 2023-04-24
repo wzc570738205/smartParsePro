@@ -167,7 +167,7 @@ import requests
 URL='https://wangzc.wang/smAddress'
 data=lambda x : r'{"address":"' + x + '"}'
 address=r'陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810' # address
-requests.post(url=URL,data=data(address).encode('utf-8'))
+res=requests.post(url=URL,data=data(address).encode('utf-8'))
 print(res.json()) # output
 ```
 
