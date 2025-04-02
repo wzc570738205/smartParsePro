@@ -57,7 +57,7 @@ import customAddressData from './custom-streets.json';
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810", customAddressData)
 ```
 #### 2. API调用
-> 私有部署请查看 `/node`  文件夹
+> 私有部署请联系作者
 
 ```bash
 POST https://wangzc.wang/smAddress
