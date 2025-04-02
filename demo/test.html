@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo2</title>
+</head>
+<body>
+  地址智能识别demo2
+  <div id="app">
+    <div>
+      <input type="text" v-model="address" placeholder="请输入地址">
+      <button @click="getAddress">查询</button>
+    </div>
+    <div>
+      <div v-for="(item, index) in addressList" :key="index">
+        <div>{{item.name}}</div>
+        <div>{{item.address}}</div>
+        <div>{{item.phone}}</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        address: '',
+        addressList: []
+      },
+      methods: {
+        getAddress() {
+          axios.get('https://www.baidu.com/s', {
+            params: {
+              wd: this.address
+            }
+          }).then(res => {
+            console.log(res)
+            const list =res.data.split('<div class="result-op">')
+              list.shift()
+              list.forEach(item => {
+                const name = item.match(/<div class="result-op-title">(.*)<\/div>/)[1]
+                const address = item.match(/<div class="result-op-address">(.*)<\/div>/)[1]
+                const phone = item.match(/<div class="result-op-phone">(.*)<\/div>/)[1]
+                this.addressList.push({
+                  name,
+                  address,
+                  phone
+                })
+                console.log(name, address, phone)
+                if(this.addressList.length > 10) {
+                  this.addressList.shift()
+                }
+              })
+        }
+    }
+}
+}
+  </script>
+  
+</body>
+</html>

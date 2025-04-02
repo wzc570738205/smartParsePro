@@ -1,0 +1,55 @@
+# Build Files #
+*.class
+build/*
+bin/*
+.classpath
+.project
+.settings/*
+out/*
+/output/
+
+# Gradle Files #
+.gradle/*
+
+# Acheive Files #
+*.jar
+*.war
+*.ear
+
+# IDE Files #
+.idea/*
+*.iml 
+.vscode
+.DS_Store
+
+# Temp and Log Files #
+tmp/*
+*.log
+/bin/
+/build/
+*.out
+ 
+/.gradle/
+/logs/
+
+libs
+/target/
+/bower_components/
+/node_modules/
+package-lock.json
+.DS_Store
+
+# Third-part Files #
+**/node_modules/*
+dist/node_modules/*
+webpack/node_modules/*
+**/bower_components/*
+**/src/vendors/*
+
+
+**/bin/*
+**/build/*
+
+**/gvmap/*
+
+**/.history/*

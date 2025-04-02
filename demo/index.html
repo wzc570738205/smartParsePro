@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  />
+  <title>地址智能识别</title>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="img/smart.png"
+  />
+  <link
+    rel="stylesheet"
+    href="css/bootstrap.min.css"
+  />
+  <script
+    data-ad-client="ca-pub-9729613796142547"
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
+
+  <style>
+    #value .key {
+      color: #ff5722;
+      display: inline-block;
+      width: 111px;
+      text-align: right;
+    }
+
+    #value .value {
+      color: #366500;
+      padding-left: 10px;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    li:hover {
+      cursor: pointer;
+      background: #8bc34aa1;
+      padding: 5px;
+    }
+
+    span+i {
+      font-size: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-header">
+    <h1>
+      地址智能识别
+      <small>支持省市区街道/姓名/电话/邮编</small>
+      <a
+        class="github-button"
+        href="https://github.com/wzc570738205/smartParsePro"
+        data-size="large"
+        data-show-count="true"
+        aria-label="Star wzc570738205/smartParsePro on GitHub"
+      >Star</a>
+    </h1>
+  </div>
+
+  <div
+    class="alert alert-danger"
+    role="alert"
+  >地址、姓名、电话、邮编用空格分开!!</div>
+  <!-- <div>
+      特殊字符<code>~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-</code>
+    </div> -->
+  <ol>
+    <li>广东省珠海市香洲区盘山路28号幸福茶庄,陈景勇，13593464918</li>
+    <li>马云，陕西省西安市雁塔区丈八沟街道高新四路南江国际 13593464918</li>
+    <li>陕西省西安市雁塔区丈八沟街道高新四路南江国际710061 刘国良 13593464918 </li>
+    <li>疆维吾尔自治区乌鲁木齐市沙依巴克区西虹东路463号 400-1808855 李艾红</li>
+    <li>
+姓名：刘德华老表<br>
+电话：18149428888<br>
+地址：广东省珠海市香洲区盘山路28号幸福茶庄
+    </li>
+    <li>
+姓名：王洪亮<br>
+电话：800-8585222<br>
+收货地址：新疆阿克苏温宿县博孜墩柯尔克孜族乡吾斯塘博村一组306号
+    </li>
+    <li>
+姓名：马云<br>
+联系电话：800-8585222<br>
+所在地区：河北省石家庄市新华区<br>
+详细地址:中华北大街68号鹿城商务中心6号楼1413室
+    </li>
+  </ol>
+
+  <textarea
+    class="form-control"
+    onchange="getAddress()"
+    onkeydown="getAddress()"
+    cols="50"
+    rows="5"
+    id="textarea"
+    placeholder="请粘贴或者输入你的地址"
+  ></textarea>
+  <h4>省市区街道四级联动</h4>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="exampleInputName2">省/直辖市</label>
+      <select
+        class="form-control"
+        id="province"
+      >
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">市</label>
+      <select
+        class="form-control"
+        id="city"
+      >
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">区/县</label>
+      <select
+        class="form-control"
+        id="county"
+      >
+        <option>请选择</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">镇/乡/街道</label>
+      <select
+        class="form-control"
+        id="street"
+      >
+        <option>请选择</option>
+      </select>
+    </div>
+  </form>
+  <div id="response"></div>
+  <div id="value"></div>
+
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/addressCode.js"></script>
+<script src="js/zipCode.js"></script>
+
+<script src="js/address_parse.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script
+  async
+  defer
+  src="https://buttons.github.io/buttons.js"
+></script>
+<script src="js/axios.js"></script>
+<script>
+  $('li').on('click', function (e) {
+    $('#textarea').val($(this).text().trim())
+    getAddress()
+  })
+
+  function getAddress () {
+    let parse_data = window.smart($('#textarea').val())
+    console.log('parse_data: ', parse_data);
+    let html = ''
+    //js调用
+
+
+    html += `<p><span class="key">姓名</span>:<span class="value">${parse_data.name}</span></p>`
+    html += `<p><span class="key">电话</span>:<span class="value">${parse_data.phone}</span></p>`
+    html += `<p><span class="key">邮编</span>:<span class="value">${parse_data.zipCode}</span></p>`
+    html += `<p><span class="key">省</span>:<span class="value">${parse_data.province}</span></p>`
+    html += `<p><span class="key">市</span>:<span class="value">${parse_data.city}</span></p>`
+    html += `<p><span class="key">区</span>:<span class="value">${parse_data.county}</span></p>`
+    html += `<p><span class="key">街道</span>:<span class="value">${parse_data.street}</span></p>`
+    html += `<p><span class="key">详细地址</span>:<span class="value">${parse_data.address}</span></p>`
+    $('#value').html(html)
+    //接口调用
+    // axios({
+    //     method: 'post',
+    //     url: "https://wangzc.wang/smAddress",
+    //     data: {
+    //       address: $('#textarea').val(),
+    //     },
+    //   })
+    //   .then(function (res) {
+    //     $('#response').html(
+    //       `<span style="color:green">接口调用状态码：200；当前调用次数：` +
+    //       res.data.requestNumber +
+    //       `</span>`
+    //     )
+    //     html += `<p><span class="key">姓名</span>:<span class="value">${res.data.name}</span></p>`
+    //     html += `<p><span class="key">电话</span>:<span class="value">${res.data.phone}</span></p>`
+    //     html += `<p><span class="key">邮编</span>:<span class="value">${res.data.zipCode}</span></p>`
+    //     html += `<p><span class="key">省</span>:<span class="value">${res.data.province}</span></p>`
+    //     html += `<p><span class="key">市</span>:<span class="value">${res.data.city}</span></p>`
+    //     html += `<p><span class="key">区</span>:<span class="value">${res.data.county}</span></p>`
+    //     html += `<p><span class="key">街道</span>:<span class="value">${res.data.street}</span></p>`
+    //     html += `<p><span class="key">详细地址</span>:<span class="value">${res.data.address}</span></p>`
+    //     $('#value').html(html)
+    //   })
+    //   .catch(function (err) {
+
+    //   })
+
+    $('#province').val(parse_data.provinceCode)
+    $('#city').val(parse_data.cityCode)
+    $('#county').val(parse_data.countyCode)
+    $('#street').val(parse_data.streetCode)
+
+    getCity($('#province').val(), parse_data)
+    getCounty($('#city').val(), parse_data)
+    getStreet($('#county').val(), parse_data)
+  }
+var addressList = []; //地址列表
+  addressList = addressCode
+  addressList.forEach((item) => {
+    formatAddressList(item, 1, '')
+  })
+
+  let province = ''
+  addressList.forEach((res) => {
+    province += ` <option value='` + res.code + `'>` + res.name + `</option>`
+  })
+  $('#province').html(province)
+  getCity($('#province').val())
+  getCounty($('#city').val())
+  getStreet($('#county').val())
+
+  $('#province').change((res) => {
+    let provinceCode = $('#province').val()
+    getCity(provinceCode)
+    getCounty($('#city').val())
+    getStreet($('#county').val())
+  })
+
+  $('#city').change((res) => {
+    let cityCode = $('#city').val()
+    getCounty(cityCode)
+    getStreet($('#county').val())
+  })
+
+  $('#county').change((res) => {
+    let countyCode = $('#county').val()
+    getStreet(countyCode)
+  })
+
+  function getCity (provinceCode, parse_data) {
+    let cityList = []
+    let city = ''
+    addressList.forEach((res) => {
+      if (res.code == provinceCode) {
+        cityList = res.children
+        return
+      }
+    })
+    cityList.forEach((res) => {
+      city += ` <option value='` + res.code + `'>` + res.name + `</option>`
+    })
+    $('#city').html(city)
+    if (parse_data) {
+      $('#city').val(parse_data.cityCode)
+    }
+  }
+
+  function getCounty (cityCode, parse_data) {
+    let countyList = []
+    let county = ''
+    addressList.forEach((el) => {
+      el.children.forEach((res) => {
+        if (res.code == cityCode) {
+          countyList = res.children
+          return
+        }
+      })
+    })
+
+    countyList.forEach((res) => {
+      county += ` <option value='` + res.code + `'>` + res.name + `</option>`
+    })
+    $('#county').html(county)
+    if (parse_data) {
+      $('#county').val(parse_data.countyCode)
+    }
+  }
+
+  function getStreet (countyCode, parse_data) {
+    let streetList = []
+    let street = ''
+    addressList.forEach((el) => {
+      el.children.forEach((element) => {
+        element.children.forEach((res) => {
+          if (res.code == countyCode) {
+            streetList = res.children
+            return
+          }
+        })
+      })
+    })
+    streetList.forEach((res) => {
+      street += ` <option value='` + res.code + `'>` + res.name + `</option>`
+    })
+    $('#street').html(street)
+    if (parse_data) {
+      $('#street').val(parse_data.streetCode)
+    }
+  }
+  function formatAddressList (addressList, index, province) {
+    if (index === 1) {
+      //省
+      addressList.province = addressList.name;
+      addressList.type = "province";
+    }
+    if (index === 2) {
+      //市
+      if (addressList.name == "市辖区") {
+        addressList.name = province.name;
+      }
+      addressList.city = addressList.name;
+      addressList.type = "city";
+    }
+    if (index === 3) {
+      //区或者县
+      addressList.county = addressList.name;
+      addressList.type = "county";
+    }
+    if (index === 4) {
+      //街道
+      addressList.street = addressList.name;
+      addressList.type = "street";
+    }
+    if (addressList.children) {
+      index++;
+      addressList.children.forEach((res) => {
+        formatAddressList(res, index, addressList);
+      });
+    }
+  }
+</script>
+
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-119026906-1"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+
+  function gtag () {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+
+  gtag('config', 'UA-119026906-1')
+</script>
