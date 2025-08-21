@@ -27,9 +27,7 @@
 [👉 Python版本（更高准确率）](https://github.com/wzc570738205/smartParsePro-py) 
 
 [🌐 在线演示](http://47.97.123.182/smartParsePro)
->本人为个人开发者，精力和经济都有限，如有公司或个人想要商业使用，联系微信捐赠500即可永久使用。
 
->如未授权，根据软件使用协议，请务必保留官方版权。前后台功能页底必须保留 "Powered by smartParsePro！" 文字和链接！如未按要求保留官方版权且未授权用户，将依法追究法律责任。
 
 ---
 
@@ -56,7 +54,7 @@ import customAddressData from './custom-streets.json';
 // 数据格式请参考 https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/streets.json
 smart("陕西省西安市雁塔区丈八沟街道高新四路高新大都荟710061 刘国良 13593464918 211381198512096810", customAddressData)
 ```
-#### 2. API调用
+#### 2. API调用（参考 /node 文件）
 > 私有部署请联系作者
 
 ```bash
