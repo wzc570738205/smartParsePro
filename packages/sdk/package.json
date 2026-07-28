@@ -1,0 +1,39 @@
+{
+  "name": "address-smart-parse",
+  "version": "4.0.1",
+  "description": "Offline Chinese address parser with ranked multi-candidate results",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.mjs"
+    },
+    "./legacy": {
+      "types": "./dist/legacy.d.ts",
+      "import": "./dist/legacy.mjs",
+      "require": "./dist/legacy.cjs"
+    },
+    "./browser": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/browser/address-smart-parse.browser.mjs",
+      "default": "./dist/browser/address-smart-parse.browser.mjs"
+    },
+    "./browser/global": "./dist/browser/address-smart-parse.global.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "ISC"
+}

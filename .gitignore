@@ -48,6 +48,7 @@ webpack/node_modules/*
 
 
 **/bin/*
+!packages/server/bin/smart-parse-server.cjs
 **/build/*
 
 **/gvmap/*

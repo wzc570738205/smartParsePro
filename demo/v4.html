@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>smartParsePro V4 测试</title>
+    <style>
+      body {
+        max-width: 960px;
+        margin: 40px auto;
+        padding: 0 20px;
+        color: #172033;
+        font: 16px/1.6 system-ui, sans-serif;
+        background: #f6f8fb;
+      }
+      textarea,
+      pre {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 16px;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: white;
+      }
+      textarea {
+        min-height: 110px;
+        font: inherit;
+      }
+      button {
+        margin: 14px 0;
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 8px;
+        color: white;
+        background: #2563eb;
+        cursor: pointer;
+      }
+      pre {
+        min-height: 240px;
+        overflow: auto;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>smartParsePro V4</h1>
+    <p>结果始终是数组；有歧义时展示全部候选，不自动选择第一条。</p>
+    <textarea id="input">鼓楼区中山北路1号 王五 13900000000</textarea>
+    <button id="parse" type="button">开始识别</button>
+    <pre id="output"></pre>
+
+    <script src="../packages/sdk/dist/browser/address-smart-parse.global.js"></script>
+    <script>
+      const input = document.querySelector('#input')
+      const output = document.querySelector('#output')
+      const parse = () => {
+        const results = SmartParse.parseAddress(input.value)
+        output.textContent = JSON.stringify(results, null, 2)
+      }
+      document.querySelector('#parse').addEventListener('click', parse)
+      parse()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "smart-parse-pro-v4-workspace",
+  "version": "4.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/sdk",
+    "packages/server"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "generate:corpus": "node scripts/generate-corpus.cjs",
+    "evaluate:corpus": "node scripts/evaluate-corpus.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "test:v4": "npm run build && npm test",
+    "start:api": "node packages/server/bin/smart-parse-server.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

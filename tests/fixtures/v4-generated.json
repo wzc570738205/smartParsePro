@@ -1,0 +1,2606 @@
+[
+  {
+    "id": "generated-01-1-full",
+    "category": "full-path",
+    "input": "北京市海淀区北下关街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "海淀区",
+      "street": "北下关街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-01-1-city",
+    "category": "missing-province",
+    "input": "北京市海淀区北下关街道幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "海淀区",
+      "street": "北下关街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-01-1-county",
+    "category": "missing-province-city",
+    "input": "海淀区北下关街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "海淀区",
+      "street": "北下关街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-01-2-full",
+    "category": "full-path",
+    "input": "北京市昌平区东小口地区人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "昌平区",
+      "street": "东小口地区",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-01-2-city",
+    "category": "missing-province",
+    "input": "北京市昌平区东小口地区人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "昌平区",
+      "street": "东小口地区",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-01-2-county",
+    "category": "missing-province-city",
+    "input": "昌平区东小口地区人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "北京市",
+      "city": "北京市",
+      "county": "昌平区",
+      "street": "东小口地区",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-02-1-full",
+    "category": "full-path",
+    "input": "天津市津南区双林街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "津南区",
+      "street": "双林街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-02-1-city",
+    "category": "missing-province",
+    "input": "天津市津南区双林街道人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "津南区",
+      "street": "双林街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-02-1-county",
+    "category": "missing-province-city",
+    "input": "津南区双林街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "津南区",
+      "street": "双林街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-02-2-full",
+    "category": "full-path",
+    "input": "天津市宝坻区京津中关村科技城建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "宝坻区",
+      "street": "京津中关村科技城",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-02-2-city",
+    "category": "missing-province",
+    "input": "天津市宝坻区京津中关村科技城建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "宝坻区",
+      "street": "京津中关村科技城",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-02-2-county",
+    "category": "missing-province-city",
+    "input": "宝坻区京津中关村科技城建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "天津市",
+      "city": "天津市",
+      "county": "宝坻区",
+      "street": "京津中关村科技城",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-03-1-full",
+    "category": "full-path",
+    "input": "河北省邯郸市邱县古城营镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "河北省",
+      "city": "邯郸市",
+      "county": "邱县",
+      "street": "古城营镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-03-1-city",
+    "category": "missing-province",
+    "input": "邯郸市邱县古城营镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "河北省",
+      "city": "邯郸市",
+      "county": "邱县",
+      "street": "古城营镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-03-1-county",
+    "category": "missing-province-city",
+    "input": "邱县古城营镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "河北省",
+      "city": "邯郸市",
+      "county": "邱县",
+      "street": "古城营镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-03-2-full",
+    "category": "full-path",
+    "input": "河北省张家口市蔚县北水泉镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "河北省",
+      "city": "张家口市",
+      "county": "蔚县",
+      "street": "北水泉镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-03-2-city",
+    "category": "missing-province",
+    "input": "张家口市蔚县北水泉镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "河北省",
+      "city": "张家口市",
+      "county": "蔚县",
+      "street": "北水泉镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-03-2-county",
+    "category": "missing-province-city",
+    "input": "蔚县北水泉镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "河北省",
+      "city": "张家口市",
+      "county": "蔚县",
+      "street": "北水泉镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-04-1-full",
+    "category": "full-path",
+    "input": "山西省晋城市阳城县芹池镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "山西省",
+      "city": "晋城市",
+      "county": "阳城县",
+      "street": "芹池镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-04-1-city",
+    "category": "missing-province",
+    "input": "晋城市阳城县芹池镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "山西省",
+      "city": "晋城市",
+      "county": "阳城县",
+      "street": "芹池镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-04-1-county",
+    "category": "missing-province-city",
+    "input": "阳城县芹池镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "山西省",
+      "city": "晋城市",
+      "county": "阳城县",
+      "street": "芹池镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-04-2-full",
+    "category": "full-path",
+    "input": "山西省忻州市五台县沟南乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "山西省",
+      "city": "忻州市",
+      "county": "五台县",
+      "street": "沟南乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-04-2-city",
+    "category": "missing-province",
+    "input": "忻州市五台县沟南乡人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "山西省",
+      "city": "忻州市",
+      "county": "五台县",
+      "street": "沟南乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-04-2-county",
+    "category": "missing-province-city",
+    "input": "五台县沟南乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "山西省",
+      "city": "忻州市",
+      "county": "五台县",
+      "street": "沟南乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-05-1-full",
+    "category": "full-path",
+    "input": "内蒙古自治区通辽市科尔沁区施介街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "通辽市",
+      "county": "科尔沁区",
+      "street": "施介街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-05-1-city",
+    "category": "missing-province",
+    "input": "通辽市科尔沁区施介街道人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "通辽市",
+      "county": "科尔沁区",
+      "street": "施介街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-05-1-county",
+    "category": "missing-province-city",
+    "input": "科尔沁区施介街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "通辽市",
+      "county": "科尔沁区",
+      "street": "施介街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-05-2-full",
+    "category": "full-path",
+    "input": "内蒙古自治区巴彦淖尔市临河区巴彦淖尔市临农农牧业发展有限公司建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "巴彦淖尔市",
+      "county": "临河区",
+      "street": "巴彦淖尔市临农农牧业发展有限公司",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-05-2-city",
+    "category": "missing-province",
+    "input": "巴彦淖尔市临河区巴彦淖尔市临农农牧业发展有限公司建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "巴彦淖尔市",
+      "county": "临河区",
+      "street": "巴彦淖尔市临农农牧业发展有限公司",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-05-2-county",
+    "category": "missing-province-city",
+    "input": "临河区巴彦淖尔市临农农牧业发展有限公司建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "内蒙古自治区",
+      "city": "巴彦淖尔市",
+      "county": "临河区",
+      "street": "巴彦淖尔市临农农牧业发展有限公司",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-06-1-full",
+    "category": "full-path",
+    "input": "辽宁省抚顺市望花区拉古满族乡建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "抚顺市",
+      "county": "望花区",
+      "street": "拉古满族乡",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-06-1-city",
+    "category": "missing-province",
+    "input": "抚顺市望花区拉古满族乡建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "抚顺市",
+      "county": "望花区",
+      "street": "拉古满族乡",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-06-1-county",
+    "category": "missing-province-city",
+    "input": "望花区拉古满族乡建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "抚顺市",
+      "county": "望花区",
+      "street": "拉古满族乡",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-06-2-full",
+    "category": "full-path",
+    "input": "辽宁省辽阳市辽阳县穆家镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "辽阳市",
+      "county": "辽阳县",
+      "street": "穆家镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-06-2-city",
+    "category": "missing-province",
+    "input": "辽阳市辽阳县穆家镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "辽阳市",
+      "county": "辽阳县",
+      "street": "穆家镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-06-2-county",
+    "category": "missing-province-city",
+    "input": "辽阳县穆家镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "辽宁省",
+      "city": "辽阳市",
+      "county": "辽阳县",
+      "street": "穆家镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-07-1-full",
+    "category": "full-path",
+    "input": "吉林省吉林市磐石市东宁街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "吉林省",
+      "city": "吉林市",
+      "county": "磐石市",
+      "street": "东宁街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-07-1-city",
+    "category": "missing-province",
+    "input": "吉林市磐石市东宁街道幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "吉林省",
+      "city": "吉林市",
+      "county": "磐石市",
+      "street": "东宁街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-07-1-county",
+    "category": "missing-province-city",
+    "input": "磐石市东宁街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "吉林省",
+      "city": "吉林市",
+      "county": "磐石市",
+      "street": "东宁街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-07-2-full",
+    "category": "full-path",
+    "input": "吉林省松原市前郭尔罗斯蒙古族自治县查干花镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "吉林省",
+      "city": "松原市",
+      "county": "前郭尔罗斯蒙古族自治县",
+      "street": "查干花镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-07-2-city",
+    "category": "missing-province",
+    "input": "松原市前郭尔罗斯蒙古族自治县查干花镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "吉林省",
+      "city": "松原市",
+      "county": "前郭尔罗斯蒙古族自治县",
+      "street": "查干花镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-07-2-county",
+    "category": "missing-province-city",
+    "input": "前郭尔罗斯蒙古族自治县查干花镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "吉林省",
+      "city": "松原市",
+      "county": "前郭尔罗斯蒙古族自治县",
+      "street": "查干花镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-08-1-full",
+    "category": "full-path",
+    "input": "黑龙江省鸡西市城子河区永丰乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "鸡西市",
+      "county": "城子河区",
+      "street": "永丰乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-08-1-city",
+    "category": "missing-province",
+    "input": "鸡西市城子河区永丰乡人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "鸡西市",
+      "county": "城子河区",
+      "street": "永丰乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-08-1-county",
+    "category": "missing-province-city",
+    "input": "城子河区永丰乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "鸡西市",
+      "county": "城子河区",
+      "street": "永丰乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-08-2-full",
+    "category": "full-path",
+    "input": "黑龙江省七台河市桃山区桃源街道建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "七台河市",
+      "county": "桃山区",
+      "street": "桃源街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-08-2-city",
+    "category": "missing-province",
+    "input": "七台河市桃山区桃源街道建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "七台河市",
+      "county": "桃山区",
+      "street": "桃源街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-08-2-county",
+    "category": "missing-province-city",
+    "input": "桃山区桃源街道建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "黑龙江省",
+      "city": "七台河市",
+      "county": "桃山区",
+      "street": "桃源街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-09-1-full",
+    "category": "full-path",
+    "input": "上海市闵行区江川路街道建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "闵行区",
+      "street": "江川路街道",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-09-1-city",
+    "category": "missing-province",
+    "input": "上海市闵行区江川路街道建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "闵行区",
+      "street": "江川路街道",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-09-1-county",
+    "category": "missing-province-city",
+    "input": "闵行区江川路街道建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "闵行区",
+      "street": "江川路街道",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-09-2-full",
+    "category": "full-path",
+    "input": "上海市浦东新区中国（上海）自由贸易试验区（保税片区）幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "浦东新区",
+      "street": "中国（上海）自由贸易试验区（保税片区）",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-09-2-city",
+    "category": "missing-province",
+    "input": "上海市浦东新区中国（上海）自由贸易试验区（保税片区）幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "浦东新区",
+      "street": "中国（上海）自由贸易试验区（保税片区）",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-09-2-county",
+    "category": "missing-province-city",
+    "input": "浦东新区中国（上海）自由贸易试验区（保税片区）幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "上海市",
+      "city": "上海市",
+      "county": "浦东新区",
+      "street": "中国（上海）自由贸易试验区（保税片区）",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-10-1-full",
+    "category": "full-path",
+    "input": "江苏省苏州市吴中区城南街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "江苏省",
+      "city": "苏州市",
+      "county": "吴中区",
+      "street": "城南街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-10-1-city",
+    "category": "missing-province",
+    "input": "苏州市吴中区城南街道幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "江苏省",
+      "city": "苏州市",
+      "county": "吴中区",
+      "street": "城南街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-10-1-county",
+    "category": "missing-province-city",
+    "input": "吴中区城南街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "江苏省",
+      "city": "苏州市",
+      "county": "吴中区",
+      "street": "城南街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-10-2-full",
+    "category": "full-path",
+    "input": "江苏省盐城市大丰区草堰镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "江苏省",
+      "city": "盐城市",
+      "county": "大丰区",
+      "street": "草堰镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-10-2-city",
+    "category": "missing-province",
+    "input": "盐城市大丰区草堰镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "江苏省",
+      "city": "盐城市",
+      "county": "大丰区",
+      "street": "草堰镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-10-2-county",
+    "category": "missing-province-city",
+    "input": "大丰区草堰镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "江苏省",
+      "city": "盐城市",
+      "county": "大丰区",
+      "street": "草堰镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-11-1-full",
+    "category": "full-path",
+    "input": "浙江省温州市文成县南田镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "浙江省",
+      "city": "温州市",
+      "county": "文成县",
+      "street": "南田镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-11-1-city",
+    "category": "missing-province",
+    "input": "温州市文成县南田镇人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "浙江省",
+      "city": "温州市",
+      "county": "文成县",
+      "street": "南田镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-11-1-county",
+    "category": "missing-province-city",
+    "input": "文成县南田镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "浙江省",
+      "city": "温州市",
+      "county": "文成县",
+      "street": "南田镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-11-2-full",
+    "category": "full-path",
+    "input": "浙江省金华市东阳市横店镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "浙江省",
+      "city": "金华市",
+      "county": "东阳市",
+      "street": "横店镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-11-2-city",
+    "category": "missing-province",
+    "input": "金华市东阳市横店镇建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "浙江省",
+      "city": "金华市",
+      "county": "东阳市",
+      "street": "横店镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-11-2-county",
+    "category": "missing-province-city",
+    "input": "东阳市横店镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "浙江省",
+      "city": "金华市",
+      "county": "东阳市",
+      "street": "横店镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-12-1-full",
+    "category": "full-path",
+    "input": "安徽省铜陵市枞阳县项铺镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "安徽省",
+      "city": "铜陵市",
+      "county": "枞阳县",
+      "street": "项铺镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-12-1-city",
+    "category": "missing-province",
+    "input": "铜陵市枞阳县项铺镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "安徽省",
+      "city": "铜陵市",
+      "county": "枞阳县",
+      "street": "项铺镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-12-1-county",
+    "category": "missing-province-city",
+    "input": "枞阳县项铺镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "安徽省",
+      "city": "铜陵市",
+      "county": "枞阳县",
+      "street": "项铺镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-12-2-full",
+    "category": "full-path",
+    "input": "安徽省阜阳市颍上县盛堂乡幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "安徽省",
+      "city": "阜阳市",
+      "county": "颍上县",
+      "street": "盛堂乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-12-2-city",
+    "category": "missing-province",
+    "input": "阜阳市颍上县盛堂乡幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "安徽省",
+      "city": "阜阳市",
+      "county": "颍上县",
+      "street": "盛堂乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-12-2-county",
+    "category": "missing-province-city",
+    "input": "颍上县盛堂乡幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "安徽省",
+      "city": "阜阳市",
+      "county": "颍上县",
+      "street": "盛堂乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-13-1-full",
+    "category": "full-path",
+    "input": "福建省三明市尤溪县尤溪口镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "福建省",
+      "city": "三明市",
+      "county": "尤溪县",
+      "street": "尤溪口镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-13-1-city",
+    "category": "missing-province",
+    "input": "三明市尤溪县尤溪口镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "福建省",
+      "city": "三明市",
+      "county": "尤溪县",
+      "street": "尤溪口镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-13-1-county",
+    "category": "missing-province-city",
+    "input": "尤溪县尤溪口镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "福建省",
+      "city": "三明市",
+      "county": "尤溪县",
+      "street": "尤溪口镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-13-2-full",
+    "category": "full-path",
+    "input": "福建省南平市延平区太平镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "福建省",
+      "city": "南平市",
+      "county": "延平区",
+      "street": "太平镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-13-2-city",
+    "category": "missing-province",
+    "input": "南平市延平区太平镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "福建省",
+      "city": "南平市",
+      "county": "延平区",
+      "street": "太平镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-13-2-county",
+    "category": "missing-province-city",
+    "input": "延平区太平镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "福建省",
+      "city": "南平市",
+      "county": "延平区",
+      "street": "太平镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-14-1-full",
+    "category": "full-path",
+    "input": "江西省赣州市章贡区蟠龙镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "江西省",
+      "city": "赣州市",
+      "county": "章贡区",
+      "street": "蟠龙镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-14-1-city",
+    "category": "missing-province",
+    "input": "赣州市章贡区蟠龙镇人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "江西省",
+      "city": "赣州市",
+      "county": "章贡区",
+      "street": "蟠龙镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-14-1-county",
+    "category": "missing-province-city",
+    "input": "章贡区蟠龙镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "江西省",
+      "city": "赣州市",
+      "county": "章贡区",
+      "street": "蟠龙镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-14-2-full",
+    "category": "full-path",
+    "input": "江西省宜春市奉新县赤田镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "江西省",
+      "city": "宜春市",
+      "county": "奉新县",
+      "street": "赤田镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-14-2-city",
+    "category": "missing-province",
+    "input": "宜春市奉新县赤田镇建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "江西省",
+      "city": "宜春市",
+      "county": "奉新县",
+      "street": "赤田镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-14-2-county",
+    "category": "missing-province-city",
+    "input": "奉新县赤田镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "江西省",
+      "city": "宜春市",
+      "county": "奉新县",
+      "street": "赤田镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-15-1-full",
+    "category": "full-path",
+    "input": "山东省烟台市莱州市平里店镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "山东省",
+      "city": "烟台市",
+      "county": "莱州市",
+      "street": "平里店镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-15-1-city",
+    "category": "missing-province",
+    "input": "烟台市莱州市平里店镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "山东省",
+      "city": "烟台市",
+      "county": "莱州市",
+      "street": "平里店镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-15-1-county",
+    "category": "missing-province-city",
+    "input": "莱州市平里店镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "山东省",
+      "city": "烟台市",
+      "county": "莱州市",
+      "street": "平里店镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-15-2-full",
+    "category": "full-path",
+    "input": "山东省临沂市沂水县夏蔚镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "山东省",
+      "city": "临沂市",
+      "county": "沂水县",
+      "street": "夏蔚镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-15-2-city",
+    "category": "missing-province",
+    "input": "临沂市沂水县夏蔚镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "山东省",
+      "city": "临沂市",
+      "county": "沂水县",
+      "street": "夏蔚镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-15-2-county",
+    "category": "missing-province-city",
+    "input": "沂水县夏蔚镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "山东省",
+      "city": "临沂市",
+      "county": "沂水县",
+      "street": "夏蔚镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-16-1-full",
+    "category": "full-path",
+    "input": "河南省新乡市红旗区文化街街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "河南省",
+      "city": "新乡市",
+      "county": "红旗区",
+      "street": "文化街街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-16-1-city",
+    "category": "missing-province",
+    "input": "新乡市红旗区文化街街道幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "河南省",
+      "city": "新乡市",
+      "county": "红旗区",
+      "street": "文化街街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-16-1-county",
+    "category": "missing-province-city",
+    "input": "红旗区文化街街道幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "河南省",
+      "city": "新乡市",
+      "county": "红旗区",
+      "street": "文化街街道",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-16-2-full",
+    "category": "full-path",
+    "input": "河南省南阳市邓州市小杨营镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "河南省",
+      "city": "南阳市",
+      "county": "邓州市",
+      "street": "小杨营镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-16-2-city",
+    "category": "missing-province",
+    "input": "南阳市邓州市小杨营镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "河南省",
+      "city": "南阳市",
+      "county": "邓州市",
+      "street": "小杨营镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-16-2-county",
+    "category": "missing-province-city",
+    "input": "邓州市小杨营镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "河南省",
+      "city": "南阳市",
+      "county": "邓州市",
+      "street": "小杨营镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-17-1-full",
+    "category": "full-path",
+    "input": "湖北省宜昌市枝江市百里洲镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "湖北省",
+      "city": "宜昌市",
+      "county": "枝江市",
+      "street": "百里洲镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-17-1-city",
+    "category": "missing-province",
+    "input": "宜昌市枝江市百里洲镇人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "湖北省",
+      "city": "宜昌市",
+      "county": "枝江市",
+      "street": "百里洲镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-17-1-county",
+    "category": "missing-province-city",
+    "input": "枝江市百里洲镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "湖北省",
+      "city": "宜昌市",
+      "county": "枝江市",
+      "street": "百里洲镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-17-2-full",
+    "category": "full-path",
+    "input": "湖北省荆州市监利市桥市镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "湖北省",
+      "city": "荆州市",
+      "county": "监利市",
+      "street": "桥市镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-17-2-city",
+    "category": "missing-province",
+    "input": "荆州市监利市桥市镇建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "湖北省",
+      "city": "荆州市",
+      "county": "监利市",
+      "street": "桥市镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-17-2-county",
+    "category": "missing-province-city",
+    "input": "监利市桥市镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "湖北省",
+      "city": "荆州市",
+      "county": "监利市",
+      "street": "桥市镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-18-1-full",
+    "category": "full-path",
+    "input": "湖南省邵阳市绥宁县瓦屋塘镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "湖南省",
+      "city": "邵阳市",
+      "county": "绥宁县",
+      "street": "瓦屋塘镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-18-1-city",
+    "category": "missing-province",
+    "input": "邵阳市绥宁县瓦屋塘镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "湖南省",
+      "city": "邵阳市",
+      "county": "绥宁县",
+      "street": "瓦屋塘镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-18-1-county",
+    "category": "missing-province-city",
+    "input": "绥宁县瓦屋塘镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "湖南省",
+      "city": "邵阳市",
+      "county": "绥宁县",
+      "street": "瓦屋塘镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-18-2-full",
+    "category": "full-path",
+    "input": "湖南省郴州市临武县汾市镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "湖南省",
+      "city": "郴州市",
+      "county": "临武县",
+      "street": "汾市镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-18-2-city",
+    "category": "missing-province",
+    "input": "郴州市临武县汾市镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "湖南省",
+      "city": "郴州市",
+      "county": "临武县",
+      "street": "汾市镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-18-2-county",
+    "category": "missing-province-city",
+    "input": "临武县汾市镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "湖南省",
+      "city": "郴州市",
+      "county": "临武县",
+      "street": "汾市镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-19-1-full",
+    "category": "full-path",
+    "input": "广东省江门市恩平市那吉镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "广东省",
+      "city": "江门市",
+      "county": "恩平市",
+      "street": "那吉镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-19-1-city",
+    "category": "missing-province",
+    "input": "江门市恩平市那吉镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "广东省",
+      "city": "江门市",
+      "county": "恩平市",
+      "street": "那吉镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-19-1-county",
+    "category": "missing-province-city",
+    "input": "恩平市那吉镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "广东省",
+      "city": "江门市",
+      "county": "恩平市",
+      "street": "那吉镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-19-2-full",
+    "category": "full-path",
+    "input": "广东省汕尾市海丰县平东镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "广东省",
+      "city": "汕尾市",
+      "county": "海丰县",
+      "street": "平东镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-19-2-city",
+    "category": "missing-province",
+    "input": "汕尾市海丰县平东镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "广东省",
+      "city": "汕尾市",
+      "county": "海丰县",
+      "street": "平东镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-19-2-county",
+    "category": "missing-province-city",
+    "input": "海丰县平东镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "广东省",
+      "city": "汕尾市",
+      "county": "海丰县",
+      "street": "平东镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-20-1-full",
+    "category": "full-path",
+    "input": "广西壮族自治区梧州市苍梧县六堡镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "梧州市",
+      "county": "苍梧县",
+      "street": "六堡镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-20-1-city",
+    "category": "missing-province",
+    "input": "梧州市苍梧县六堡镇人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "梧州市",
+      "county": "苍梧县",
+      "street": "六堡镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-20-1-county",
+    "category": "missing-province-city",
+    "input": "苍梧县六堡镇人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "梧州市",
+      "county": "苍梧县",
+      "street": "六堡镇",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-20-2-full",
+    "category": "full-path",
+    "input": "广西壮族自治区百色市田林县六隆镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "百色市",
+      "county": "田林县",
+      "street": "六隆镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-20-2-city",
+    "category": "missing-province",
+    "input": "百色市田林县六隆镇建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "百色市",
+      "county": "田林县",
+      "street": "六隆镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-20-2-county",
+    "category": "missing-province-city",
+    "input": "田林县六隆镇建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "广西壮族自治区",
+      "city": "百色市",
+      "county": "田林县",
+      "street": "六隆镇",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-21-1-full",
+    "category": "full-path",
+    "input": "海南省省直辖县级行政区划琼海市嘉积镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "琼海市",
+      "street": "嘉积镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-21-1-city",
+    "category": "missing-province",
+    "input": "省直辖县级行政区划琼海市嘉积镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "琼海市",
+      "street": "嘉积镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-21-1-county",
+    "category": "missing-province-city",
+    "input": "琼海市嘉积镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "琼海市",
+      "street": "嘉积镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-21-2-full",
+    "category": "full-path",
+    "input": "海南省省直辖县级行政区划澄迈县福山镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "澄迈县",
+      "street": "福山镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-21-2-city",
+    "category": "missing-province",
+    "input": "省直辖县级行政区划澄迈县福山镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "澄迈县",
+      "street": "福山镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-21-2-county",
+    "category": "missing-province-city",
+    "input": "澄迈县福山镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "海南省",
+      "city": "省直辖县级行政区划",
+      "county": "澄迈县",
+      "street": "福山镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-22-1-full",
+    "category": "full-path",
+    "input": "重庆市长寿区海棠镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "长寿区",
+      "street": "海棠镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-22-1-city",
+    "category": "missing-province",
+    "input": "重庆市长寿区海棠镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "长寿区",
+      "street": "海棠镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-22-1-county",
+    "category": "missing-province-city",
+    "input": "长寿区海棠镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "长寿区",
+      "street": "海棠镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-22-2-full",
+    "category": "full-path",
+    "input": "重庆市丰都县江池镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "丰都县",
+      "street": "江池镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-22-2-city",
+    "category": "missing-province",
+    "input": "重庆市丰都县江池镇人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "丰都县",
+      "street": "江池镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-22-2-county",
+    "category": "missing-province-city",
+    "input": "丰都县江池镇人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "重庆市",
+      "city": "重庆市",
+      "county": "丰都县",
+      "street": "江池镇",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-23-1-full",
+    "category": "full-path",
+    "input": "四川省内江市东兴区高桥街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "四川省",
+      "city": "内江市",
+      "county": "东兴区",
+      "street": "高桥街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-23-1-city",
+    "category": "missing-province",
+    "input": "内江市东兴区高桥街道人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "四川省",
+      "city": "内江市",
+      "county": "东兴区",
+      "street": "高桥街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-23-1-county",
+    "category": "missing-province-city",
+    "input": "东兴区高桥街道人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "四川省",
+      "city": "内江市",
+      "county": "东兴区",
+      "street": "高桥街道",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-23-2-full",
+    "category": "full-path",
+    "input": "四川省雅安市石棉县新棉街道建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "四川省",
+      "city": "雅安市",
+      "county": "石棉县",
+      "street": "新棉街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-23-2-city",
+    "category": "missing-province",
+    "input": "雅安市石棉县新棉街道建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "四川省",
+      "city": "雅安市",
+      "county": "石棉县",
+      "street": "新棉街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-23-2-county",
+    "category": "missing-province-city",
+    "input": "石棉县新棉街道建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "四川省",
+      "city": "雅安市",
+      "county": "石棉县",
+      "street": "新棉街道",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-24-1-full",
+    "category": "full-path",
+    "input": "贵州省安顺市西秀区龙宫镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "贵州省",
+      "city": "安顺市",
+      "county": "西秀区",
+      "street": "龙宫镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-24-1-city",
+    "category": "missing-province",
+    "input": "安顺市西秀区龙宫镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "贵州省",
+      "city": "安顺市",
+      "county": "西秀区",
+      "street": "龙宫镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-24-1-county",
+    "category": "missing-province-city",
+    "input": "西秀区龙宫镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "贵州省",
+      "city": "安顺市",
+      "county": "西秀区",
+      "street": "龙宫镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-24-2-full",
+    "category": "full-path",
+    "input": "贵州省铜仁市沿河土家族自治县中界镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "贵州省",
+      "city": "铜仁市",
+      "county": "沿河土家族自治县",
+      "street": "中界镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-24-2-city",
+    "category": "missing-province",
+    "input": "铜仁市沿河土家族自治县中界镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "贵州省",
+      "city": "铜仁市",
+      "county": "沿河土家族自治县",
+      "street": "中界镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-24-2-county",
+    "category": "missing-province-city",
+    "input": "沿河土家族自治县中界镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "贵州省",
+      "city": "铜仁市",
+      "county": "沿河土家族自治县",
+      "street": "中界镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-25-1-full",
+    "category": "full-path",
+    "input": "云南省昭通市盐津县普洱镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "云南省",
+      "city": "昭通市",
+      "county": "盐津县",
+      "street": "普洱镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-25-1-city",
+    "category": "missing-province",
+    "input": "昭通市盐津县普洱镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "云南省",
+      "city": "昭通市",
+      "county": "盐津县",
+      "street": "普洱镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-25-1-county",
+    "category": "missing-province-city",
+    "input": "盐津县普洱镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "云南省",
+      "city": "昭通市",
+      "county": "盐津县",
+      "street": "普洱镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-25-2-full",
+    "category": "full-path",
+    "input": "云南省红河哈尼族彝族自治州弥勒市福城街道人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "云南省",
+      "city": "红河哈尼族彝族自治州",
+      "county": "弥勒市",
+      "street": "福城街道",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-25-2-city",
+    "category": "missing-province",
+    "input": "红河哈尼族彝族自治州弥勒市福城街道人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "云南省",
+      "city": "红河哈尼族彝族自治州",
+      "county": "弥勒市",
+      "street": "福城街道",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-25-2-county",
+    "category": "missing-province-city",
+    "input": "弥勒市福城街道人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "云南省",
+      "city": "红河哈尼族彝族自治州",
+      "county": "弥勒市",
+      "street": "福城街道",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-26-1-full",
+    "category": "full-path",
+    "input": "西藏自治区日喀则市仲巴县偏吉乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "日喀则市",
+      "county": "仲巴县",
+      "street": "偏吉乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-26-1-city",
+    "category": "missing-province",
+    "input": "日喀则市仲巴县偏吉乡人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "日喀则市",
+      "county": "仲巴县",
+      "street": "偏吉乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-26-1-county",
+    "category": "missing-province-city",
+    "input": "仲巴县偏吉乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "日喀则市",
+      "county": "仲巴县",
+      "street": "偏吉乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-26-2-full",
+    "category": "full-path",
+    "input": "西藏自治区林芝市朗县登木乡建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "林芝市",
+      "county": "朗县",
+      "street": "登木乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-26-2-city",
+    "category": "missing-province",
+    "input": "林芝市朗县登木乡建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "林芝市",
+      "county": "朗县",
+      "street": "登木乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-26-2-county",
+    "category": "missing-province-city",
+    "input": "朗县登木乡建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "西藏自治区",
+      "city": "林芝市",
+      "county": "朗县",
+      "street": "登木乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-27-1-full",
+    "category": "full-path",
+    "input": "陕西省咸阳市武功县贞元镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "陕西省",
+      "city": "咸阳市",
+      "county": "武功县",
+      "street": "贞元镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-27-1-city",
+    "category": "missing-province",
+    "input": "咸阳市武功县贞元镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "陕西省",
+      "city": "咸阳市",
+      "county": "武功县",
+      "street": "贞元镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-27-1-county",
+    "category": "missing-province-city",
+    "input": "武功县贞元镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "陕西省",
+      "city": "咸阳市",
+      "county": "武功县",
+      "street": "贞元镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-27-2-full",
+    "category": "full-path",
+    "input": "陕西省汉中市留坝县武关驿镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "陕西省",
+      "city": "汉中市",
+      "county": "留坝县",
+      "street": "武关驿镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-27-2-city",
+    "category": "missing-province",
+    "input": "汉中市留坝县武关驿镇幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "陕西省",
+      "city": "汉中市",
+      "county": "留坝县",
+      "street": "武关驿镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-27-2-county",
+    "category": "missing-province-city",
+    "input": "留坝县武关驿镇幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "陕西省",
+      "city": "汉中市",
+      "county": "留坝县",
+      "street": "武关驿镇",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-28-1-full",
+    "category": "full-path",
+    "input": "甘肃省张掖市甘州区党寨镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "张掖市",
+      "county": "甘州区",
+      "street": "党寨镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-28-1-city",
+    "category": "missing-province",
+    "input": "张掖市甘州区党寨镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "张掖市",
+      "county": "甘州区",
+      "street": "党寨镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-28-1-county",
+    "category": "missing-province-city",
+    "input": "甘州区党寨镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "张掖市",
+      "county": "甘州区",
+      "street": "党寨镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-28-2-full",
+    "category": "full-path",
+    "input": "甘肃省定西市临洮县上营乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "定西市",
+      "county": "临洮县",
+      "street": "上营乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-28-2-city",
+    "category": "missing-province",
+    "input": "定西市临洮县上营乡人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "定西市",
+      "county": "临洮县",
+      "street": "上营乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-28-2-county",
+    "category": "missing-province-city",
+    "input": "临洮县上营乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "甘肃省",
+      "city": "定西市",
+      "county": "临洮县",
+      "street": "上营乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-29-1-full",
+    "category": "full-path",
+    "input": "青海省海东市互助土族自治县台子乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "青海省",
+      "city": "海东市",
+      "county": "互助土族自治县",
+      "street": "台子乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-29-1-city",
+    "category": "missing-province",
+    "input": "海东市互助土族自治县台子乡人民路16号，李娜，13900139000",
+    "expected": {
+      "province": "青海省",
+      "city": "海东市",
+      "county": "互助土族自治县",
+      "street": "台子乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-29-1-county",
+    "category": "missing-province-city",
+    "input": "互助土族自治县台子乡人民路16号 李娜 13900139000",
+    "expected": {
+      "province": "青海省",
+      "city": "海东市",
+      "county": "互助土族自治县",
+      "street": "台子乡",
+      "detail": "人民路16号",
+      "name": "李娜",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-29-2-full",
+    "category": "full-path",
+    "input": "青海省海南藏族自治州贵南县茫拉乡建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "青海省",
+      "city": "海南藏族自治州",
+      "county": "贵南县",
+      "street": "茫拉乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-29-2-city",
+    "category": "missing-province",
+    "input": "海南藏族自治州贵南县茫拉乡建设街20号，刘洋，13700137000",
+    "expected": {
+      "province": "青海省",
+      "city": "海南藏族自治州",
+      "county": "贵南县",
+      "street": "茫拉乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-29-2-county",
+    "category": "missing-province-city",
+    "input": "贵南县茫拉乡建设街20号 刘洋 13700137000",
+    "expected": {
+      "province": "青海省",
+      "city": "海南藏族自治州",
+      "county": "贵南县",
+      "street": "茫拉乡",
+      "detail": "建设街20号",
+      "name": "刘洋",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-30-1-full",
+    "category": "full-path",
+    "input": "宁夏回族自治区石嘴山市平罗县黄渠桥镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "石嘴山市",
+      "county": "平罗县",
+      "street": "黄渠桥镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-30-1-city",
+    "category": "missing-province",
+    "input": "石嘴山市平罗县黄渠桥镇建设街20号，陈晨，13700137000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "石嘴山市",
+      "county": "平罗县",
+      "street": "黄渠桥镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-30-1-county",
+    "category": "missing-province-city",
+    "input": "平罗县黄渠桥镇建设街20号 陈晨 13700137000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "石嘴山市",
+      "county": "平罗县",
+      "street": "黄渠桥镇",
+      "detail": "建设街20号",
+      "name": "陈晨",
+      "phone": "13700137000"
+    }
+  },
+  {
+    "id": "generated-30-2-full",
+    "category": "full-path",
+    "input": "宁夏回族自治区固原市西吉县西滩乡幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "固原市",
+      "county": "西吉县",
+      "street": "西滩乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-30-2-city",
+    "category": "missing-province",
+    "input": "固原市西吉县西滩乡幸福路88号，杨帆，13800138000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "固原市",
+      "county": "西吉县",
+      "street": "西滩乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-30-2-county",
+    "category": "missing-province-city",
+    "input": "西吉县西滩乡幸福路88号 杨帆 13800138000",
+    "expected": {
+      "province": "宁夏回族自治区",
+      "city": "固原市",
+      "county": "西吉县",
+      "street": "西滩乡",
+      "detail": "幸福路88号",
+      "name": "杨帆",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-31-1-full",
+    "category": "full-path",
+    "input": "新疆维吾尔自治区巴音郭楞蒙古自治州和静县乃门莫敦镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "巴音郭楞蒙古自治州",
+      "county": "和静县",
+      "street": "乃门莫敦镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-31-1-city",
+    "category": "missing-province",
+    "input": "巴音郭楞蒙古自治州和静县乃门莫敦镇幸福路88号，张伟，13800138000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "巴音郭楞蒙古自治州",
+      "county": "和静县",
+      "street": "乃门莫敦镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-31-1-county",
+    "category": "missing-province-city",
+    "input": "和静县乃门莫敦镇幸福路88号 张伟 13800138000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "巴音郭楞蒙古自治州",
+      "county": "和静县",
+      "street": "乃门莫敦镇",
+      "detail": "幸福路88号",
+      "name": "张伟",
+      "phone": "13800138000"
+    }
+  },
+  {
+    "id": "generated-31-2-full",
+    "category": "full-path",
+    "input": "新疆维吾尔自治区和田地区策勒县策勒乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "和田地区",
+      "county": "策勒县",
+      "street": "策勒乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-31-2-city",
+    "category": "missing-province",
+    "input": "和田地区策勒县策勒乡人民路16号，王芳，13900139000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "和田地区",
+      "county": "策勒县",
+      "street": "策勒乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  },
+  {
+    "id": "generated-31-2-county",
+    "category": "missing-province-city",
+    "input": "策勒县策勒乡人民路16号 王芳 13900139000",
+    "expected": {
+      "province": "新疆维吾尔自治区",
+      "city": "和田地区",
+      "county": "策勒县",
+      "street": "策勒乡",
+      "detail": "人民路16号",
+      "name": "王芳",
+      "phone": "13900139000"
+    }
+  }
+]
