@@ -1,6 +1,6 @@
 # smartParsePro V4
 
-> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/tree/V3)。V3 已固定在 `V3` 标签；当前分支及本文档均为 V4。
+> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/releases/tag/3.1)。V3 已固定在 `V3` 标签；当前分支及本文档均为 V4。
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08e56c19-08c2-4f33-8d88-39e001b2305d" alt="smartParsePro logo" width="300">
@@ -182,29 +182,37 @@ console.dir(results, { depth: null })
     "province": {
       "code": "33",
       "name": "浙江省",
+      "sourceName": "浙江省",
       "confidence": 0.99,
       "matched": true,
+      "inferred": false,
       "matchedText": "浙江省"
     },
     "city": {
       "code": "3307",
       "name": "金华市",
+      "sourceName": "金华市",
       "confidence": 0.99,
       "matched": true,
+      "inferred": false,
       "matchedText": "金华市"
     },
     "county": {
       "code": "330702",
       "name": "婺城区",
+      "sourceName": "婺城区",
       "confidence": 0.99,
       "matched": true,
+      "inferred": false,
       "matchedText": "婺城区"
     },
     "street": {
       "code": "330702007",
       "name": "西关街道",
+      "sourceName": "西关街道",
       "confidence": 0.99,
       "matched": true,
+      "inferred": false,
       "matchedText": "西关街道"
     }
   }
@@ -238,13 +246,33 @@ console.dir(results, { depth: null })
 interface DivisionResult {
   code: string
   name: string
+  sourceName: string
   confidence: number
   matched: boolean
+  inferred: boolean
   matchedText?: string
 }
 ```
 
-`matched: false` 表示该层级由父子行政路径推断，而不是在原文中直接出现。
+`sourceName` 保留行政区划数据中的原始名称；`matched: false` 和 `inferred: true`
+表示该层级由父子行政路径推断，而不是在原文中直接出现。
+
+### 直辖市
+
+北京、天津、上海和重庆在业务输出中保持完整的省、市、区三级结构。以北京为例：
+
+```js
+const [result] = parseAddress('北京市东城区东华门街道111号')
+
+result.province.name    // 北京市
+result.city.name        // 北京市
+result.city.sourceName  // 市辖区
+result.city.matched     // false
+result.city.inferred    // true
+```
+
+解析器不会修改调用方传入的行政区划数据。一个“北京市”文本区间只作为一个
+行政层级的显式证据；若原文只有一个“北京市”，市级结果通过行政路径推断。
 
 ### 警告类型
 
@@ -512,7 +540,7 @@ curl -X POST http://127.0.0.1:1399/v1/parse \
 {
   "requestId": "uuid",
   "data": {
-    "parserVersion": "4.0.1",
+    "parserVersion": "4.0.2",
     "dataVersion": "legacy-address-code-v1",
     "results": [],
     "warnings": ["NO_MATCH"]

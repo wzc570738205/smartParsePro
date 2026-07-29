@@ -6,7 +6,7 @@
  * inside the factory and do not add Node-only APIs here.
  */
 function createAddressParserEngine(divisionData, engineOptions = {}) {
-  const PARSER_VERSION = '4.0.1';
+  const PARSER_VERSION = '4.0.2';
   const DATA_VERSION = engineOptions.dataVersion || 'legacy-address-code-v1';
   const LEVELS = ['province', 'city', 'county', 'street'];
   const LEVEL_WEIGHT = {
@@ -58,21 +58,24 @@ function createAddressParserEngine(divisionData, engineOptions = {}) {
       .trim();
   }
 
-  function canonicalName(node, depth, ancestors) {
-    if (
+  function divisionNames(node, depth, ancestors) {
+    const sourceName = String(node.name || '').trim();
+    const isMunicipalityBridge =
       depth === 1 &&
-      (node.name === '市辖区' || node.name === '县') &&
+      (sourceName === '市辖区' || sourceName === '县') &&
       ancestors[0] &&
-      ['北京市', '天津市', '上海市', '重庆市'].includes(ancestors[0].name)
-    ) {
-      return ancestors[0].name;
-    }
-    return String(node.name || '').trim();
+      ['北京市', '天津市', '上海市', '重庆市'].includes(ancestors[0].name);
+    return {
+      name: isMunicipalityBridge ? ancestors[0].name : sourceName,
+      sourceName,
+    };
   }
 
   function aliasesFor(division) {
     const normalizedName = normalizeText(division.name);
     const aliases = new Set([normalizedName]);
+    const normalizedSourceName = normalizeText(division.sourceName);
+    if (normalizedSourceName !== normalizedName) aliases.add(normalizedSourceName);
     const stripped = normalizedName.replace(ADMIN_SUFFIX, '');
     if (stripped.length >= 2) aliases.add(stripped);
 
@@ -234,18 +237,21 @@ function createAddressParserEngine(divisionData, engineOptions = {}) {
         division,
         path,
         alias,
-        fullName: alias === normalizeText(division.name),
+        fullName:
+          alias === normalizeText(division.name) ||
+          alias === normalizeText(division.sourceName),
       });
       maxAliasLength = Math.max(maxAliasLength, alias.length);
     }
 
     function walk(node, depth, ancestors) {
       if (depth >= LEVELS.length) return;
-      const name = canonicalName(node, depth, ancestors);
+      const { name, sourceName } = divisionNames(node, depth, ancestors);
       if (!name || node.code === undefined || node.code === null) return;
       const division = Object.freeze({
         code: String(node.code),
         name,
+        sourceName,
         level: LEVELS[depth],
       });
       const path = Object.freeze([...ancestors, division]);
@@ -287,22 +293,26 @@ function createAddressParserEngine(divisionData, engineOptions = {}) {
   }
 
   function chooseEvidence(path, allMatches) {
-    const compatible = allMatches.filter((match) => pathsCompatible(path, match.path));
-    const byLevel = new Map();
+    const compatible = allMatches
+      .filter((match) => pathsCompatible(path, match.path))
+      .sort((left, right) => {
+        return (
+          Number(right.fullName) - Number(left.fullName) ||
+          right.matchedText.length - left.matchedText.length ||
+          Number(right.explicitSuffix) - Number(left.explicitSuffix) ||
+          LEVELS.indexOf(left.division.level) -
+            LEVELS.indexOf(right.division.level) ||
+          left.start - right.start
+        );
+      });
+    const selected = [];
+    const selectedLevels = new Set();
     for (const match of compatible) {
-      const previous = byLevel.get(match.division.level);
-      const quality =
-        match.matchedText.length +
-        (match.fullName ? 100 : 0) +
-        (match.explicitSuffix ? 20 : 0);
-      const previousQuality = previous
-        ? previous.matchedText.length +
-          (previous.fullName ? 100 : 0) +
-          (previous.explicitSuffix ? 20 : 0)
-        : -1;
-      if (quality > previousQuality) byLevel.set(match.division.level, match);
+      if (selectedLevels.has(match.division.level) || overlaps(match, selected)) continue;
+      selected.push(match);
+      selectedLevels.add(match.division.level);
     }
-    return [...byLevel.values()].sort((left, right) => {
+    return selected.sort((left, right) => {
       const levelOrder = LEVELS.indexOf(left.division.level) - LEVELS.indexOf(right.division.level);
       return levelOrder || left.start - right.start;
     });
@@ -407,10 +417,12 @@ function createAddressParserEngine(divisionData, engineOptions = {}) {
     return {
       code: division.code,
       name: division.name,
+      sourceName: division.sourceName,
       confidence: match
         ? round3(clamp(candidateConfidence + (match.fullName ? 0.06 : 0), 0.01, 0.99))
         : round3(clamp(candidateConfidence * 0.72, 0.01, 0.99)),
       matched: Boolean(match),
+      inferred: !match,
       matchedText: match ? match.matchedText : undefined,
     };
   }

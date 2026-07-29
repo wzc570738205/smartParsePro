@@ -121,6 +121,71 @@ test('parseAddress accepts V3-style custom division data as its second argument'
   assert.equal(results[0].name, '测试员');
 });
 
+test('municipality city names are normalized while source names and inference remain explicit', () => {
+  const cases = [
+    ['北京市东城区东华门街道111号', '北京市', '东城区', '111号'],
+    ['天津市和平区南京路1号', '天津市', '和平区', '南京路1号'],
+    ['上海市浦东新区世纪大道100号', '上海市', '浦东新区', '世纪大道100号'],
+    ['重庆市渝中区民族路1号', '重庆市', '渝中区', '民族路1号'],
+  ];
+
+  for (const [input, municipality, county, detail] of cases) {
+    const [result] = cjs.parseAddress(input);
+    assert.equal(result.province.name, municipality);
+    assert.equal(result.city.name, municipality);
+    assert.equal(result.city.sourceName, '市辖区');
+    assert.equal(result.city.matched, false);
+    assert.equal(result.city.inferred, true);
+    assert.equal(result.county.name, county);
+    assert.equal(result.detail, detail);
+    assert.equal(result.warnings.includes('INFERRED_ADMIN_LEVELS'), true);
+  }
+});
+
+test('repeated municipality text uses separate province and city evidence spans', () => {
+  const [result] = cjs.parseAddress('北京市北京市东城区东华门街道111号');
+
+  assert.equal(result.province.matched, true);
+  assert.equal(result.province.inferred, false);
+  assert.equal(result.city.name, '北京市');
+  assert.equal(result.city.sourceName, '市辖区');
+  assert.equal(result.city.matched, true);
+  assert.equal(result.city.inferred, false);
+  assert.equal(result.detail, '111号');
+});
+
+test('custom municipality parsing never mutates caller-owned division data', () => {
+  const divisions = [
+    {
+      code: '11',
+      name: '北京市',
+      children: [
+        {
+          code: '1101',
+          name: '市辖区',
+          children: [
+            {
+              code: '110101',
+              name: '东城区',
+              children: [{ code: '110101001', name: '东华门街道' }],
+            },
+          ],
+        },
+      ],
+    },
+  ];
+  const original = structuredClone(divisions);
+  const [result] = cjs.parseAddress(
+    '北京市东城区东华门街道111号',
+    divisions,
+  );
+
+  assert.deepEqual(divisions, original);
+  assert.equal(divisions[0].children[0].name, '市辖区');
+  assert.equal(result.city.name, '北京市');
+  assert.equal(result.city.sourceName, '市辖区');
+});
+
 test('ESM entry has the same array contract', async () => {
   const esmPath = pathToFileURL(path.join(root, 'packages/sdk/dist/index.mjs')).href;
   const esm = await import(esmPath);

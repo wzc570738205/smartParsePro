@@ -97,7 +97,7 @@ curl -X POST http://127.0.0.1:1399/v1/parse \
 ```json
 {
   "data": {
-    "parserVersion": "4.0.1",
+    "parserVersion": "4.0.2",
     "dataVersion": "legacy-address-code-v1",
     "results": [
       {"rank": 1, "confidence": 0.31},

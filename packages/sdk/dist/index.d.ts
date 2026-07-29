@@ -8,8 +8,10 @@ export type ParseWarning =
 export interface DivisionResult {
   code: string
   name: string
+  sourceName: string
   confidence: number
   matched: boolean
+  inferred: boolean
   matchedText?: string
 }
 
