@@ -19,7 +19,7 @@
 
 ## 状态说明
 
-V4 源码已经在当前仓库实现，支持：
+V4 源码已实现，支持：
 
 - ESM `import`；
 - CommonJS `require`；
@@ -858,8 +858,6 @@ http://127.0.0.1:1399/healthz
 
 V4 npm 包声明为 ISC License，详见 [`packages/sdk/LICENSE`](./packages/sdk/LICENSE)。如果商业项目还涉及历史版本、品牌展示、私有部署支持或单独服务协议，请联系项目作者确认。
 
-## 社区支持
+## 联系作者
+<img width="200"  alt="48281df46ef960ad7049182ffab2a3d2" src="https://github.com/user-attachments/assets/3a10035e-e2b6-4168-af6c-b3d1d1ffa1ac" />
 
-![社区支持](https://github.com/user-attachments/assets/2f995a19-3826-4349-a191-886d0406d86b)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=wzc570738205/smartParsePro&type=Date)](https://star-history.com/#wzc570738205/smartParsePro&Date)
