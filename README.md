@@ -1,6 +1,6 @@
 # smartParsePro V4
 
-> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/tree/V3)。V3 已固定在 `V3` 标签；当前分支及本文档均为 V4。
+> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/releases/tag/3.1)。V3 已固定在 `V3` 标签；当前分支及本文档均为 V4。
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08e56c19-08c2-4f33-8d88-39e001b2305d" alt="smartParsePro logo" width="300">
