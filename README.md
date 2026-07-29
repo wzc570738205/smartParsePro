@@ -19,7 +19,7 @@
 
 ## 状态说明
 
-V4 源码已经在当前仓库实现，支持：
+V4 源码已实现，支持：
 
 - ESM `import`；
 - CommonJS `require`；
