@@ -1,6 +1,6 @@
 # smartParsePro V4
 
-> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/releases/tag/3.1)。V3 已固定在 `V3` 标签；当前分支及本文档均为 V4。
+> 使用旧版？查看 [V3 源码与文档](https://github.com/wzc570738205/smartParsePro/tree/3.1)。V3 已固定在远端 `3.1` 标签；当前分支及本文档均为 V4。
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08e56c19-08c2-4f33-8d88-39e001b2305d" alt="smartParsePro logo" width="300">
@@ -450,7 +450,7 @@ npm run build
 仓库内提供测试页面：
 
 ```text
-demo/v4.html
+examples/browser.html
 ```
 
 通过 CDN 使用：
@@ -504,6 +504,36 @@ node packages/server/bin/smart-parse-server.cjs \
 npx address-smart-parse-server@4 --host 0.0.0.0 --port 1399
 ```
 
+### 使用 forever 常驻
+
+先安装 `forever`：
+
+```bash
+npm install --global forever
+```
+
+从当前仓库启动：
+
+```bash
+npm run start:forever
+```
+
+安装 `address-smart-parse-server` 后也可以直接运行：
+
+```bash
+npx smart-parse-forever
+```
+
+默认进程 UID 为 `smart-parse-api`，日志写入当前工作目录的 `logs/`。可以通过
+`SMART_PARSE_HOST`、`SMART_PARSE_PORT`、`SMART_PARSE_UID` 和
+`SMART_PARSE_LOG_DIR` 调整运行参数。
+
+```bash
+forever list
+forever restart smart-parse-api
+forever stop smart-parse-api
+```
+
 ### 接口列表
 
 | 方法 | 路径 | 说明 |
@@ -540,7 +570,7 @@ curl -X POST http://127.0.0.1:1399/v1/parse \
 {
   "requestId": "uuid",
   "data": {
-    "parserVersion": "4.0.2",
+    "parserVersion": "4.0.3",
     "dataVersion": "legacy-address-code-v1",
     "results": [],
     "warnings": ["NO_MATCH"]
@@ -774,9 +804,19 @@ npm pack --dry-run ./packages/server
 
 ```text
 packages/
-  core/       # 无运行环境依赖的解析核心
+  core/
+    data/
+      divisions.json
+    src/
+      engine.cjs
   sdk/        # address-smart-parse npm 包
-  server/     # address-smart-parse-server
+  server/
+    bin/
+      smart-parse-server.cjs
+    scripts/
+      start-forever.cjs
+    src/
+      server.cjs
 scripts/
   build.mjs
   generate-corpus.cjs
@@ -787,9 +827,8 @@ tests/
   corpus.test.cjs
   parser.test.cjs
   server.test.cjs
-demo/
-  v4.html
 examples/
+  browser.html
   v4.cjs
   v4.mjs
 ```
@@ -834,7 +873,7 @@ http://127.0.0.1:1399/healthz
 
 ### 浏览器打开 `/v1/parse` 显示 404
 
-`/v1/parse` 只接受 POST，不能直接通过地址栏 GET 请求。请使用 curl、Postman、前端 `fetch()` 或 `demo/v4.html`。
+`/v1/parse` 只接受 POST，不能直接通过地址栏 GET 请求。请使用 curl、Postman、前端 `fetch()` 或 `examples/browser.html`。
 
 ### 为什么短地址返回很多候选
 
@@ -860,4 +899,3 @@ V4 npm 包声明为 ISC License，详见 [`packages/sdk/LICENSE`](./packages/sdk
 
 ## 联系作者
 <img width="200"  alt="48281df46ef960ad7049182ffab2a3d2" src="https://github.com/user-attachments/assets/3a10035e-e2b6-4168-af6c-b3d1d1ffa1ac" />
-

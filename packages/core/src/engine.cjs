@@ -6,7 +6,7 @@
  * inside the factory and do not add Node-only APIs here.
  */
 function createAddressParserEngine(divisionData, engineOptions = {}) {
-  const PARSER_VERSION = '4.0.2';
+  const PARSER_VERSION = '4.0.3';
   const DATA_VERSION = engineOptions.dataVersion || 'legacy-address-code-v1';
   const LEVELS = ['province', 'city', 'county', 'street'];
   const LEVEL_WEIGHT = {

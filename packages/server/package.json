@@ -1,20 +1,26 @@
 {
   "name": "address-smart-parse-server",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "HTTP API server for address-smart-parse",
   "type": "commonjs",
   "main": "./src/server.cjs",
   "bin": {
-    "smart-parse-server": "bin/smart-parse-server.cjs"
+    "smart-parse-server": "bin/smart-parse-server.cjs",
+    "smart-parse-forever": "scripts/start-forever.cjs"
+  },
+  "scripts": {
+    "start": "node bin/smart-parse-server.cjs",
+    "start:forever": "node scripts/start-forever.cjs"
   },
   "files": [
     "src",
     "bin",
+    "scripts",
     "README.md",
     "Dockerfile"
   ],
   "dependencies": {
-    "address-smart-parse": "^4.0.2"
+    "address-smart-parse": "^4.0.3"
   },
   "engines": {
     "node": ">=22"

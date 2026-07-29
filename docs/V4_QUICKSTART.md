@@ -59,7 +59,7 @@ console.log(results)
 npm run build
 ```
 
-然后打开 `demo/v4.html`。页面直接加载：
+然后打开 `examples/browser.html`。页面直接加载：
 
 ```html
 <script src="../packages/sdk/dist/browser/address-smart-parse.global.js"></script>
@@ -97,7 +97,7 @@ curl -X POST http://127.0.0.1:1399/v1/parse \
 ```json
 {
   "data": {
-    "parserVersion": "4.0.2",
+    "parserVersion": "4.0.3",
     "dataVersion": "legacy-address-code-v1",
     "results": [
       {"rank": 1, "confidence": 0.31},

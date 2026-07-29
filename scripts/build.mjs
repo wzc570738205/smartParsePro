@@ -10,7 +10,7 @@ const distDir = path.join(sdkDir, 'dist')
 const browserDir = path.join(distDir, 'browser')
 const dataDir = path.join(distDir, 'data')
 const enginePath = path.join(root, 'packages/core/src/engine.cjs')
-const sourceDataPath = path.join(root, 'node/address-code.json')
+const sourceDataPath = path.join(root, 'packages/core/data/divisions.json')
 const { createAddressParserEngine } = require(enginePath)
 
 await mkdir(browserDir, { recursive: true })

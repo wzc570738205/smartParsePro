@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 'use strict';
 
-// V4 源码启动器：检查端口后，将 API Server 交给 forever 守护。
+// Start the packaged V4 API Server under a globally installed forever process.
 const fs = require('node:fs');
 const net = require('node:net');
 const path = require('node:path');
@@ -9,31 +10,19 @@ const { spawn } = require('node:child_process');
 const HOST = process.env.SMART_PARSE_HOST || '0.0.0.0';
 const PORT = Number(process.env.SMART_PARSE_PORT || 1399);
 const FOREVER_UID = process.env.SMART_PARSE_UID || 'smart-parse-api';
+const SERVER_ENTRY = path.resolve(
+  __dirname,
+  '../bin/smart-parse-server.cjs',
+);
+const LOG_DIRECTORY = path.resolve(
+  process.env.SMART_PARSE_LOG_DIR || path.join(process.cwd(), 'logs'),
+);
 
 if (!Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
   throw new Error(`SMART_PARSE_PORT 不是有效端口：${process.env.SMART_PARSE_PORT}`);
 }
 
-// 兼容 process.js 位于项目根目录或项目的 node/ 目录。
-const projectRoot = [__dirname, path.resolve(__dirname, '..')].find((directory) =>
-  fs.existsSync(
-    path.join(directory, 'packages/server/bin/smart-parse-server.cjs'),
-  ),
-);
-
-if (!projectRoot) {
-  throw new Error(
-    '找不到 V4 服务入口 packages/server/bin/smart-parse-server.cjs，请把 process.js 放在项目根目录或 node/ 目录。',
-  );
-}
-
-const serverEntry = path.join(
-  projectRoot,
-  'packages/server/bin/smart-parse-server.cjs',
-);
-const logDirectory = path.join(projectRoot, 'logs');
-
-fs.mkdirSync(logDirectory, { recursive: true });
+fs.mkdirSync(LOG_DIRECTORY, { recursive: true });
 
 function isPortAvailable(port) {
   return new Promise((resolve, reject) => {
@@ -62,12 +51,12 @@ function startServer() {
     FOREVER_UID,
     '-a',
     '-l',
-    path.join(logDirectory, 'forever.log'),
+    path.join(LOG_DIRECTORY, 'forever.log'),
     '-o',
-    path.join(logDirectory, 'output.log'),
+    path.join(LOG_DIRECTORY, 'output.log'),
     '-e',
-    path.join(logDirectory, 'error.log'),
-    serverEntry,
+    path.join(LOG_DIRECTORY, 'error.log'),
+    SERVER_ENTRY,
     '--host',
     HOST,
     '--port',
@@ -75,12 +64,12 @@ function startServer() {
   ];
 
   const foreverProcess = spawn('forever', args, {
-    cwd: projectRoot,
+    cwd: process.cwd(),
     stdio: 'inherit',
   });
 
   foreverProcess.once('error', (error) => {
-    console.error('启动服务失败，请确认已经全局安装 forever：', error.message);
+    console.error('启动失败，请先执行 npm install --global forever：', error.message);
     process.exitCode = 1;
   });
 

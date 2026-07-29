@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
-const divisions = require(path.join(root, 'node/address-code.json'));
+const divisions = require(path.join(root, 'packages/core/data/divisions.json'));
 const outputPath = path.join(root, 'tests/fixtures/v4-generated.json');
 const names = ['张伟', '王芳', '李娜', '刘洋', '陈晨', '杨帆'];
 const details = ['幸福路88号', '人民路16号', '建设街20号'];
